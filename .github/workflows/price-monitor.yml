@@ -27,6 +27,8 @@ jobs:
     - name: Run price monitor
       env:
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        # Manuel tetiklemelerde test modunu aç; schedule'da kapalı kalsın
+        TEST_MODE: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
       run: |
         # Çalıştır (price_monitor_github.js zaten environment variable kullanıyor)
         node price_monitor_github.js
