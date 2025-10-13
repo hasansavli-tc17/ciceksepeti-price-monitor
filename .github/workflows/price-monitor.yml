@@ -26,11 +26,8 @@ jobs:
       env:
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
       run: |
-        # Slack webhook URL'ini environment variable olarak ayarla
-        sed -i "s|const SLACK_WEBHOOK = 'https://hooks.slack.com/services/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';|const SLACK_WEBHOOK = process.env.SLACK_WEBHOOK_URL;|g" price_monitor.js
-        
-        # Çalıştır
-        node price_monitor.js
+        # Çalıştır (price_monitor_github.js zaten environment variable kullanıyor)
+        node price_monitor_github.js
         
     - name: Commit price changes
       run: |
