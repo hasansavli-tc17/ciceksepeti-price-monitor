@@ -4,7 +4,7 @@ const https = require('https');
 
 const PRICE_DB_FILE = './price_history.json';
 // GitHub Actions'ta environment variable'dan al, yoksa local URL'i kullan
-const SLACK_WEBHOOK = process.env.SLACK_WEBHOOK_URL || 'https://hooks.slack.com/services/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';
+const SLACK_WEBHOOK = process.env.SLACK_WEBHOOK_URL || 'https://hooks.slack.com/services/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';
 
 // Önceki fiyatları yükle
 function loadPreviousPrices() {
