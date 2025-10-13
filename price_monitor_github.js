@@ -3,8 +3,14 @@ const fs = require('fs');
 const https = require('https');
 
 const PRICE_DB_FILE = './price_history.json';
-// GitHub Actions'ta environment variable'dan al, yoksa local URL'i kullan
-const SLACK_WEBHOOK = process.env.SLACK_WEBHOOK_URL || 'https://hooks.slack.com/services/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';
+// GitHub Actions'ta environment variable'dan al
+const SLACK_WEBHOOK = process.env.SLACK_WEBHOOK_URL;
+
+if (!SLACK_WEBHOOK) {
+  console.error('❌ HATA: SLACK_WEBHOOK_URL environment variable tanımlanmamış!');
+  console.error('Kullanım: SLACK_WEBHOOK_URL=your_webhook_url node price_monitor_github.js');
+  process.exit(1);
+}
 
 // Önceki fiyatları yükle
 function loadPreviousPrices() {
@@ -24,15 +30,19 @@ function savePrices(prices) {
 }
 
 // Slack'e bildirim gönder
-function sendSlackNotification(changes) {
-  if (changes.length === 0) return Promise.resolve();
+async function sendSlackNotification(changes) {
+  if (changes.length === 0) return;
   
   // Ana mesaj
   const headerMessage = `🌸 *Çiçek Sepeti Fiyat Güncellemesi*\n\n*${changes.length} ürünün fiyatı değişti!*`;
   
-  // İlk mesajı gönder
-  sendSlackMessage(headerMessage).then(() => {
-    // Her ürün için ayrı mesaj gönder (maksimum 5'er)
+  try {
+    // İlk mesajı gönder
+    await sendSlackMessage(headerMessage);
+    
+    // Her ürün için ayrı mesaj gönder (maksimum 5'er) - hepsini paralel gönder
+    const messagePromises = [];
+    
     for (let i = 0; i < changes.length; i += 5) {
       const batch = changes.slice(i, i + 5);
       let batchMessage = '';
@@ -47,9 +57,17 @@ function sendSlackNotification(changes) {
         batchMessage += `<${change.url}|Ürüne Git>\n\n`;
       });
       
-      sendSlackMessage(batchMessage);
+      messagePromises.push(sendSlackMessage(batchMessage));
     }
-  });
+    
+    // Tüm mesajların gönderilmesini bekle
+    await Promise.all(messagePromises);
+    console.log(`✅ ${messagePromises.length + 1} Slack mesajı gönderildi`);
+    
+  } catch (error) {
+    console.error('❌ Slack bildirim hatası:', error.message);
+    throw error;
+  }
 }
 
 // Tek mesaj gönderen yardımcı fonksiyon
@@ -70,7 +88,6 @@ function sendSlackMessage(message) {
       res.on('data', chunk => body += chunk);
       res.on('end', () => {
         if (res.statusCode === 200) {
-          console.log('✅ Slack mesajı gönderildi');
           resolve();
         } else {
           console.error('Slack response:', body);
@@ -109,6 +126,9 @@ async function main() {
       const changes = [];
       const newPrices = {};
       
+      // Test modu kontrolü
+      const TEST_MODE = process.env.TEST_MODE === 'true';
+      
       // Fiyat değişikliklerini tespit et
       currentProducts.forEach(product => {
         newPrices[product.id] = {
@@ -133,6 +153,21 @@ async function main() {
         }
       });
       
+      // Test modu: Eğer değişiklik yoksa yapay bir tane oluştur
+      if (TEST_MODE && changes.length === 0 && currentProducts.length > 0) {
+        const testProduct = currentProducts[0];
+        const fakeOldPrice = testProduct.price + 50;
+        changes.push({
+          id: testProduct.id,
+          name: testProduct.name + ' (TEST)',
+          oldPrice: fakeOldPrice,
+          newPrice: testProduct.price,
+          change: testProduct.price - fakeOldPrice,
+          url: testProduct.url
+        });
+        console.log('🧪 Test modu: Yapay fiyat değişikliği oluşturuldu');
+      }
+      
       // Sonuçları göster
       if (changes.length > 0) {
         console.log(`\n💰 ${changes.length} fiyat değişikliği tespit edildi:`);
@@ -142,14 +177,23 @@ async function main() {
         });
         
         // Slack'e bildir
-        await sendSlackNotification(changes);
+        try {
+          await sendSlackNotification(changes);
+        } catch (slackError) {
+          console.error('❌ Slack bildirim gönderilirken hata:', slackError.message);
+          // Slack hatası olsa bile devam et
+        }
       } else {
         console.log('\n✨ Fiyat değişikliği yok');
       }
       
-      // Yeni fiyatları kaydet
-      savePrices(newPrices);
-      console.log('💾 Fiyatlar kaydedildi');
+      // Yeni fiyatları kaydet (test modunda kaydetme)
+      if (!TEST_MODE) {
+        savePrices(newPrices);
+        console.log('💾 Fiyatlar kaydedildi');
+      } else {
+        console.log('🧪 Test modu: Fiyatlar kaydedilmedi');
+      }
       
     } catch (parseError) {
       console.error('JSON parse hatası:', parseError.message);

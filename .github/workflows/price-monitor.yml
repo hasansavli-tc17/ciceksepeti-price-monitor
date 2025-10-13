@@ -9,6 +9,8 @@ on:
 jobs:
   price-check:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
     - name: Checkout code
@@ -29,10 +31,15 @@ jobs:
         # Çalıştır (price_monitor_github.js zaten environment variable kullanıyor)
         node price_monitor_github.js
         
-    - name: Commit price changes
+    - name: Commit and push price changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add price_history.json
         git diff --staged --quiet || git commit -m "Update price history - $(date)"
-        git push || echo "No changes to push"
+      
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
