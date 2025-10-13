@@ -11,15 +11,32 @@ async function scrapeCiceksepeti() {
     
     // User agent ayarla
     await page.setUserAgent('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
+    // Navigasyon zaman aşımı ve genel zaman aşımı artır
+    page.setDefaultNavigationTimeout(90000);
+    page.setDefaultTimeout(90000);
     
     console.error('Sayfa yükleniyor...');
-    await page.goto('https://www.ciceksepeti.com/d/cicek-buketleri', {
-      waitUntil: 'networkidle2',
-      timeout: 30000
-    });
+    // Basit retry ile sayfaya git (Cloudflare dalgalanmaları için)
+    const targetUrl = 'https://www.ciceksepeti.com/d/cicek-buketleri';
+    let lastError = null;
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      try {
+        await page.goto(targetUrl, {
+          waitUntil: 'networkidle2',
+          timeout: 60000
+        });
+        break; // başarı
+      } catch (err) {
+        lastError = err;
+        console.error(`Navigasyon denemesi ${attempt} başarısız: ${err.message}`);
+        if (attempt === 3) throw err;
+        // kısa bekleme ve tekrar dene
+        await new Promise(r => setTimeout(r, 4000));
+      }
+    }
     
     // Biraz bekle (Cloudflare challenge için)
-    await new Promise(resolve => setTimeout(resolve, 5000));
+    await new Promise(resolve => setTimeout(resolve, 8000));
     
     console.error('Ürünler aranıyor...');
     
