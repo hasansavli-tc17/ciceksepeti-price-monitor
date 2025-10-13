@@ -23,7 +23,7 @@ Bu sistem Çiçek Sepeti'nden ürün fiyatlarını takip eder ve fiyat değişik
 1. Bu repository'yi GitHub'a yükle
 2. Repository Settings > Secrets > Actions'a git
 3. `SLACK_WEBHOOK_URL` secret'ını ekle
-4. Webhook URL'ini ekle: `https://hooks.slack.com/services/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`
+4. Webhook URL'ini ekle
 
 ## 📁 Dosya Yapısı
 
