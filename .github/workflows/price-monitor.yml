@@ -1,0 +1,41 @@
+name: Çiçek Sepeti Fiyat Takip
+
+on:
+  schedule:
+    # Her gün saat 06:00 ve 15:00 UTC'de çalış (Türkiye saati: 09:00 ve 18:00)
+    - cron: '0 6,15 * * *'
+  workflow_dispatch: # Manuel çalıştırma için
+
+jobs:
+  price-check:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '22'
+        
+    - name: Install dependencies
+      run: npm install puppeteer
+      
+    - name: Run price monitor
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+      run: |
+        # Slack webhook URL'ini environment variable olarak ayarla
+        sed -i "s|const SLACK_WEBHOOK = 'https://hooks.slack.com/services/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';|const SLACK_WEBHOOK = process.env.SLACK_WEBHOOK_URL;|g" price_monitor.js
+        
+        # Çalıştır
+        node price_monitor.js
+        
+    - name: Commit price changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add price_history.json
+        git diff --staged --quiet || git commit -m "Update price history - $(date)"
+        git push || echo "No changes to push"
