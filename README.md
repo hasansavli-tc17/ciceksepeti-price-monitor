@@ -26,6 +26,7 @@ Bu sistem Çiçek Sepeti'nden ürün fiyatlarını takip eder ve fiyat değişik
 4. Webhook URL'ini ekle
 
 ## 📁 Dosya Yapısı
+<<<<<<< HEAD
 
 ```
 ├── .github/workflows/
@@ -36,6 +37,14 @@ Bu sistem Çiçek Sepeti'nden ürün fiyatlarını takip eder ve fiyat değişik
 └── package.json               # Node.js dependencies
 ```
 
+=======
+├── .github/workflows/
+│ └── price-monitor.yml # GitHub Actions workflow
+├── scraper.js # Puppeteer scraper
+├── price_monitor_github.js # GitHub Actions için ana script
+├── price_history.json # Fiyat geçmişi
+└── package.json # Node.js dependencies
+>>>>>>> 54e43ded6a151426be1dbdc659730f61efac1327
 ## 🎯 Kullanım
 
 Sistem otomatik çalışır. Manuel test için:
@@ -47,7 +56,10 @@ node price_monitor_github.js
 ## 📊 Loglar
 
 GitHub Actions sekmesinden çalışma loglarını görebilirsin.
+<<<<<<< HEAD
 
 ## 🔒 Güvenlik
 
 Slack webhook URL'i GitHub Secrets'da güvenli şekilde saklanır.
+=======
+>>>>>>> 54e43ded6a151426be1dbdc659730f61efac1327
