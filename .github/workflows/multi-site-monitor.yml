@@ -1,0 +1,79 @@
+name: Multi-Site Price Monitor
+
+on:
+  schedule:
+    # Her gün 09:00, 12:00, 15:00 UTC (Türkiye saati: 12:00, 15:00, 18:00)
+    - cron: '0 9,12,15 * * *'
+  workflow_dispatch:  # Manuel çalıştırma
+
+permissions:
+  contents: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 🔍 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: 📦 Install Node dependencies
+        run: npm ci
+      
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: 📦 Install Python dependencies
+        run: |
+          pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      
+      - name: 🌸 Run Multi-Site Price Monitor
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
+        run: node multi-site-price-monitor.js
+      
+      - name: 📊 Sync to BigQuery (if credentials available)
+        if: ${{ secrets.GCP_PROJECT_ID != '' }}
+        env:
+          GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+          GOOGLE_APPLICATION_CREDENTIALS: ./gcp-key.json
+        run: |
+          if [ ! -z "${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}" ]; then
+            echo "${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}" > ./gcp-key.json
+            python bigquery_sync.py
+            rm -f ./gcp-key.json
+          else
+            echo "⚠️  BigQuery credentials not found, skipping sync"
+          fi
+      
+      - name: 💾 Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add multi_site_price_history.json benchmark_report.json
+          git diff --staged --quiet || git commit -m "🤖 Multi-site price update - $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
+      
+      - name: 📝 Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: monitoring-data-${{ github.run_number }}
+          path: |
+            multi_site_price_history.json
+            benchmark_report.json
+          retention-days: 30
+
