@@ -1,15 +1,29 @@
 {
-  "name": "n8n-tazecicek",
-  "version": "1.0.0",
-  "description": "",
-  "main": "scraper.js",
+  "name": "n8n-tazecicek-multisite",
+  "version": "2.0.0",
+  "description": "Multi-Site Flower Price Benchmarking & Monitoring System",
+  "main": "multi-site-price-monitor.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node scraper.js",
+    "scrape": "node multi-site-scraper.js",
+    "monitor": "node multi-site-price-monitor.js",
+    "dashboard": "streamlit run benchmarking_dashboard.py",
+    "sync": "python3 bigquery_sync.py",
+    "quick-start": "./quick-start.sh"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "flower",
+    "price-monitoring",
+    "benchmarking",
+    "scraping",
+    "puppeteer"
+  ],
+  "author": "Tazecicek Team",
+  "license": "MIT",
   "dependencies": {
-    "puppeteer": "^24.24.0"
+    "googleapis": "^162.0.0",
+    "puppeteer": "^24.24.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
   }
 }

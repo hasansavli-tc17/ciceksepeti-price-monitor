@@ -1,7 +1,7 @@
 const https = require('https');
 
 // Test Slack webhook
-const SLACK_WEBHOOK = 'https://hooks.slack.com/services/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';
+const SLACK_WEBHOOK = process.env.SLACK_WEBHOOK_URL;
 
 function testSlack() {
   const message = '🧪 **TEST MESAJI**\n\nSistem çalışıyor mu?';

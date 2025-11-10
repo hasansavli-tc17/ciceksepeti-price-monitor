@@ -1,0 +1,128 @@
+{
+  "date": "2025-11-10T08:27:56.530Z",
+  "summary": {
+    "total_sites": 3,
+    "successful_sites": 3,
+    "total_products": 90
+  },
+  "price_analysis": {
+    "by_site": {
+      "Çiçek Sepeti": {
+        "product_count": 30,
+        "avg_price": "798.89",
+        "min_price": "439.99",
+        "max_price": "3299.00"
+      },
+      "Hızlı Çiçek": {
+        "product_count": 30,
+        "avg_price": "1126.00",
+        "min_price": "599.00",
+        "max_price": "2399.00"
+      },
+      "Bloom and Fresh": {
+        "product_count": 30,
+        "avg_price": "2129.90",
+        "min_price": "849.90",
+        "max_price": "4599.90"
+      }
+    },
+    "by_category": {
+      "Gül": {
+        "count": 24,
+        "prices_by_site": {
+          "Çiçek Sepeti": {
+            "count": 20,
+            "avg": "919.34"
+          },
+          "Hızlı Çiçek": {
+            "count": 4,
+            "avg": "1549.00"
+          }
+        },
+        "avg_price": "1024.28"
+      },
+      "Papatya": {
+        "count": 5,
+        "prices_by_site": {
+          "Çiçek Sepeti": {
+            "count": 3,
+            "avg": "576.66"
+          },
+          "Hızlı Çiçek": {
+            "count": 2,
+            "avg": "859.00"
+          }
+        },
+        "avg_price": "689.59"
+      },
+      "Gerbera": {
+        "count": 5,
+        "prices_by_site": {
+          "Çiçek Sepeti": {
+            "count": 5,
+            "avg": "537.99"
+          }
+        },
+        "avg_price": "537.99"
+      },
+      "Karma/Diğer": {
+        "count": 48,
+        "prices_by_site": {
+          "Çiçek Sepeti": {
+            "count": 2,
+            "avg": "579.99"
+          },
+          "Hızlı Çiçek": {
+            "count": 16,
+            "avg": "830.88"
+          },
+          "Bloom and Fresh": {
+            "count": 30,
+            "avg": "2129.90"
+          }
+        },
+        "avg_price": "1632.31"
+      },
+      "Lilyum": {
+        "count": 4,
+        "prices_by_site": {
+          "Hızlı Çiçek": {
+            "count": 4,
+            "avg": "1469.00"
+          }
+        },
+        "avg_price": "1469.00"
+      },
+      "Lisyantus": {
+        "count": 1,
+        "prices_by_site": {
+          "Hızlı Çiçek": {
+            "count": 1,
+            "avg": "1099.00"
+          }
+        },
+        "avg_price": "1099.00"
+      },
+      "Orkide": {
+        "count": 1,
+        "prices_by_site": {
+          "Hızlı Çiçek": {
+            "count": 1,
+            "avg": "2399.00"
+          }
+        },
+        "avg_price": "2399.00"
+      },
+      "Lale": {
+        "count": 2,
+        "prices_by_site": {
+          "Hızlı Çiçek": {
+            "count": 2,
+            "avg": "1599.00"
+          }
+        },
+        "avg_price": "1599.00"
+      }
+    }
+  }
+}

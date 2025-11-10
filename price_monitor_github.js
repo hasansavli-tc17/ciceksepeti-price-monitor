@@ -1,6 +1,7 @@
 const { exec } = require('child_process');
 const fs = require('fs');
 const https = require('https');
+const { google } = require('googleapis');
 
 const PRICE_DB_FILE = './price_history.json';
 // GitHub Actions'ta environment variable'dan al
@@ -29,6 +30,51 @@ function savePrices(prices) {
   fs.writeFileSync(PRICE_DB_FILE, JSON.stringify(prices, null, 2));
 }
 
+// Google Sheets'e ekleme
+async function appendChangesToGoogleSheets(changes) {
+  const sheetId = process.env.SHEET_ID;
+  const credentialsPath = process.env.GOOGLE_SHEETS_CREDENTIALS_PATH;
+  if (!sheetId || !credentialsPath) {
+    return; // opsiyonel; ayarlı değilse atla
+  }
+
+  // Auth
+  const auth = new google.auth.GoogleAuth({
+    keyFile: credentialsPath,
+    scopes: ['https://www.googleapis.com/auth/spreadsheets'],
+  });
+  const sheets = google.sheets({ version: 'v4', auth });
+
+  const nowIso = new Date().toISOString();
+  const values = changes.map((c) => [
+    nowIso,
+    c.id,
+    c.name,
+    Number(c.oldPrice),
+    Number(c.newPrice),
+    Number(c.change),
+    c.url,
+  ]);
+
+  const resource = { values };
+  // Sheet adı: ENV > mevcut ilk sheet
+  let sheetTab = process.env.SHEET_TAB;
+  if (!sheetTab) {
+    const meta = await sheets.spreadsheets.get({ spreadsheetId: sheetId });
+    const first = meta.data.sheets && meta.data.sheets[0];
+    sheetTab = (first && first.properties && first.properties.title) || 'Sheet1';
+  }
+  const range = `${sheetTab}!A:G`;
+
+  await sheets.spreadsheets.values.append({
+    spreadsheetId: sheetId,
+    range,
+    valueInputOption: 'USER_ENTERED',
+    resource,
+  });
+  console.log(`📄 Google Sheets'e ${values.length} satır eklendi`);
+}
+
 // Slack'e bildirim gönder
 async function sendSlackNotification(changes) {
   if (changes.length === 0) return;
@@ -50,11 +96,8 @@ async function sendSlackNotification(changes) {
       batch.forEach(change => {
         const emoji = change.change > 0 ? '📈' : '📉';
         const changeText = change.change > 0 ? `+${change.change.toFixed(2)}` : change.change.toFixed(2);
-        
-        batchMessage += `*${change.name}*\n`;
-        batchMessage += `• Eski: ${change.oldPrice.toFixed(2)}₺ → Yeni: ${change.newPrice.toFixed(2)}₺\n`;
-        batchMessage += `• Fark: ${emoji} ${changeText}₺\n`;
-        batchMessage += `<${change.url}|Ürüne Git>\n\n`;
+        // Tek satır: Ad, eski → yeni ve fark birlikte
+        batchMessage += `${emoji} *${change.name}*: ${change.oldPrice.toFixed(2)}₺ → ${change.newPrice.toFixed(2)}₺ (${changeText}₺) <${change.url}|Ürün>\n`;
       });
       
       messagePromises.push(sendSlackMessage(batchMessage));
@@ -173,7 +216,8 @@ async function main() {
         console.log(`\n💰 ${changes.length} fiyat değişikliği tespit edildi:`);
         changes.forEach(c => {
           const emoji = c.change > 0 ? '📈' : '📉';
-          console.log(`${emoji} ${c.name}: ${c.oldPrice}₺ → ${c.newPrice}₺`);
+          const diffText = c.change > 0 ? `+${c.change.toFixed(2)}` : c.change.toFixed(2);
+          console.log(`${emoji} ${c.name}: ${c.oldPrice}₺ → ${c.newPrice}₺ (${diffText}₺)`);
         });
         
         // Slack'e bildir
@@ -182,6 +226,13 @@ async function main() {
         } catch (slackError) {
           console.error('❌ Slack bildirim gönderilirken hata:', slackError.message);
           // Slack hatası olsa bile devam et
+        }
+
+        // Sheets'e yaz (varsa)
+        try {
+          await appendChangesToGoogleSheets(changes);
+        } catch (sheetsError) {
+          console.error('❌ Google Sheets yazma hatası:', sheetsError.message);
         }
       } else {
         console.log('\n✨ Fiyat değişikliği yok');

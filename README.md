@@ -14,7 +14,9 @@ Bu sistem Çiçek Sepeti'nden ürün fiyatlarını takip eder ve fiyat değişik
 
 ## 📅 Çalışma Zamanları
 
-- **Her gün 09:00** (Türkiye saati)
+- **Her gün 10:00** (Türkiye saati)
+- **Her gün 12:00** (Türkiye saati)
+- **Her gün 15:00** (Türkiye saati)
 - **Her gün 18:00** (Türkiye saati)
 
 ## 🔧 Kurulum

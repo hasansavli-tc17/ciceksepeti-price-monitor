@@ -1,0 +1,191 @@
+{
+  "sites": [
+    {
+      "id": "ciceksepeti",
+      "name": "Çiçek Sepeti",
+      "url": "https://www.ciceksepeti.com",
+      "category_url": "https://www.ciceksepeti.com/cicek-buketleri",
+      "enabled": true,
+      "scraper_type": "puppeteer",
+      "selectors": {
+        "product_box": "[data-cs-product-box=\"true\"]",
+        "product_name": "[data-cs-pb-name=\"true\"]",
+        "product_price": "[data-cs-pb-price-text=\"true\"]",
+        "product_link": "href"
+      },
+      "pagination": {
+        "enabled": true,
+        "max_pages": 2,
+        "url_pattern": "https://www.ciceksepeti.com/cicek-buketleri?page={page}"
+      }
+    },
+    {
+      "id": "hizlicicek",
+      "name": "Hızlı Çiçek",
+      "url": "https://www.hizlicicek.com",
+      "category_url": "https://hizlicicek.com/kategori/cicek",
+      "enabled": true,
+      "scraper_type": "puppeteer",
+      "selectors": {
+        "product_box": "article.product-card, .product-card",
+        "product_name": "h2, h3, [id^=\"product-id\"]",
+        "product_price": ".price, [class*=\"price\"], [class*=\"fiyat\"]",
+        "product_link": "a[href]"
+      },
+      "pagination": {
+        "enabled": true,
+        "max_pages": 2,
+        "url_pattern": "https://hizlicicek.com/kategori/cicek?page={page}"
+      }
+    },
+    {
+      "id": "heryerbitki",
+      "name": "Heryerbitki",
+      "url": "https://www.heryerbitki.com",
+      "category_url": "https://www.heryerbitki.com/cicek",
+      "enabled": false,
+      "scraper_type": "puppeteer",
+      "selectors": {
+        "product_box": ".product-item, .product-card, .productItem",
+        "product_name": ".product-title, .product-name, h3, .productName",
+        "product_price": ".product-price, .price, .productPrice",
+        "product_link": "a[href]"
+      },
+      "pagination": {
+        "enabled": false,
+        "max_pages": 2,
+        "url_pattern": "https://www.heryerbitki.com/cicek?page={page}"
+      }
+    },
+    {
+      "id": "istanbulcicekleri",
+      "name": "İstanbul Çiçekleri",
+      "url": "https://www.istanbulcicekleri.com",
+      "category_url": "https://www.istanbulcicekleri.com",
+      "enabled": false,
+      "scraper_type": "puppeteer",
+      "selectors": {
+        "product_box": ".item",
+        "product_name": "h2, h3, a, [class*=title]",
+        "product_price": "[class*=price], span",
+        "product_link": "a[href]"
+      },
+      "pagination": {
+        "enabled": false,
+        "max_pages": 2,
+        "url_pattern": "https://www.istanbulcicekleri.com/cicek-buketleri?page={page}"
+      }
+    },
+    {
+      "id": "osevio",
+      "name": "Osevio",
+      "url": "https://www.osevio.com",
+      "category_url": "https://osevio.com/cicekler",
+      "enabled": false,
+      "scraper_type": "puppeteer",
+      "selectors": {
+        "product_box": ".product-item, .product-card",
+        "product_name": ".product-title, .product-name, h3",
+        "product_price": ".product-price, .price",
+        "product_link": "a[href]"
+      },
+      "pagination": {
+        "enabled": false,
+        "max_pages": 2,
+        "url_pattern": "https://www.osevio.com/cicek?page={page}"
+      }
+    },
+    {
+      "id": "lilyanaflowers",
+      "name": "Lilyana Flowers",
+      "url": "https://www.lilyanaflowers.com",
+      "category_url": "https://www.lilyanaflowers.com/cicekler",
+      "enabled": false,
+      "scraper_type": "puppeteer",
+      "selectors": {
+        "product_box": ".product-item, .product-card",
+        "product_name": ".product-title, .product-name, h3",
+        "product_price": ".product-price, .price",
+        "product_link": "a[href]"
+      },
+      "pagination": {
+        "enabled": false,
+        "max_pages": 2,
+        "url_pattern": "https://www.lilyanaflowers.com/cicekler?page={page}"
+      }
+    },
+    {
+      "id": "bloomandfresh",
+      "name": "Bloom and Fresh",
+      "url": "https://www.bloomandfresh.com",
+      "category_url": "https://bloomandfresh.com",
+      "enabled": true,
+      "scraper_type": "puppeteer",
+      "selectors": {
+        "product_box": ".product",
+        "product_name": "h2, h3, h4, [class*=title]",
+        "product_price": "[class*=price], [class*=fiyat]",
+        "product_link": "a[href]"
+      },
+      "pagination": {
+        "enabled": true,
+        "max_pages": 3,
+        "url_pattern": "https://bloomandfresh.com?page={page}"
+      }
+    },
+    {
+      "id": "cicekdiyari",
+      "name": "Çiçek Diyarı",
+      "url": "https://www.cicekdiyari.com",
+      "category_url": "https://www.cicekdiyari.com",
+      "enabled": false,
+      "scraper_type": "puppeteer",
+      "selectors": {
+        "product_box": ".item",
+        "product_name": "h2, h3, h4, a, [class*=title]",
+        "product_price": "[class*=price], [class*=fiyat], span",
+        "product_link": "a[href]"
+      },
+      "pagination": {
+        "enabled": false,
+        "max_pages": 1,
+        "url_pattern": "https://www.cicekdiyari.com"
+      }
+    },
+    {
+      "id": "cicekmarket",
+      "name": "Çiçek Market",
+      "url": "https://www.cicekmarket.com",
+      "category_url": "https://www.cicekmarket.com/cicekler",
+      "enabled": false,
+      "scraper_type": "puppeteer",
+      "selectors": {
+        "product_box": ".product-item, .product-card",
+        "product_name": ".product-title, .product-name, h3",
+        "product_price": ".product-price, .price",
+        "product_link": "a[href]"
+      },
+      "pagination": {
+        "enabled": false,
+        "max_pages": 2,
+        "url_pattern": "https://www.rosebox.com.tr/urunler?page={page}"
+      }
+    }
+  ],
+  "scraping_settings": {
+    "products_per_site": 30,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "timeout": 60000,
+    "wait_after_load": 5000,
+    "retry_attempts": 3,
+    "retry_delay": 4000
+  },
+  "notification_settings": {
+    "slack_enabled": true,
+    "email_enabled": false,
+    "notify_on_price_change": true,
+    "notify_on_no_update": true,
+    "minimum_price_change": 0.01
+  }
+}
+

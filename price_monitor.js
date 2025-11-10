@@ -3,7 +3,7 @@ const fs = require('fs');
 const https = require('https');
 
 const PRICE_DB_FILE = './price_history.json';
-const SLACK_WEBHOOK = 'https://hooks.slack.com/services/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';
+const SLACK_WEBHOOK = process.env.SLACK_WEBHOOK_URL;
 
 // Önceki fiyatları yükle
 function loadPreviousPrices() {
@@ -20,6 +20,58 @@ function loadPreviousPrices() {
 // Yeni fiyatları kaydet
 function savePrices(prices) {
   fs.writeFileSync(PRICE_DB_FILE, JSON.stringify(prices, null, 2));
+}
+
+// Şu anki çalışmanın scheduled job mu yoksa manuel mi olduğunu kontrol et
+function isScheduledRun() {
+  const scheduledHours = [10, 12, 15, 18];
+  const now = new Date();
+  const currentHour = now.getUTCHours() + 3; // UTC'den Türkiye saatine çevir
+  const currentMinute = now.getMinutes();
+  
+  // Scheduled saate yakın mıyız? (±10 dakika tolerans)
+  return scheduledHours.some(hour => {
+    return Math.abs(currentHour - hour) === 0 && currentMinute <= 10;
+  });
+}
+
+// Son güncelleme zamanının scheduled job'dan mı yoksa manuel mi olduğunu kontrol et
+function checkLastUpdateTime(previousPrices) {
+  // Scheduled job saatleri (Türkiye saati - UTC+3)
+  const scheduledHours = [10, 12, 15, 18];
+  
+  // İlk ürünün timestamp'ini al
+  const firstProduct = Object.values(previousPrices)[0];
+  if (!firstProduct || !firstProduct.timestamp) {
+    return { wasManual: false };
+  }
+  
+  const lastUpdate = new Date(firstProduct.timestamp);
+  const lastUpdateHour = lastUpdate.getUTCHours() + 3; // UTC'den Türkiye saatine çevir
+  const lastUpdateMinute = lastUpdate.getMinutes();
+  
+  // Bir önceki scheduled saati bul
+  const currentHour = new Date().getUTCHours() + 3;
+  const reversedHours = [...scheduledHours].reverse();
+  const previousScheduledHour = reversedHours.find(h => h < currentHour) || scheduledHours[scheduledHours.length - 1];
+  
+  // Eğer son güncelleme scheduled saate yakın değilse (±10 dakika tolerans)
+  const isScheduledTime = scheduledHours.some(hour => {
+    return Math.abs(lastUpdateHour - hour) === 0 && lastUpdateMinute <= 10;
+  });
+  
+  if (!isScheduledTime) {
+    const timeStr = `${String(lastUpdateHour).padStart(2, '0')}:${String(lastUpdateMinute).padStart(2, '0')}`;
+    const expectedTime = `${String(previousScheduledHour).padStart(2, '0')}:00`;
+    
+    return {
+      wasManual: true,
+      timeStr: timeStr,
+      expectedTime: expectedTime
+    };
+  }
+  
+  return { wasManual: false };
 }
 
 // Slack'e bildirim gönder
@@ -144,6 +196,18 @@ async function main() {
         await sendSlackNotification(changes);
       } else {
         console.log('\n✨ Fiyat değişikliği yok');
+        
+        // Son güncelleme zamanını kontrol et
+        const lastUpdateTime = checkLastUpdateTime(previousPrices);
+        
+        if (lastUpdateTime.wasManual) {
+          console.log(`⚠️ Manuel tetikleme tespit edildi: ${lastUpdateTime.timeStr}`);
+          console.log(`   Bu nedenle scheduled saat ${lastUpdateTime.expectedTime} kontrolünde fiyat değişikliği görünmedi`);
+        }
+        
+        // Her durumda bildirim gönder
+        const noChangeMessage = `🌸 *Çiçek Sepeti Fiyat Taraması Tamamlandı*\n\n✅ ${currentProducts.length} ürün tarandı\n✨ Fiyat değişikliği yok\n🕐 ${new Date().toLocaleString('tr-TR')}`;
+        await sendSlackMessage(noChangeMessage);
       }
       
       // Yeni fiyatları kaydet
