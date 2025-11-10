@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-10T08:27:56.530Z",
+  "date": "2025-11-10T13:20:03.463Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -21,7 +21,7 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2129.90",
+        "avg_price": "2066.90",
         "min_price": "849.90",
         "max_price": "4599.90"
       }
@@ -78,10 +78,10 @@
           },
           "Bloom and Fresh": {
             "count": 30,
-            "avg": "2129.90"
+            "avg": "2066.90"
           }
         },
-        "avg_price": "1632.31"
+        "avg_price": "1592.94"
       },
       "Lilyum": {
         "count": 4,
