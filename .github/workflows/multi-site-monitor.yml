@@ -47,15 +47,16 @@ jobs:
         run: node multi-site-price-monitor.js
       
       - name: 📊 Sync to BigQuery (if credentials available)
-        if: ${{ secrets.GCP_PROJECT_ID != '' }}
         env:
           GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+          GCP_SERVICE_ACCOUNT_KEY: ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
           GOOGLE_APPLICATION_CREDENTIALS: ./gcp-key.json
         run: |
-          if [ ! -z "${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}" ]; then
-            echo "${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}" > ./gcp-key.json
+          if [ ! -z "$GCP_SERVICE_ACCOUNT_KEY" ]; then
+            echo "$GCP_SERVICE_ACCOUNT_KEY" > ./gcp-key.json
             python bigquery_sync.py
             rm -f ./gcp-key.json
+            echo "✅ BigQuery sync completed"
           else
             echo "⚠️  BigQuery credentials not found, skipping sync"
           fi
