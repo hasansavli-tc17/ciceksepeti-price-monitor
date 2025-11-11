@@ -75,7 +75,18 @@ async function sendPriceChangeNotification(changes, siteResults, reportUrl, benc
       message += `• Ort: ${data.avg_price}₺ | Min: ${data.min_price}₺ | Max: ${data.max_price}₺\n\n`;
     });
     
-    message += `📋 <${reportUrl}|Detaylı Raporu Gör> (Tüm ürünler ve kategoriler)`;
+    // İlk 10 ürünü göster
+    message += `🛍️ *Örnek Ürünler (İlk 10)*\n\n`;
+    benchmarkReport.all_products.slice(0, 10).forEach((product, idx) => {
+      message += `${idx + 1}. *${product.name}*\n`;
+      message += `   💰 ${product.price.toFixed(2)}₺ | 🏪 ${product.site}\n`;
+      if (product.url) {
+        message += `   🔗 <${product.url}|Ürüne Git>\n`;
+      }
+      message += `\n`;
+    });
+    
+    message += `📋 <${reportUrl}|Detaylı Raporu Gör> (Tüm ${benchmarkReport.all_products.length} ürün)`;
     
     await sendSlackMessage(message);
     return;
@@ -186,6 +197,7 @@ function generateBenchmarkingReport(siteResults) {
       successful_sites: siteResults.filter(s => s.success).length,
       total_products: siteResults.reduce((sum, s) => sum + s.products.length, 0)
     },
+    all_products: [],
     price_analysis: {
       by_site: {},
       by_category: {}
@@ -209,6 +221,17 @@ function generateBenchmarkingReport(siteResults) {
       min_price: minPrice.toFixed(2),
       max_price: maxPrice.toFixed(2)
     };
+    
+    // Tüm ürünleri listeye ekle
+    siteResult.products.forEach(product => {
+      report.all_products.push({
+        site: siteResult.site_name,
+        name: product.name,
+        price: product.price,
+        category: product.category,
+        url: product.url
+      });
+    });
     
     // Kategori bazında
     siteResult.products.forEach(product => {
