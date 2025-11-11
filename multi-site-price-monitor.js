@@ -57,15 +57,25 @@ function sendSlackMessage(message) {
 }
 
 // Fiyat değişikliği bildirimi
-async function sendPriceChangeNotification(changes, siteResults) {
+async function sendPriceChangeNotification(changes, siteResults, reportUrl, benchmarkReport) {
   if (changes.length === 0) {
     // Değişiklik yok bildirimi
     const totalProducts = siteResults.reduce((sum, s) => sum + s.products.length, 0);
-    const message = `🌸 *Multi-Site Fiyat Taraması Tamamlandı*\n\n` +
+    let message = `🌸 *Multi-Site Fiyat Taraması Tamamlandı*\n\n` +
       `✅ ${siteResults.filter(s => s.success).length} site tarandı\n` +
       `📦 ${totalProducts} ürün kontrol edildi\n` +
       `✨ Fiyat değişikliği yok\n` +
-      `🕐 ${new Date().toLocaleString('tr-TR')}`;
+      `🕐 ${new Date().toLocaleString('tr-TR')}\n\n` +
+      `📊 *Benchmarking Özeti*\n\n`;
+    
+    // Benchmarking özeti ekle
+    Object.entries(benchmarkReport.price_analysis.by_site).forEach(([site, data]) => {
+      message += `*${site}*\n`;
+      message += `• Ürün: ${data.product_count}\n`;
+      message += `• Ort: ${data.avg_price}₺ | Min: ${data.min_price}₺ | Max: ${data.max_price}₺\n\n`;
+    });
+    
+    message += `📋 <${reportUrl}|Detaylı Raporu Gör> (Tüm ürünler ve kategoriler)`;
     
     await sendSlackMessage(message);
     return;
@@ -83,7 +93,9 @@ async function sendPriceChangeNotification(changes, siteResults) {
   // Ana mesaj
   const headerMessage = `🌸 *Multi-Site Fiyat Güncellemesi*\n\n` +
     `*${changes.length} ürünün fiyatı değişti!*\n` +
-    `📊 ${Object.keys(changeBySite).length} sitede değişiklik var`;
+    `📊 ${Object.keys(changeBySite).length} sitede değişiklik var\n` +
+    `🕐 ${new Date().toLocaleString('tr-TR')}\n\n` +
+    `📋 <${reportUrl}|Detaylı Raporu Gör> (Tüm ürünler ve kategoriler)`;
   
   await sendSlackMessage(headerMessage);
   
@@ -282,23 +294,11 @@ async function main() {
       const reportUrl = 'https://github.com/hasansavli-tc17/ciceksepeti-price-monitor/blob/main/benchmark_report.json';
       
       // Slack'e bildir
-      await sendPriceChangeNotification(changes, siteResults);
+      await sendPriceChangeNotification(changes, siteResults, reportUrl, benchmarkReport);
       
       // Yeni fiyatları kaydet
       savePrices(currentData);
       console.log('💾 Fiyatlar kaydedildi');
-      
-      // Benchmarking özet mesajı
-      if (changes.length === 0) {
-        let benchmarkMessage = `\n📊 *Benchmarking Özeti*\n\n`;
-        Object.entries(benchmarkReport.price_analysis.by_site).forEach(([site, data]) => {
-          benchmarkMessage += `*${site}*\n`;
-          benchmarkMessage += `• Ürün: ${data.product_count}\n`;
-          benchmarkMessage += `• Ort: ${data.avg_price}₺ | Min: ${data.min_price}₺ | Max: ${data.max_price}₺\n\n`;
-        });
-        benchmarkMessage += `📋 <${reportUrl}|Detaylı Raporu Gör> (Tüm ürünler ve kategoriler)`;
-        await sendSlackMessage(benchmarkMessage);
-      }
       
     } catch (parseError) {
       console.error('JSON parse hatası:', parseError.message);
