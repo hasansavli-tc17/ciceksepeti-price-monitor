@@ -75,17 +75,6 @@ async function sendPriceChangeNotification(changes, siteResults, reportUrl, benc
       message += `• Ort: ${data.avg_price}₺ | Min: ${data.min_price}₺ | Max: ${data.max_price}₺\n\n`;
     });
     
-    // İlk 10 ürünü göster
-    message += `🛍️ *Örnek Ürünler (İlk 10)*\n\n`;
-    benchmarkReport.all_products.slice(0, 10).forEach((product, idx) => {
-      message += `${idx + 1}. *${product.name}*\n`;
-      message += `   💰 ${product.price.toFixed(2)}₺ | 🏪 ${product.site}\n`;
-      if (product.url) {
-        message += `   🔗 <${product.url}|Ürüne Git>\n`;
-      }
-      message += `\n`;
-    });
-    
     message += `📋 <${reportUrl}|Detaylı Raporu Gör> (Tüm ${benchmarkReport.all_products.length} ürün)`;
     
     await sendSlackMessage(message);
