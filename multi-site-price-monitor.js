@@ -293,6 +293,7 @@ async function main() {
           benchmarkMessage += `• Ürün: ${data.product_count}\n`;
           benchmarkMessage += `• Ort: ${data.avg_price}₺ | Min: ${data.min_price}₺ | Max: ${data.max_price}₺\n\n`;
         });
+        benchmarkMessage += `📋 <${reportUrl}|Detaylı Raporu Gör> (Tüm ürünler ve kategoriler)`;
         await sendSlackMessage(benchmarkMessage);
       }
       
