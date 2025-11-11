@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-11T13:42:27.827Z",
+  "date": "2025-11-10T09:02:23.485Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -9,9 +9,9 @@
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "979.99",
-        "min_price": "429.99",
-        "max_price": "3499.00"
+        "avg_price": "798.89",
+        "min_price": "439.99",
+        "max_price": "3299.00"
       },
       "Hızlı Çiçek": {
         "product_count": 30,
@@ -21,42 +21,56 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2146.90",
+        "avg_price": "2129.90",
         "min_price": "849.90",
         "max_price": "4599.90"
       }
     },
     "by_category": {
       "Gül": {
-        "count": 25,
+        "count": 24,
         "prices_by_site": {
           "Çiçek Sepeti": {
-            "count": 21,
-            "avg": "1125.28"
+            "count": 20,
+            "avg": "919.34"
           },
           "Hızlı Çiçek": {
             "count": 4,
             "avg": "1549.00"
           }
         },
-        "avg_price": "1193.07"
+        "avg_price": "1024.28"
       },
-      "Gerbera": {
-        "count": 4,
-        "prices_by_site": {
-          "Çiçek Sepeti": {
-            "count": 4,
-            "avg": "614.99"
-          }
-        },
-        "avg_price": "614.99"
-      },
-      "Karma/Diğer": {
-        "count": 49,
+      "Papatya": {
+        "count": 5,
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 3,
-            "avg": "636.66"
+            "avg": "576.66"
+          },
+          "Hızlı Çiçek": {
+            "count": 2,
+            "avg": "859.00"
+          }
+        },
+        "avg_price": "689.59"
+      },
+      "Gerbera": {
+        "count": 5,
+        "prices_by_site": {
+          "Çiçek Sepeti": {
+            "count": 5,
+            "avg": "537.99"
+          }
+        },
+        "avg_price": "537.99"
+      },
+      "Karma/Diğer": {
+        "count": 48,
+        "prices_by_site": {
+          "Çiçek Sepeti": {
+            "count": 2,
+            "avg": "579.99"
           },
           "Hızlı Çiçek": {
             "count": 16,
@@ -64,24 +78,10 @@
           },
           "Bloom and Fresh": {
             "count": 30,
-            "avg": "2146.90"
+            "avg": "2129.90"
           }
         },
-        "avg_price": "1624.71"
-      },
-      "Papatya": {
-        "count": 4,
-        "prices_by_site": {
-          "Çiçek Sepeti": {
-            "count": 2,
-            "avg": "699.50"
-          },
-          "Hızlı Çiçek": {
-            "count": 2,
-            "avg": "859.00"
-          }
-        },
-        "avg_price": "779.25"
+        "avg_price": "1632.31"
       },
       "Lilyum": {
         "count": 4,
