@@ -1,6 +1,7 @@
 const { exec } = require('child_process');
 const fs = require('fs');
 const https = require('https');
+const { syncToGoogleSheets } = require('./google-sheets-sync');
 
 const PRICE_DB_FILE = './multi_site_price_history.json';
 const SLACK_WEBHOOK = process.env.SLACK_WEBHOOK_URL;
@@ -57,7 +58,7 @@ function sendSlackMessage(message) {
 }
 
 // Fiyat değişikliği bildirimi
-async function sendPriceChangeNotification(changes, siteResults, reportUrl, benchmarkReport) {
+async function sendPriceChangeNotification(changes, siteResults, reportUrl, benchmarkReport, sheetsUrl) {
   if (changes.length === 0) {
     // Değişiklik yok bildirimi
     const totalProducts = siteResults.reduce((sum, s) => sum + s.products.length, 0);
@@ -75,7 +76,11 @@ async function sendPriceChangeNotification(changes, siteResults, reportUrl, benc
       message += `• Ort: ${data.avg_price}₺ | Min: ${data.min_price}₺ | Max: ${data.max_price}₺\n\n`;
     });
     
-    message += `📋 <${reportUrl}|Detaylı Raporu Gör> (Tüm ${benchmarkReport.all_products.length} ürün)`;
+    if (sheetsUrl) {
+      message += `📊 <${sheetsUrl}|Google Sheets'te Gör> (Tüm ${benchmarkReport.all_products.length} ürün)`;
+    } else {
+      message += `📋 <${reportUrl}|Detaylı Raporu Gör> (Tüm ${benchmarkReport.all_products.length} ürün)`;
+    }
     
     await sendSlackMessage(message);
     return;
@@ -91,11 +96,16 @@ async function sendPriceChangeNotification(changes, siteResults, reportUrl, benc
   });
   
   // Ana mesaj
-  const headerMessage = `🌸 *Multi-Site Fiyat Güncellemesi*\n\n` +
+  let headerMessage = `🌸 *Multi-Site Fiyat Güncellemesi*\n\n` +
     `*${changes.length} ürünün fiyatı değişti!*\n` +
     `📊 ${Object.keys(changeBySite).length} sitede değişiklik var\n` +
-    `🕐 ${new Date().toLocaleString('tr-TR')}\n\n` +
-    `📋 <${reportUrl}|Detaylı Raporu Gör> (Tüm ürünler ve kategoriler)`;
+    `🕐 ${new Date().toLocaleString('tr-TR')}\n\n`;
+  
+  if (sheetsUrl) {
+    headerMessage += `📊 <${sheetsUrl}|Google Sheets'te Gör> (Tüm ürünler)`;
+  } else {
+    headerMessage += `📋 <${reportUrl}|Detaylı Raporu Gör> (Tüm ürünler ve kategoriler)`;
+  }
   
   await sendSlackMessage(headerMessage);
   
@@ -305,8 +315,12 @@ async function main() {
       // GitHub rapor linki
       const reportUrl = 'https://github.com/hasansavli-tc17/ciceksepeti-price-monitor/blob/main/benchmark_report.json';
       
+      // Google Sheets'e sync
+      console.log('📊 Google Sheets güncelleniyor...');
+      const sheetsUrl = await syncToGoogleSheets();
+      
       // Slack'e bildir
-      await sendPriceChangeNotification(changes, siteResults, reportUrl, benchmarkReport);
+      await sendPriceChangeNotification(changes, siteResults, reportUrl, benchmarkReport, sheetsUrl);
       
       // Yeni fiyatları kaydet
       savePrices(currentData);
