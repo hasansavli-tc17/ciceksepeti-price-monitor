@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-10T13:20:03.463Z",
+  "date": "2025-11-11T09:41:40.353Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -9,9 +9,9 @@
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "798.89",
+        "avg_price": "731.92",
         "min_price": "439.99",
-        "max_price": "3299.00"
+        "max_price": "1749.00"
       },
       "Hızlı Çiçek": {
         "product_count": 30,
@@ -21,7 +21,7 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2066.90",
+        "avg_price": "2143.57",
         "min_price": "849.90",
         "max_price": "4599.90"
       }
@@ -32,14 +32,14 @@
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 20,
-            "avg": "919.34"
+            "avg": "818.89"
           },
           "Hızlı Çiçek": {
             "count": 4,
             "avg": "1549.00"
           }
         },
-        "avg_price": "1024.28"
+        "avg_price": "940.58"
       },
       "Papatya": {
         "count": 5,
@@ -78,10 +78,10 @@
           },
           "Bloom and Fresh": {
             "count": 30,
-            "avg": "2066.90"
+            "avg": "2143.57"
           }
         },
-        "avg_price": "1592.94"
+        "avg_price": "1640.85"
       },
       "Lilyum": {
         "count": 4,
