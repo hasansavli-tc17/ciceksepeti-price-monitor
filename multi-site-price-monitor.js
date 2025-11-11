@@ -278,6 +278,9 @@ async function main() {
       fs.writeFileSync('./benchmark_report.json', JSON.stringify(benchmarkReport, null, 2));
       console.log('📊 Benchmarking raporu oluşturuldu: benchmark_report.json');
       
+      // GitHub rapor linki
+      const reportUrl = 'https://github.com/hasansavli-tc17/ciceksepeti-price-monitor/blob/main/benchmark_report.json';
+      
       // Slack'e bildir
       await sendPriceChangeNotification(changes, siteResults);
       
