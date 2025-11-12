@@ -62,11 +62,12 @@ async function sendPriceChangeNotification(changes, siteResults, reportUrl, benc
   if (changes.length === 0) {
     // Değişiklik yok bildirimi
     const totalProducts = siteResults.reduce((sum, s) => sum + s.products.length, 0);
+    const turkeyTime = new Date().toLocaleString('tr-TR', { timeZone: 'Europe/Istanbul' });
     let message = `🌸 *Multi-Site Fiyat Taraması Tamamlandı*\n\n` +
       `✅ ${siteResults.filter(s => s.success).length} site tarandı\n` +
       `📦 ${totalProducts} ürün kontrol edildi\n` +
       `✨ Fiyat değişikliği yok\n` +
-      `🕐 ${new Date().toLocaleString('tr-TR')}\n\n` +
+      `🕐 ${turkeyTime}\n\n` +
       `📊 *Benchmarking Özeti*\n\n`;
     
     // Benchmarking özeti ekle
@@ -96,10 +97,11 @@ async function sendPriceChangeNotification(changes, siteResults, reportUrl, benc
   });
   
   // Ana mesaj
+  const turkeyTime = new Date().toLocaleString('tr-TR', { timeZone: 'Europe/Istanbul' });
   let headerMessage = `🌸 *Multi-Site Fiyat Güncellemesi*\n\n` +
     `*${changes.length} ürünün fiyatı değişti!*\n` +
     `📊 ${Object.keys(changeBySite).length} sitede değişiklik var\n` +
-    `🕐 ${new Date().toLocaleString('tr-TR')}\n\n`;
+    `🕐 ${turkeyTime}\n\n`;
   
   if (sheetsUrl) {
     headerMessage += `📊 <${sheetsUrl}|Google Sheets'te Gör> (Tüm ürünler)`;

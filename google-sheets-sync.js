@@ -48,13 +48,14 @@ async function syncToGoogleSheets() {
     const headers = ['Site', 'Ürün Adı', 'Fiyat (₺)', 'Kategori', 'URL', 'Son Güncelleme'];
     
     // Data rows
+    const turkeyTime = new Date().toLocaleString('tr-TR', { timeZone: 'Europe/Istanbul' });
     const rows = benchmarkData.all_products.map(product => [
       product.site,
       product.name,
       product.price,
       product.category || '-',
       product.url || '-',
-      new Date().toLocaleString('tr-TR')
+      turkeyTime
     ]);
 
     // Tüm veriyi hazırla
