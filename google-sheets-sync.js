@@ -105,18 +105,39 @@ async function syncToGoogleSheets() {
     // Tüm veriyi hazırla
     const values = [headers, ...rows];
 
-    // Sheet'i güncelle
-    await sheets.spreadsheets.values.clear({
-      spreadsheetId: SPREADSHEET_ID,
-      range: 'A1:Z10000',
-    });
-
+    // İlk 91 satırı güncelle (header + 90 ürün)
     await sheets.spreadsheets.values.update({
       spreadsheetId: SPREADSHEET_ID,
-      range: 'A1',
+      range: 'A1:I91',
       valueInputOption: 'RAW',
       resource: { values },
     });
+
+    // Fiyatı değişen ürünleri alt satırlara ekle
+    const changedProducts = rows.filter((row, idx) => {
+      const priceDiff = row[4]; // Fark (₺) kolonu
+      return priceDiff !== '-' && parseFloat(priceDiff) !== 0;
+    });
+
+    if (changedProducts.length > 0) {
+      // Değişiklik başlığı ve satırları
+      const changeLogHeader = ['', '', '', '', '', '', '', '', ''];
+      const changeLogTitle = ['📊 FİYAT DEĞİŞİKLİK GEÇMİŞİ', '', '', '', '', '', '', '', ''];
+      const changeLogRows = changedProducts.map(row => row);
+
+      // Alt satırlara ekle (append)
+      await sheets.spreadsheets.values.append({
+        spreadsheetId: SPREADSHEET_ID,
+        range: 'A93', // 91 ürün + 1 boş satır sonrası
+        valueInputOption: 'RAW',
+        insertDataOption: 'INSERT_ROWS',
+        resource: { 
+          values: [changeLogHeader, changeLogTitle, ...changeLogRows]
+        },
+      });
+      
+      console.log(`📝 ${changedProducts.length} fiyat değişikliği geçmişe eklendi`);
+    }
 
     // Formatting: Header'ı bold yap ve fiyat değişimlerini renklendir
     await sheets.spreadsheets.batchUpdate({
