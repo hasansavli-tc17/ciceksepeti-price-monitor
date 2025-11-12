@@ -113,7 +113,8 @@ async function sendPriceChangeNotification(changes, siteResults, reportUrl, benc
   for (const [siteName, siteChanges] of Object.entries(changeBySite)) {
     let siteMessage = `\n*🏪 ${siteName}* - ${siteChanges.length} değişiklik\n\n`;
     
-    siteChanges.slice(0, 5).forEach(change => {
+    // Tüm değişiklikleri göster
+    siteChanges.forEach(change => {
       const emoji = change.change > 0 ? '📈' : '📉';
       const changeText = change.change > 0 ? `+${change.change.toFixed(2)}` : change.change.toFixed(2);
       
@@ -125,10 +126,6 @@ async function sendPriceChangeNotification(changes, siteResults, reportUrl, benc
       }
       siteMessage += `\n`;
     });
-    
-    if (siteChanges.length > 5) {
-      siteMessage += `_... ve ${siteChanges.length - 5} ürün daha_\n`;
-    }
     
     await sendSlackMessage(siteMessage);
     await new Promise(resolve => setTimeout(resolve, 1000));
