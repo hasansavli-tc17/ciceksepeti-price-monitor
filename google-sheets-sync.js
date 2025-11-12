@@ -14,6 +14,16 @@ async function syncToGoogleSheets() {
       return null;
     }
 
+    // Önceki fiyatları oku
+    let priceHistory = { sites: {} };
+    try {
+      if (fs.existsSync('./multi_site_price_history.json')) {
+        priceHistory = JSON.parse(fs.readFileSync('./multi_site_price_history.json', 'utf8'));
+      }
+    } catch (err) {
+      console.log('⚠️  Fiyat geçmişi okunamadı, sadece güncel fiyatlar gösterilecek');
+    }
+
     // Service Account credentials kontrolü
     if (!process.env.GCP_SERVICE_ACCOUNT_KEY && !fs.existsSync('./gcp-key.json')) {
       console.log('⚠️  Google credentials bulunamadı, GitHub Actions üzerinde çalışacak');
@@ -45,18 +55,52 @@ async function syncToGoogleSheets() {
     }
 
     // Header row
-    const headers = ['Site', 'Ürün Adı', 'Fiyat (₺)', 'Kategori', 'URL', 'Son Güncelleme'];
+    const headers = ['Site', 'Ürün Adı', 'Güncel Fiyat (₺)', 'Önceki Fiyat (₺)', 'Fark (₺)', 'Fark (%)', 'Kategori', 'URL', 'Son Güncelleme'];
     
     // Data rows
     const turkeyTime = new Date().toLocaleString('tr-TR', { timeZone: 'Europe/Istanbul' });
-    const rows = benchmarkData.all_products.map(product => [
-      product.site,
-      product.name,
-      product.price,
-      product.category || '-',
-      product.url || '-',
-      turkeyTime
-    ]);
+    const rows = benchmarkData.all_products.map(product => {
+      // Önceki fiyatı bul
+      let oldPrice = null;
+      let priceDiff = null;
+      let priceChangePercent = null;
+      
+      // Site ID'yi product'tan çıkar (sites-config.json'daki id formatına göre)
+      const siteId = product.site.toLowerCase()
+        .replace(/\s+/g, '')
+        .replace(/ç/g, 'c')
+        .replace(/ğ/g, 'g')
+        .replace(/ı/g, 'i')
+        .replace(/ö/g, 'o')
+        .replace(/ş/g, 's')
+        .replace(/ü/g, 'u');
+      
+      if (priceHistory.sites && priceHistory.sites[siteId]) {
+        const siteProducts = priceHistory.sites[siteId].products;
+        // Ürün ID'sini product name'den oluştur
+        const productId = product.name.toLowerCase()
+          .replace(/[^a-z0-9]+/g, '-')
+          .replace(/^-|-$/g, '');
+        
+        if (siteProducts[productId]) {
+          oldPrice = siteProducts[productId].price;
+          priceDiff = product.price - oldPrice;
+          priceChangePercent = oldPrice > 0 ? ((priceDiff / oldPrice) * 100).toFixed(2) : 0;
+        }
+      }
+      
+      return [
+        product.site,
+        product.name,
+        product.price,
+        oldPrice !== null ? oldPrice : '-',
+        priceDiff !== null ? priceDiff.toFixed(2) : '-',
+        priceChangePercent !== null ? priceChangePercent + '%' : '-',
+        product.category || '-',
+        product.url || '-',
+        turkeyTime
+      ];
+    });
 
     // Tüm veriyi hazırla
     const values = [headers, ...rows];
@@ -74,7 +118,7 @@ async function syncToGoogleSheets() {
       resource: { values },
     });
 
-    // Formatting: Header'ı bold yap
+    // Formatting: Header'ı bold yap ve fiyat değişimlerini renklendir
     await sheets.spreadsheets.batchUpdate({
       spreadsheetId: SPREADSHEET_ID,
       resource: {
@@ -102,7 +146,7 @@ async function syncToGoogleSheets() {
                 sheetId: 0,
                 dimension: 'COLUMNS',
                 startIndex: 0,
-                endIndex: 6,
+                endIndex: 9,
               },
             },
           },
