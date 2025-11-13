@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-13T09:30:03.796Z",
+  "date": "2025-11-13T12:57:07.143Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -225,6 +225,13 @@
     },
     {
       "site": "Hızlı Çiçek",
+      "name": "Double White Orkide",
+      "price": 949,
+      "category": "Orkide",
+      "url": "https://hizlicicek.com/urun/double-white-orkide"
+    },
+    {
+      "site": "Hızlı Çiçek",
       "name": "Premium 51 Kırmızı Gül",
       "price": 1999,
       "category": "Gül",
@@ -379,17 +386,17 @@
     },
     {
       "site": "Hızlı Çiçek",
-      "name": "Morning Light",
-      "price": 759,
-      "category": "Karma/Diğer",
-      "url": "https://hizlicicek.com/urun/morning-light"
-    },
-    {
-      "site": "Hızlı Çiçek",
       "name": "Royal White Lilyum",
       "price": 1599,
       "category": "Lilyum",
       "url": "https://hizlicicek.com/urun/royal-white-lilyum"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Double White Orkide",
+      "price": 949,
+      "category": "Orkide",
+      "url": "https://hizlicicek.com/urun/double-white-orkide"
     },
     {
       "site": "Hızlı Çiçek",
@@ -418,13 +425,6 @@
       "price": 859,
       "category": "Papatya",
       "url": "https://hizlicicek.com/urun/papatya-melody"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Color Bomb",
-      "price": 799,
-      "category": "Karma/Diğer",
-      "url": "https://hizlicicek.com/urun/color-bomb"
     },
     {
       "site": "Bloom and Fresh",
@@ -647,7 +647,7 @@
       },
       "Hızlı Çiçek": {
         "product_count": 30,
-        "avg_price": "1159.33",
+        "avg_price": "1170.67",
         "min_price": "599.00",
         "max_price": "2699.00"
       },
@@ -698,22 +698,22 @@
         "avg_price": "505.99"
       },
       "Karma/Diğer": {
-        "count": 46,
+        "count": 44,
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 2,
             "avg": "809.99"
           },
           "Hızlı Çiçek": {
-            "count": 14,
-            "avg": "856.86"
+            "count": 12,
+            "avg": "869.83"
           },
           "Bloom and Fresh": {
             "count": 30,
             "avg": "2073.57"
           }
         },
-        "avg_price": "1648.33"
+        "avg_price": "1687.84"
       },
       "Lilyum": {
         "count": 4,
@@ -725,6 +725,16 @@
         },
         "avg_price": "1519.00"
       },
+      "Orkide": {
+        "count": 3,
+        "prices_by_site": {
+          "Hızlı Çiçek": {
+            "count": 3,
+            "avg": "1532.33"
+          }
+        },
+        "avg_price": "1532.33"
+      },
       "Lisyantus": {
         "count": 1,
         "prices_by_site": {
@@ -734,16 +744,6 @@
           }
         },
         "avg_price": "1299.00"
-      },
-      "Orkide": {
-        "count": 1,
-        "prices_by_site": {
-          "Hızlı Çiçek": {
-            "count": 1,
-            "avg": "2699.00"
-          }
-        },
-        "avg_price": "2699.00"
       },
       "Lale": {
         "count": 2,
