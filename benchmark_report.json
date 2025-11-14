@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-14T09:29:58.565Z",
+  "date": "2025-11-14T12:54:58.402Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -197,9 +197,9 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Yeşil-Kahve Bukette Pembe Kasımpatı",
+      "name": "Yeşil-Kahve Bukette Pembe Papatyalar",
       "price": 899.99,
-      "category": "Karma/Diğer",
+      "category": "Papatya",
       "url": "https://www.ciceksepeti.com/koyu-ve-acik-kahve-bukette-pembe-papatyalar-vbt1145"
     },
     {
@@ -617,13 +617,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Picanta Rossa Gold",
-      "price": 1699.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/saksida-cicek/picanta-rossa-gold"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "LEGO Art Mona Lisa - 1503 Parça (31213)",
       "price": 4299.9,
       "category": "Karma/Diğer",
@@ -635,6 +628,13 @@
       "price": 1299.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/mum-koku/paddywax-no05-alpine-chalet-tutsu-ve-tea-light-mumluk"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Paddywax Apothecary Cam Mum - Amber & Smoke (226g)",
+      "price": 1499.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/mum-koku/paddywax-apothecary-cam-mum-amber-smoke-226g"
     }
   ],
   "price_analysis": {
@@ -653,7 +653,7 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2146.90",
+        "avg_price": "2140.23",
         "min_price": "849.90",
         "max_price": "4599.90"
       }
@@ -674,18 +674,18 @@
         "avg_price": "923.03"
       },
       "Papatya": {
-        "count": 7,
+        "count": 8,
         "prices_by_site": {
           "Çiçek Sepeti": {
-            "count": 3,
-            "avg": "553.32"
+            "count": 4,
+            "avg": "639.99"
           },
           "Hızlı Çiçek": {
             "count": 4,
             "avg": "779.00"
           }
         },
-        "avg_price": "682.28"
+        "avg_price": "709.50"
       },
       "Gerbera": {
         "count": 5,
@@ -698,11 +698,11 @@
         "avg_price": "527.99"
       },
       "Karma/Diğer": {
-        "count": 44,
+        "count": 43,
         "prices_by_site": {
           "Çiçek Sepeti": {
-            "count": 2,
-            "avg": "809.99"
+            "count": 1,
+            "avg": "719.99"
           },
           "Hızlı Çiçek": {
             "count": 12,
@@ -710,10 +710,10 @@
           },
           "Bloom and Fresh": {
             "count": 30,
-            "avg": "2146.90"
+            "avg": "2140.23"
           }
         },
-        "avg_price": "1740.11"
+        "avg_price": "1755.00"
       },
       "Lilyum": {
         "count": 4,
