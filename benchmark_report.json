@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-18T06:39:02.341Z",
+  "date": "2025-11-18T09:30:22.777Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -428,6 +428,13 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Burgundy",
+      "price": 1799.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/cicek-buketi/burgundy-mor-bigoudi-krizantem-buketi"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Charlotte",
       "price": 1599.9,
       "category": "Karma/Diğer",
@@ -456,10 +463,17 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Elise",
+      "name": "Dorothy",
+      "price": 1899.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/vazoda-cicek/dorothy-vazoda-bahar-cicekleri"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Polina",
       "price": 1999.9,
       "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/cicek-buketi/elise-mix-gul-buketi"
+      "url": "https://www.bloomandfresh.com/vazoda-cicek/polina"
     },
     {
       "site": "Bloom and Fresh",
@@ -575,6 +589,13 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Celebration",
+      "price": 3999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/hediye-kutusu/celebration-kutlamalara-ozel-hediye-kutusu"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "B&F Wild Jungle Macarons (24'lü)",
       "price": 1299.9,
       "category": "Karma/Diğer",
@@ -596,24 +617,10 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Dorothy",
-      "price": 1899.9,
+      "name": "Elise",
+      "price": 1999.9,
       "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/vazoda-cicek/dorothy-vazoda-bahar-cicekleri"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Bola",
-      "price": 1499.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/saksida-cicek/bola-sepette-katmerli-begonya"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Celebration",
-      "price": 3999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/hediye-kutusu/celebration-kutlamalara-ozel-hediye-kutusu"
+      "url": "https://www.bloomandfresh.com/cicek-buketi/elise-mix-gul-buketi"
     },
     {
       "site": "Bloom and Fresh",
@@ -628,13 +635,6 @@
       "price": 2449.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/cicek-buketi/charlotte-b-f-chocolate-ogretmenler-gunu-20-li-bundle"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Athena & B&F Chocolate Öğretmenler Günü (20'li) Bundle",
-      "price": 2149.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/cicek-buketi/athena-b-f-chocolate-ogretmenler-gunu-20-li-bundle"
     }
   ],
   "price_analysis": {
@@ -653,7 +653,7 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2158.57",
+        "avg_price": "2163.57",
         "min_price": "849.90",
         "max_price": "4599.90"
       }
@@ -710,10 +710,10 @@
           },
           "Bloom and Fresh": {
             "count": 30,
-            "avg": "2158.57"
+            "avg": "2163.57"
           }
         },
-        "avg_price": "1764.56"
+        "avg_price": "1768.05"
       },
       "Lilyum": {
         "count": 4,
