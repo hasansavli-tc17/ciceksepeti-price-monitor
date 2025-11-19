@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-19T09:30:47.064Z",
+  "date": "2025-11-19T12:56:18.352Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -477,6 +477,13 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Burgundy",
+      "price": 1799.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/cicek-buketi/burgundy-mor-bigoudi-krizantem-buketi"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Marla",
       "price": 1899.9,
       "category": "Karma/Diğer",
@@ -519,13 +526,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Vela",
-      "price": 1899.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/orkide/vela-phalaenopsis-turuncu-orkide-gonder"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Gina Curry",
       "price": 2199.9,
       "category": "Karma/Diğer",
@@ -547,13 +547,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Monstera",
-      "price": 1249.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/saksida-cicek/monstera-saksili-yesil-bitki"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Grace Scandic",
       "price": 1599.9,
       "category": "Karma/Diğer",
@@ -568,10 +561,24 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Yılın En iyi Öğretmeni & B&F Chocolate Öğretmenler Günü (20'li) Bundle",
+      "price": 1599.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/hediye-kutusu/yilin-en-iyi-ogretmeni-bf-chocolate-ogretmenler-gunu-20li-bundle"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Elit Glutensiz Öğretmenler Günü Çikolatası (130g)",
       "price": 899.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/cikolata/elit-glutensiz-ogretmenler-gunu-cikolatasi-130g"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "B&F Öğretmenime Macarons (24'lü)",
+      "price": 1299.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/makaron/bf-ogretmenime-macarons-24-lu"
     },
     {
       "site": "Bloom and Fresh",
@@ -596,24 +603,10 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Best Teacher Ever",
-      "price": 1099.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/hediye-kutusu/best-teacher-ever"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Öğretmenime Şanslı Bir Mola",
+      "name": "Öğretmenime Bir Mola",
       "price": 1999.9,
       "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/hediye-kutusu/ogretmenime-sansli-bir-mola"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Royal Tea Ceremony",
-      "price": 2299.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/hediye-kutusu/royal-tea-ceremony"
+      "url": "https://www.bloomandfresh.com/hediye-kutusu/ogretmenime-bir-mola"
     },
     {
       "site": "Bloom and Fresh",
@@ -635,6 +628,13 @@
       "price": 1399.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/hediye-kutusu/tea-party-cay-hediye-seti"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Hatır",
+      "price": 1099.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/hediye-kutusu/hatir"
     }
   ],
   "price_analysis": {
@@ -653,7 +653,7 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "1815.57",
+        "avg_price": "1790.57",
         "min_price": "859.90",
         "max_price": "3049.90"
       }
@@ -710,10 +710,10 @@
           },
           "Bloom and Fresh": {
             "count": 30,
-            "avg": "1815.57"
+            "avg": "1790.57"
           }
         },
-        "avg_price": "1525.23"
+        "avg_price": "1507.79"
       },
       "Lilyum": {
         "count": 4,
