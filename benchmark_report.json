@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-20T06:39:22.110Z",
+  "date": "2025-11-20T09:29:16.283Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -44,7 +44,7 @@
     {
       "site": "Çiçek Sepeti",
       "name": "Sarı Bukette Pembe Çardak Güller ve Papatyalar",
-      "price": 699.99,
+      "price": 799.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/sari-bukette-pembe-cardak-guller-ve-papatyalar-vbt1408"
     },
@@ -68,13 +68,6 @@
       "price": 1249,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/sari-bukette-turuncu-guller-ve-yesil-krizantemler-vbt1409"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Sarı Bukette Beyaz Gerberalar ve Stickerlı Çerçeve",
-      "price": 919.99,
-      "category": "Gerbera",
-      "url": "https://www.ciceksepeti.com/sari-bukette-beyaz-gerberalar-ve-stickerli-cerceve-vbtb474"
     },
     {
       "site": "Çiçek Sepeti",
@@ -217,6 +210,13 @@
       "url": "https://www.ciceksepeti.com/kucak-dolusu-ask-25-kirmizi-gul-buketi-at4035"
     },
     {
+      "site": "Çiçek Sepeti",
+      "name": "Pembe Gazete Kağıdı Bukette Beyaz Papatyalar",
+      "price": 449.99,
+      "category": "Papatya",
+      "url": "https://www.ciceksepeti.com/pembe-gazete-kagidi-bukette-beyaz-papatyalar-at5771"
+    },
+    {
       "site": "Hızlı Çiçek",
       "name": "Royal White Lilyum",
       "price": 1599,
@@ -240,7 +240,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Beyaz Gül Buketi",
-      "price": 1199,
+      "price": 1259,
       "category": "Gül",
       "url": "https://hizlicicek.com/urun/beyaz-gul-buketi"
     },
@@ -408,7 +408,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Beyaz Gül Buketi",
-      "price": 1199,
+      "price": 1259,
       "category": "Gül",
       "url": "https://hizlicicek.com/urun/beyaz-gul-buketi"
     },
@@ -641,13 +641,13 @@
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "777.46",
+        "avg_price": "765.13",
         "min_price": "379.99",
         "max_price": "1449.00"
       },
       "Hızlı Çiçek": {
         "product_count": 30,
-        "avg_price": "1165.00",
+        "avg_price": "1169.00",
         "min_price": "599.00",
         "max_price": "2699.00"
       },
@@ -664,38 +664,38 @@
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 22,
-            "avg": "830.67"
+            "avg": "835.22"
           },
           "Hızlı Çiçek": {
             "count": 4,
-            "avg": "1599.00"
+            "avg": "1629.00"
           }
         },
-        "avg_price": "948.88"
+        "avg_price": "957.34"
       },
       "Gerbera": {
-        "count": 4,
-        "prices_by_site": {
-          "Çiçek Sepeti": {
-            "count": 4,
-            "avg": "637.49"
-          }
-        },
-        "avg_price": "637.49"
-      },
-      "Papatya": {
-        "count": 8,
+        "count": 3,
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 3,
-            "avg": "702.99"
+            "avg": "543.32"
+          }
+        },
+        "avg_price": "543.32"
+      },
+      "Papatya": {
+        "count": 9,
+        "prices_by_site": {
+          "Çiçek Sepeti": {
+            "count": 4,
+            "avg": "639.74"
           },
           "Hızlı Çiçek": {
             "count": 5,
             "avg": "791.00"
           }
         },
-        "avg_price": "758.00"
+        "avg_price": "723.77"
       },
       "Karma/Diğer": {
         "count": 43,
