@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-20T12:55:08.755Z",
+  "date": "2025-11-21T06:40:27.905Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -9,28 +9,35 @@
     {
       "site": "Çiçek Sepeti",
       "name": "Sarı Bukette Beyaz Gerberalar ve Kırmızı Güller",
-      "price": 869.99,
+      "price": 919.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/sari-bukette-beyaz-gerberalar-ve-kirmizi-guller-vbt1357"
     },
     {
       "site": "Çiçek Sepeti",
       "name": "Koyu Kahve Bukette Pembe Güller ve Lilyumlar",
-      "price": 919.99,
+      "price": 969.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/koyu-kahve-bukette-pembe-guller-ve-lilyumlar-vbt1484"
     },
     {
       "site": "Çiçek Sepeti",
+      "name": "Sarı Bukette Pembe Çardak Güller ve Papatyalar",
+      "price": 799.99,
+      "category": "Gül",
+      "url": "https://www.ciceksepeti.com/sari-bukette-pembe-cardak-guller-ve-papatyalar-vbt1408"
+    },
+    {
+      "site": "Çiçek Sepeti",
       "name": "Lila Bukette Lila, Pembe, Beyaz ve Kırmızı Güller",
-      "price": 949.99,
+      "price": 999.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/lila-bukette-lila-pembe-beyaz-ve-kirmizi-guller-vbt1231"
     },
     {
       "site": "Çiçek Sepeti",
       "name": "Sarı Bukette Pembe Güller ve Kalpli Gurme Lezzetler",
-      "price": 1049.98,
+      "price": 1099.98,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/sari-bukette-pembe-guller-ve-kalpli-gurme-lezzetler-vbtb413"
     },
@@ -43,15 +50,8 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Sarı Bukette Pembe Çardak Güller ve Papatyalar",
-      "price": 799.99,
-      "category": "Gül",
-      "url": "https://www.ciceksepeti.com/sari-bukette-pembe-cardak-guller-ve-papatyalar-vbt1408"
-    },
-    {
-      "site": "Çiçek Sepeti",
       "name": "Sarı Bukette Pembe Gerberalar ve Çardak Güller",
-      "price": 869.99,
+      "price": 919.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/sari-bukette-pembe-gerberalar-ve-cardak-guller-vbt1364"
     },
@@ -64,15 +64,22 @@
     },
     {
       "site": "Çiçek Sepeti",
+      "name": "Lila Pembe Bukette Pembe Güller",
+      "price": 579.99,
+      "category": "Gül",
+      "url": "https://www.ciceksepeti.com/lila-pembe-bukette-pembe-guller-vbt1532"
+    },
+    {
+      "site": "Çiçek Sepeti",
       "name": "Sarı Bukette Turuncu Güller ve Yeşil Kasımpatı",
-      "price": 1249,
+      "price": 1299,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/sari-bukette-turuncu-guller-ve-yesil-krizantemler-vbt1409"
     },
     {
       "site": "Çiçek Sepeti",
       "name": "Sarı Bukette Beyaz Gerberalar ve Stickerlı Çerçeve",
-      "price": 919.99,
+      "price": 969.99,
       "category": "Gerbera",
       "url": "https://www.ciceksepeti.com/sari-bukette-beyaz-gerberalar-ve-stickerli-cerceve-vbtb474"
     },
@@ -85,15 +92,8 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Lila Pembe Bukette Pembe Güller",
-      "price": 579.99,
-      "category": "Gül",
-      "url": "https://www.ciceksepeti.com/lila-pembe-bukette-pembe-guller-vbt1532"
-    },
-    {
-      "site": "Çiçek Sepeti",
       "name": "Sarı Bukette Turuncu Güller ve Sarı Kasımpatı",
-      "price": 1199,
+      "price": 1249,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/sari-bukette-turuncu-guller-ve-sari-krizantemler-vbt1407"
     },
@@ -106,20 +106,6 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kahve Yeşil Bukette Gerberalar ve Lila Güller",
-      "price": 599.99,
-      "category": "Gül",
-      "url": "https://www.ciceksepeti.com/kahve-yesil-bukette-gerberalar-ve-lila-guller-at5632"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Gri Pembe Bukette Pembe Gerberalar ve Papatyalar",
-      "price": 729.99,
-      "category": "Papatya",
-      "url": "https://www.ciceksepeti.com/gri-pembe-bukette-pembe-gerberalar-ve-papatyalar-at5861"
-    },
-    {
-      "site": "Çiçek Sepeti",
       "name": "11'li Kırmızı Gül Çiçek Buketi",
       "price": 719.99,
       "category": "Gül",
@@ -127,8 +113,22 @@
     },
     {
       "site": "Çiçek Sepeti",
+      "name": "Gri Pembe Bukette Pembe Gerberalar ve Papatyalar",
+      "price": 769.99,
+      "category": "Papatya",
+      "url": "https://www.ciceksepeti.com/gri-pembe-bukette-pembe-gerberalar-ve-papatyalar-at5861"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Kahve Yeşil Bukette Gerberalar ve Lila Güller",
+      "price": 599.99,
+      "category": "Gül",
+      "url": "https://www.ciceksepeti.com/kahve-yesil-bukette-gerberalar-ve-lila-guller-at5632"
+    },
+    {
+      "site": "Çiçek Sepeti",
       "name": "Somon Buket Kağıdında 10'lu Pembe Gül Buketi",
-      "price": 889.99,
+      "price": 939.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/koyu-somon-bukette-10-pembe-gul-vbt1486"
     },
@@ -169,6 +169,13 @@
     },
     {
       "site": "Çiçek Sepeti",
+      "name": "Kraft Buket Kağıdında 25'li Kırmızı Gül Buketi",
+      "price": 1049,
+      "category": "Gül",
+      "url": "https://www.ciceksepeti.com/kucak-dolusu-ask-25-kirmizi-gul-buketi-at4035"
+    },
+    {
+      "site": "Çiçek Sepeti",
       "name": "Beyaz Buket Kağıdında 20'li Beyaz Gül Buketi",
       "price": 1449,
       "category": "Gül",
@@ -177,23 +184,9 @@
     {
       "site": "Çiçek Sepeti",
       "name": "Pembe Bukette Pembe Gerberalar ve Beyaz Güller",
-      "price": 619.99,
+      "price": 649.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/pembe-bukette-pembe-gerberalar-ve-beyaz-guller-at5849"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Premium Beyaz Papatya Çiçek Buketi",
-      "price": 849,
-      "category": "Papatya",
-      "url": "https://www.ciceksepeti.com/premium-beyaz-papatya-cicek-buketi-kcm75905530"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Siyah Buket Kağıdında Kırmızı Gerbera ve Okaliptus",
-      "price": 459.99,
-      "category": "Gerbera",
-      "url": "https://www.ciceksepeti.com/siyah-buket-kagidinda-kirmizi-gerbera-ve-okaliptus-at5698"
     },
     {
       "site": "Çiçek Sepeti",
@@ -204,6 +197,13 @@
     },
     {
       "site": "Çiçek Sepeti",
+      "name": "Siyah Buket Kağıdında Kırmızı Gerbera ve Okaliptus",
+      "price": 459.99,
+      "category": "Gerbera",
+      "url": "https://www.ciceksepeti.com/siyah-buket-kagidinda-kirmizi-gerbera-ve-okaliptus-at5698"
+    },
+    {
+      "site": "Çiçek Sepeti",
       "name": "Beyaz Buket Kağıdında 20'li Kırmızı Gül Buketi",
       "price": 1049,
       "category": "Gül",
@@ -211,10 +211,10 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kraft Buket Kağıdında 25'li Kırmızı Gül Buketi",
-      "price": 1049,
-      "category": "Gül",
-      "url": "https://www.ciceksepeti.com/kucak-dolusu-ask-25-kirmizi-gul-buketi-at4035"
+      "name": "Pembe Gazete Kağıdı Bukette Beyaz Papatyalar",
+      "price": 449.99,
+      "category": "Papatya",
+      "url": "https://www.ciceksepeti.com/pembe-gazete-kagidi-bukette-beyaz-papatyalar-at5771"
     },
     {
       "site": "Hızlı Çiçek",
@@ -491,10 +491,10 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Call Gold",
+      "name": "Calla Gold",
       "price": 1799.9,
       "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/saksida-cicek/call-gold"
+      "url": "https://www.bloomandfresh.com/saksida-cicek/calla-gold"
     },
     {
       "site": "Bloom and Fresh",
@@ -502,6 +502,13 @@
       "price": 2099.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/saksida-cicek/zuzu-moonstone"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Rossa Chica",
+      "price": 1599.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/saksida-cicek/rossa-chica"
     },
     {
       "site": "Bloom and Fresh",
@@ -628,20 +635,13 @@
       "price": 1299.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/hediye-kutusu/best-teacher-ever"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Öğretmenime Bir Mola",
-      "price": 1999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/hediye-kutusu/ogretmenime-bir-mola"
     }
   ],
   "price_analysis": {
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "780.79",
+        "avg_price": "784.82",
         "min_price": "379.99",
         "max_price": "1449.00"
       },
@@ -653,7 +653,7 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "1883.23",
+        "avg_price": "1869.90",
         "min_price": "899.90",
         "max_price": "3049.90"
       }
@@ -664,38 +664,38 @@
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 22,
-            "avg": "835.22"
+            "avg": "854.76"
           },
           "Hızlı Çiçek": {
             "count": 6,
             "avg": "1415.67"
           }
         },
-        "avg_price": "959.60"
+        "avg_price": "974.96"
       },
       "Gerbera": {
         "count": 4,
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 4,
-            "avg": "637.49"
+            "avg": "649.99"
           }
         },
-        "avg_price": "637.49"
+        "avg_price": "649.99"
       },
       "Papatya": {
         "count": 7,
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 3,
-            "avg": "702.99"
+            "avg": "583.32"
           },
           "Hızlı Çiçek": {
             "count": 4,
             "avg": "804.00"
           }
         },
-        "avg_price": "760.71"
+        "avg_price": "709.42"
       },
       "Karma/Diğer": {
         "count": 41,
@@ -710,10 +710,10 @@
           },
           "Bloom and Fresh": {
             "count": 30,
-            "avg": "1883.23"
+            "avg": "1869.90"
           }
         },
-        "avg_price": "1622.12"
+        "avg_price": "1612.37"
       },
       "Lilyum": {
         "count": 5,
