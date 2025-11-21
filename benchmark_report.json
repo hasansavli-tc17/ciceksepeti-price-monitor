@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-21T06:40:27.905Z",
+  "date": "2025-11-21T09:29:09.463Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -226,7 +226,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Luxury Roses Çiçek Buketi",
-      "price": 989,
+      "price": 1199,
       "category": "Gül",
       "url": "https://hizlicicek.com/urun/luxury-roses-cicek-buketi"
     },
@@ -394,7 +394,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Luxury Roses Çiçek Buketi",
-      "price": 989,
+      "price": 1199,
       "category": "Gül",
       "url": "https://hizlicicek.com/urun/luxury-roses-cicek-buketi"
     },
@@ -647,7 +647,7 @@
       },
       "Hızlı Çiçek": {
         "product_count": 30,
-        "avg_price": "1223.33",
+        "avg_price": "1237.33",
         "min_price": "599.00",
         "max_price": "2699.00"
       },
@@ -668,10 +668,10 @@
           },
           "Hızlı Çiçek": {
             "count": 6,
-            "avg": "1415.67"
+            "avg": "1485.67"
           }
         },
-        "avg_price": "974.96"
+        "avg_price": "989.96"
       },
       "Gerbera": {
         "count": 4,
