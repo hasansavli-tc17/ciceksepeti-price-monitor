@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-23T06:37:52.232Z",
+  "date": "2025-11-23T09:25:55.225Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -23,21 +23,21 @@
     {
       "site": "Çiçek Sepeti",
       "name": "Koyu Kahve Bukette Pembe Güller ve Lilyumlar",
-      "price": 919.99,
+      "price": 969.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/koyu-kahve-bukette-pembe-guller-ve-lilyumlar-vbt1484"
     },
     {
       "site": "Çiçek Sepeti",
       "name": "Sarı Bukette Pembe Çardak Güller ve Papatyalar",
-      "price": 799.99,
+      "price": 859.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/sari-bukette-pembe-cardak-guller-ve-papatyalar-vbt1408"
     },
     {
       "site": "Çiçek Sepeti",
       "name": "Lila Bukette Lila, Pembe, Beyaz ve Kırmızı Güller",
-      "price": 1049,
+      "price": 1099,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/lila-bukette-lila-pembe-beyaz-ve-kirmizi-guller-vbt1231"
     },
@@ -86,14 +86,14 @@
     {
       "site": "Çiçek Sepeti",
       "name": "Sarı Bukette Pembe Gerberalar ve Çardak Güller",
-      "price": 869.99,
+      "price": 919.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/sari-bukette-pembe-gerberalar-ve-cardak-guller-vbt1364"
     },
     {
       "site": "Çiçek Sepeti",
       "name": "Kraft Taşımalı Bukette Pembe Çardak ve Pembe Gül",
-      "price": 449.99,
+      "price": 499.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/kraft-tasimali-bukette-pembe-cardak-ve-pembe-gul-vbt1326"
     },
@@ -107,7 +107,7 @@
     {
       "site": "Çiçek Sepeti",
       "name": "Sarı Bukette Turuncu Güller ve Yeşil Kasımpatı",
-      "price": 1249,
+      "price": 1199,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/sari-bukette-turuncu-guller-ve-yesil-krizantemler-vbt1409"
     },
@@ -121,7 +121,7 @@
     {
       "site": "Çiçek Sepeti",
       "name": "Krem Pudra Bukette Kurdeleli Pembe Çardak Güller",
-      "price": 529.99,
+      "price": 579.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/krem-pudra-bukette-kurdeleli-pembe-cardak-guller-vbt1238"
     },
@@ -156,7 +156,7 @@
     {
       "site": "Çiçek Sepeti",
       "name": "Sarı Bukette Turuncu Güller ve Sarı Kasımpatı",
-      "price": 1199,
+      "price": 1149,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/sari-bukette-turuncu-guller-ve-sari-krizantemler-vbt1407"
     },
@@ -477,6 +477,13 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Burgundy",
+      "price": 1999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/cicek-buketi/burgundy-mor-bigoudi-krizantem-buketi"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Lily Vintage Pink",
       "price": 1999.9,
       "category": "Karma/Diğer",
@@ -628,20 +635,13 @@
       "price": 1699.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/hediye-kutusu/ogretmenler-gunu-kahve-cikolata-hediye-seti"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Altın Kalpli Öğretmenim",
-      "price": 1999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/hediye-kutusu/altin-kalpli-ogretmenime"
     }
   ],
   "price_analysis": {
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "772.19",
+        "avg_price": "779.19",
         "min_price": "379.99",
         "max_price": "1299.00"
       },
@@ -664,14 +664,14 @@
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 24,
-            "avg": "800.66"
+            "avg": "809.41"
           },
           "Hızlı Çiçek": {
             "count": 6,
             "avg": "1485.67"
           }
         },
-        "avg_price": "937.66"
+        "avg_price": "944.66"
       },
       "Gerbera": {
         "count": 5,
