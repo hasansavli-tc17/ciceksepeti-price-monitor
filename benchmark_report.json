@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-23T09:25:55.225Z",
+  "date": "2025-11-23T12:47:17.103Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -428,31 +428,17 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Happy Mixx",
-      "price": 1459.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/cicek-buketi/happy-mixx"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Teachers Bloom!",
-      "price": 1299.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/cicek-buketi/teachers-bloom"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Gina Gold & B&F Chocolate Öğretmenler Günü (20'li) Bundle",
-      "price": 3049.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/orkide/gina-gold-bf-chocolate-ogretmenler-gunu-20li-bundle"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Charlotte & B&F Chocolate Öğretmenler Günü (20'li) Bundle",
       "price": 2449.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/cicek-buketi/charlotte-b-f-chocolate-ogretmenler-gunu-20-li-bundle"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Maggie",
+      "price": 2599.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/vazoda-cicek/maggie"
     },
     {
       "site": "Bloom and Fresh",
@@ -463,10 +449,24 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Dora",
+      "price": 1999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/vazoda-cicek/dora"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Laranja",
       "price": 1699.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/cicek-buketi/laranja"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Verona Aura",
+      "price": 2999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/vazoda-cicek/verona-aura"
     },
     {
       "site": "Bloom and Fresh",
@@ -477,10 +477,52 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Burgundy",
-      "price": 1999.9,
+      "name": "Dorothy",
+      "price": 1899.9,
       "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/cicek-buketi/burgundy-mor-bigoudi-krizantem-buketi"
+      "url": "https://www.bloomandfresh.com/vazoda-cicek/dorothy-vazoda-bahar-cicekleri"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Marla",
+      "price": 1899.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/vazoda-cicek/marla-turuncu-mor-sonbahar-gul-duzenlemesi"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Teachers Bloom!",
+      "price": 1299.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/cicek-buketi/teachers-bloom"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Chloe",
+      "price": 1799.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/vazoda-cicek/chloe"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Happy Mixx",
+      "price": 1459.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/cicek-buketi/happy-mixx"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Dante",
+      "price": 1699.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/vazoda-cicek/dante-vazoda-guller"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Gina Gold & B&F Chocolate Öğretmenler Günü (20'li) Bundle",
+      "price": 3049.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/orkide/gina-gold-bf-chocolate-ogretmenler-gunu-20li-bundle"
     },
     {
       "site": "Bloom and Fresh",
@@ -488,6 +530,13 @@
       "price": 1999.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/saksida-cicek/lily-vintage-pink"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Bola",
+      "price": 1499.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/saksida-cicek/bola-sepette-katmerli-begonya"
     },
     {
       "site": "Bloom and Fresh",
@@ -512,31 +561,24 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Marla",
+      "name": "Aria Silver",
       "price": 1899.9,
       "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/vazoda-cicek/marla-turuncu-mor-sonbahar-gul-duzenlemesi"
+      "url": "https://www.bloomandfresh.com/orkide/aria-silver-cift-dalli-fusya-orkide"
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Dorothy",
+      "name": "Coral",
       "price": 1899.9,
       "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/vazoda-cicek/dorothy-vazoda-bahar-cicekleri"
+      "url": "https://www.bloomandfresh.com/orkide/coral"
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Chloe",
-      "price": 1799.9,
+      "name": "Lavender",
+      "price": 1999.9,
       "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/vazoda-cicek/chloe"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Dante",
-      "price": 1699.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/vazoda-cicek/dante-vazoda-guller"
+      "url": "https://www.bloomandfresh.com/orkide/lavender-somon-pembe-ithal-phalaenopsis-orkide"
     },
     {
       "site": "Bloom and Fresh",
@@ -589,52 +631,10 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Bola",
-      "price": 1499.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/saksida-cicek/bola-sepette-katmerli-begonya"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "B&F Chocolate Öğretmenler Günü (20'li)",
       "price": 999.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/cikolata/bloomandfresh-chocolate-ogretmenler-gunu-20li-cikolata"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Yılın En iyi Öğretmeni & B&F Chocolate Öğretmenler Günü (20'li) Bundle",
-      "price": 1599.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/cikolata/yilin-en-iyi-ogretmeni-bf-chocolate-ogretmenler-gunu-20li-bundle"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Elit Glutensiz Öğretmenler Günü Çikolatası (130g)",
-      "price": 899.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/cikolata/elit-glutensiz-ogretmenler-gunu-cikolatasi-130g"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "B&F Öğretmenime Macarons (24'lü)",
-      "price": 1299.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/makaron/bf-ogretmenime-macarons-24-lu"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Öğretmenime Okkalı",
-      "price": 2199.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/hediye-kutusu/ogretmenler-gunu-turk-kahvesi-cikolata-hediye-seti"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Öğretmenime Coffee & Chocolate",
-      "price": 1699.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/hediye-kutusu/ogretmenler-gunu-kahve-cikolata-hediye-seti"
     }
   ],
   "price_analysis": {
@@ -653,8 +653,8 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "1805.23",
-        "min_price": "899.90",
+        "avg_price": "1928.57",
+        "min_price": "999.90",
         "max_price": "3049.90"
       }
     },
@@ -726,10 +726,10 @@
           },
           "Bloom and Fresh": {
             "count": 30,
-            "avg": "1805.23"
+            "avg": "1928.57"
           }
         },
-        "avg_price": "1595.93"
+        "avg_price": "1688.43"
       },
       "Lale": {
         "count": 2,
