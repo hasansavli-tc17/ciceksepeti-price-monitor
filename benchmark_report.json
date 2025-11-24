@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-24T09:33:43.734Z",
+  "date": "2025-11-24T12:57:06.402Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -30,7 +30,7 @@
     {
       "site": "Çiçek Sepeti",
       "name": "Sarı Bukette Pembe Çardak Güller ve Papatyalar",
-      "price": 959.99,
+      "price": 999.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/sari-bukette-pembe-cardak-guller-ve-papatyalar-vbt1408"
     },
@@ -128,7 +128,7 @@
     {
       "site": "Çiçek Sepeti",
       "name": "Krem Pudra Bukette Kurdeleli Pembe Çardak Güller",
-      "price": 769.99,
+      "price": 849.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/krem-pudra-bukette-kurdeleli-pembe-cardak-guller-vbt1238"
     },
@@ -641,7 +641,7 @@
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "813.52",
+        "avg_price": "817.52",
         "min_price": "449.99",
         "max_price": "1299.00"
       },
@@ -664,14 +664,14 @@
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 22,
-            "avg": "820.26"
+            "avg": "825.72"
           },
           "Hızlı Çiçek": {
             "count": 10,
             "avg": "1395.00"
           }
         },
-        "avg_price": "999.87"
+        "avg_price": "1003.62"
       },
       "Gerbera": {
         "count": 6,
