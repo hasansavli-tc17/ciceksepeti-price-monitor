@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-24T12:57:06.402Z",
+  "date": "2025-11-25T06:41:19.352Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -36,10 +36,10 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Lila Pembe Bukette Pembe Güller",
-      "price": 549.99,
-      "category": "Gül",
-      "url": "https://www.ciceksepeti.com/lila-pembe-bukette-pembe-guller-vbt1532"
+      "name": "Lila Bukette Pembe Gerberalar ve Hüsnüyusuflar",
+      "price": 839.99,
+      "category": "Gerbera",
+      "url": "https://www.ciceksepeti.com/lila-bukette-pembe-gerberalar-ve-husnuyusuflar-at5450"
     },
     {
       "site": "Çiçek Sepeti",
@@ -50,13 +50,6 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Lila Bukette Pembe Gerberalar ve Hüsnüyusuflar",
-      "price": 839.99,
-      "category": "Gerbera",
-      "url": "https://www.ciceksepeti.com/lila-bukette-pembe-gerberalar-ve-husnuyusuflar-at5450"
-    },
-    {
-      "site": "Çiçek Sepeti",
       "name": "Sarı Bukette Pembe Güller ve Kalpli Gurme Lezzetler",
       "price": 969.98,
       "category": "Gül",
@@ -64,10 +57,17 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "11'li Kırmızı Gül Çiçek Buketi",
-      "price": 799.99,
+      "name": "5'li Kırmızı Gül Buketi",
+      "price": 599.99,
       "category": "Gül",
-      "url": "https://www.ciceksepeti.com/11li-kirmizi-gul-cicek-buketi-at4273-1"
+      "url": "https://www.ciceksepeti.com/seni-seviyorum-5li-kirmizi-gul-buketi-at2929"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Kırmızı Gerbera Çiçek Buketi",
+      "price": 679.99,
+      "category": "Gerbera",
+      "url": "https://www.ciceksepeti.com/kirmizi-gerbera-cicek-buketi-at4258"
     },
     {
       "site": "Çiçek Sepeti",
@@ -78,10 +78,10 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kraft Buket Kağıdında 9'lu Kırmızı Gül Aranjmanı",
-      "price": 779.99,
+      "name": "11'li Kırmızı Gül Çiçek Buketi",
+      "price": 799.99,
       "category": "Gül",
-      "url": "https://www.ciceksepeti.com/kraft-buket-kagidinda-9-lu-kirmizi-gul-aranjmani-at5790"
+      "url": "https://www.ciceksepeti.com/11li-kirmizi-gul-cicek-buketi-at4273-1"
     },
     {
       "site": "Çiçek Sepeti",
@@ -99,24 +99,10 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "5'li Kırmızı Gül Buketi",
-      "price": 599.99,
-      "category": "Gül",
-      "url": "https://www.ciceksepeti.com/seni-seviyorum-5li-kirmizi-gul-buketi-at2929"
-    },
-    {
-      "site": "Çiçek Sepeti",
       "name": "Sarı Bukette Turuncu Güller ve Yeşil Kasımpatı",
       "price": 1099,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/sari-bukette-turuncu-guller-ve-yesil-krizantemler-vbt1409"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Sarı Bukette Beyaz Gerberalar ve Stickerlı Çerçeve",
-      "price": 869.99,
-      "category": "Gerbera",
-      "url": "https://www.ciceksepeti.com/sari-bukette-beyaz-gerberalar-ve-stickerli-cerceve-vbtb474"
     },
     {
       "site": "Çiçek Sepeti",
@@ -127,10 +113,10 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Krem Pudra Bukette Kurdeleli Pembe Çardak Güller",
-      "price": 849.99,
-      "category": "Gül",
-      "url": "https://www.ciceksepeti.com/krem-pudra-bukette-kurdeleli-pembe-cardak-guller-vbt1238"
+      "name": "Sarı Bukette Beyaz Gerberalar ve Stickerlı Çerçeve",
+      "price": 869.99,
+      "category": "Gerbera",
+      "url": "https://www.ciceksepeti.com/sari-bukette-beyaz-gerberalar-ve-stickerli-cerceve-vbtb474"
     },
     {
       "site": "Çiçek Sepeti",
@@ -141,24 +127,24 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kırmızı Gerbera Çiçek Buketi",
-      "price": 679.99,
-      "category": "Gerbera",
-      "url": "https://www.ciceksepeti.com/kirmizi-gerbera-cicek-buketi-at4258"
+      "name": "Lila Pembe Bukette Pembe Güller",
+      "price": 549.99,
+      "category": "Gül",
+      "url": "https://www.ciceksepeti.com/lila-pembe-bukette-pembe-guller-vbt1532"
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kırmızı Bukette 11 Kırmızı Gül",
+      "name": "Krem Pudra Bukette Kurdeleli Pembe Çardak Güller",
       "price": 849.99,
       "category": "Gül",
-      "url": "https://www.ciceksepeti.com/seni-seviyorum-aski-11li-gul-buketi-at4032"
+      "url": "https://www.ciceksepeti.com/krem-pudra-bukette-kurdeleli-pembe-cardak-guller-vbt1238"
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Sarı Bukette Turuncu Güller ve Sarı Kasımpatı",
-      "price": 1049,
+      "name": "Kraft Buket Kağıdında 9'lu Kırmızı Gül Aranjmanı",
+      "price": 779.99,
       "category": "Gül",
-      "url": "https://www.ciceksepeti.com/sari-bukette-turuncu-guller-ve-sari-krizantemler-vbt1407"
+      "url": "https://www.ciceksepeti.com/kraft-buket-kagidinda-9-lu-kirmizi-gul-aranjmani-at5790"
     },
     {
       "site": "Çiçek Sepeti",
@@ -169,6 +155,20 @@
     },
     {
       "site": "Çiçek Sepeti",
+      "name": "Sarı Bukette Turuncu Güller ve Sarı Kasımpatı",
+      "price": 1049,
+      "category": "Gül",
+      "url": "https://www.ciceksepeti.com/sari-bukette-turuncu-guller-ve-sari-krizantemler-vbt1407"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Kırmızı Bukette 11 Kırmızı Gül",
+      "price": 849.99,
+      "category": "Gül",
+      "url": "https://www.ciceksepeti.com/seni-seviyorum-aski-11li-gul-buketi-at4032"
+    },
+    {
+      "site": "Çiçek Sepeti",
       "name": "Gri Pembe Bukette Pembe Gerberalar ve Papatyalar",
       "price": 969.99,
       "category": "Papatya",
@@ -176,10 +176,24 @@
     },
     {
       "site": "Çiçek Sepeti",
+      "name": "Beyaz Gerberalar Çiçek Buketi Lolaflora",
+      "price": 689.99,
+      "category": "Gerbera",
+      "url": "https://www.ciceksepeti.com/beyaz-gerberalar-cicek-buketi-at5380"
+    },
+    {
+      "site": "Çiçek Sepeti",
       "name": "Kahve Yeşil Bukette Gerberalar ve Lila Güller",
       "price": 579.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/kahve-yesil-bukette-gerberalar-ve-lila-guller-at5632"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Tasarım Gazete Kağıtta Hüsnüyusuf Buketi",
+      "price": 499.99,
+      "category": "Karma/Diğer",
+      "url": "https://www.ciceksepeti.com/pembe-gazete-bukette-husnuyusuf-cicekleri-at5659"
     },
     {
       "site": "Çiçek Sepeti",
@@ -197,52 +211,24 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Beyaz Gerberalar Çiçek Buketi Lolaflora",
-      "price": 689.99,
-      "category": "Gerbera",
-      "url": "https://www.ciceksepeti.com/beyaz-gerberalar-cicek-buketi-at5380"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Pembe Papatyalar Çiçek Buketi",
-      "price": 899.99,
+      "name": "Sarı Bukette Beyaz Papatyalar",
+      "price": 679.99,
       "category": "Papatya",
-      "url": "https://www.ciceksepeti.com/pembe-papatyalar-cicek-buketi-at4255"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Beyaz Papatyalar Çiçek Buketi",
-      "price": 649.99,
-      "category": "Papatya",
-      "url": "https://www.ciceksepeti.com/beyaz-papatyalar-cicek-buketi-at4253"
+      "url": "https://www.ciceksepeti.com/sari-bukette-beyaz-papatyalar-at5865"
     },
     {
       "site": "Hızlı Çiçek",
-      "name": "Double Sweet White Orkide",
-      "price": 2399,
-      "category": "Orkide",
-      "url": "https://hizlicicek.com/urun/double-sweet-white-orkide"
+      "name": "Royal White Lilyum",
+      "price": 1599,
+      "category": "Lilyum",
+      "url": "https://hizlicicek.com/urun/royal-white-lilyum"
     },
     {
       "site": "Hızlı Çiçek",
-      "name": "Lux Lila Gül Buketi",
-      "price": 1259,
-      "category": "Gül",
-      "url": "https://hizlicicek.com/urun/lux-lila-gul-buketi"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Atatürk Çiçeği",
-      "price": 799,
-      "category": "Karma/Diğer",
-      "url": "https://hizlicicek.com/urun/ataturk-cicegi"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Merry Kokina Buketi",
+      "name": "Luxury Roses Çiçek Buketi",
       "price": 1199,
-      "category": "Karma/Diğer",
-      "url": "https://hizlicicek.com/urun/merry-kokina-buketi"
+      "category": "Gül",
+      "url": "https://hizlicicek.com/urun/luxury-roses-cicek-buketi"
     },
     {
       "site": "Hızlı Çiçek",
@@ -250,6 +236,27 @@
       "price": 1999,
       "category": "Gül",
       "url": "https://hizlicicek.com/urun/premium-51-kirmizi-gul"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Beyaz Gül Buketi",
+      "price": 1259,
+      "category": "Gül",
+      "url": "https://hizlicicek.com/urun/beyaz-gul-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Beyaz Papatya Buketi",
+      "price": 879,
+      "category": "Papatya",
+      "url": "https://hizlicicek.com/urun/beyaz-papatya-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Sarı Papatya Buketi",
+      "price": 889,
+      "category": "Papatya",
+      "url": "https://hizlicicek.com/urun/sari-papatya-buketi"
     },
     {
       "site": "Hızlı Çiçek",
@@ -267,24 +274,45 @@
     },
     {
       "site": "Hızlı Çiçek",
-      "name": "Luxury Roses Çiçek Buketi",
-      "price": 1199,
-      "category": "Gül",
-      "url": "https://hizlicicek.com/urun/luxury-roses-cicek-buketi"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Hüsnüyusuf Buketi",
-      "price": 599,
+      "name": "Beyaz Spatifilyum",
+      "price": 779,
       "category": "Karma/Diğer",
-      "url": "https://hizlicicek.com/urun/husnuyusuf-buketi"
+      "url": "https://hizlicicek.com/urun/beyaz-spatifilyum"
     },
     {
       "site": "Hızlı Çiçek",
-      "name": "Beyaz Papatya Buketi",
+      "name": "Sweet Mixed Bloom",
+      "price": 799,
+      "category": "Karma/Diğer",
+      "url": "https://hizlicicek.com/urun/sweet-mixed-bloom"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Orange Love Buket",
+      "price": 1199,
+      "category": "Karma/Diğer",
+      "url": "https://hizlicicek.com/urun/orange-love-buket"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Pembe Lilyum Buketi",
+      "price": 1499,
+      "category": "Lilyum",
+      "url": "https://hizlicicek.com/urun/pembe-lilyum-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Bounty Bahçesi",
       "price": 879,
-      "category": "Papatya",
-      "url": "https://hizlicicek.com/urun/beyaz-papatya-buketi"
+      "category": "Karma/Diğer",
+      "url": "https://hizlicicek.com/urun/bounty-bahcesi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Tropical Grace",
+      "price": 1799,
+      "category": "Karma/Diğer",
+      "url": "https://hizlicicek.com/urun/tropical-grace"
     },
     {
       "site": "Hızlı Çiçek",
@@ -295,122 +323,80 @@
     },
     {
       "site": "Hızlı Çiçek",
-      "name": "Kasımpatı Buketi",
-      "price": 1799,
-      "category": "Karma/Diğer",
-      "url": "https://hizlicicek.com/urun/kasimpati-buketi"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Saksıda Blue Kasımpatı",
-      "price": 889,
-      "category": "Karma/Diğer",
-      "url": "https://hizlicicek.com/urun/saksida-blue-kasimpati"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Kırmızı Gerbera Buketi",
-      "price": 599,
-      "category": "Gerbera",
-      "url": "https://hizlicicek.com/urun/kirmizi-gerbera-buketi"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Beyaz Spatifilyum",
-      "price": 779,
-      "category": "Karma/Diğer",
-      "url": "https://hizlicicek.com/urun/beyaz-spatifilyum"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Saksıda Purple Kasımpatı",
-      "price": 889,
-      "category": "Karma/Diğer",
-      "url": "https://hizlicicek.com/urun/saksida-purple-kasimpati"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Beyaz Gül Buketi",
-      "price": 1259,
-      "category": "Gül",
-      "url": "https://hizlicicek.com/urun/beyaz-gul-buketi"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Lux Pure Love",
-      "price": 1599,
-      "category": "Karma/Diğer",
-      "url": "https://hizlicicek.com/urun/lux-pure-love"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Vazoda Beyaz Kasımpatılar",
-      "price": 1179,
-      "category": "Karma/Diğer",
-      "url": "https://hizlicicek.com/urun/vazoda-beyaz-kasimpatilar"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Kırmızı Antoryum",
-      "price": 759,
-      "category": "Karma/Diğer",
-      "url": "https://hizlicicek.com/urun/kirmizi-antoryum"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Para Ağacı (Pachira) - 50-60cm",
-      "price": 899,
-      "category": "Karma/Diğer",
-      "url": "https://hizlicicek.com/urun/para-agaci-(pachira)-50-60cm"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Vazoda 11'li Kırmızı Gül",
-      "price": 959,
-      "category": "Gül",
-      "url": "https://hizlicicek.com/urun/vazoda-11-li-kirmizi-gul"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Red Roses Vase",
-      "price": 759,
-      "category": "Gül",
-      "url": "https://hizlicicek.com/urun/red-roses-vase"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Pink Bubble Gül Buketi",
-      "price": 1259,
-      "category": "Gül",
-      "url": "https://hizlicicek.com/urun/pink-bubble-gul-buketi"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Double Sweet White Orkide",
-      "price": 2399,
-      "category": "Orkide",
-      "url": "https://hizlicicek.com/urun/double-sweet-white-orkide"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Lux Lila Gül Buketi",
-      "price": 1259,
-      "category": "Gül",
-      "url": "https://hizlicicek.com/urun/lux-lila-gul-buketi"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Atatürk Çiçeği",
-      "price": 799,
-      "category": "Karma/Diğer",
-      "url": "https://hizlicicek.com/urun/ataturk-cicegi"
-    },
-    {
-      "site": "Hızlı Çiçek",
       "name": "Merry Kokina Buketi",
       "price": 1199,
       "category": "Karma/Diğer",
       "url": "https://hizlicicek.com/urun/merry-kokina-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Kokinanın Işığı",
+      "price": 899,
+      "category": "Karma/Diğer",
+      "url": "https://hizlicicek.com/urun/kokinanin-isigi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Saksıda Double Blue Orkide",
+      "price": 2999,
+      "category": "Orkide",
+      "url": "https://hizlicicek.com/urun/saksida-double-blue-orkide"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Vazoda Beyaz Laleler",
+      "price": 2399,
+      "category": "Lale",
+      "url": "https://hizlicicek.com/urun/vazoda-beyaz-laleler"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Hüsnüyusuf Buketi",
+      "price": 599,
+      "category": "Karma/Diğer",
+      "url": "https://hizlicicek.com/urun/husnuyusuf-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Minimal Aura",
+      "price": 729,
+      "category": "Karma/Diğer",
+      "url": "https://hizlicicek.com/urun/minimal-aura"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Beyaz Lilyum Buketi",
+      "price": 1889,
+      "category": "Lilyum",
+      "url": "https://hizlicicek.com/urun/beyaz-lilyum-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "7'li Sarı Lale Buketi",
+      "price": 1299,
+      "category": "Lale",
+      "url": "https://hizlicicek.com/urun/7-li-sari-lale-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Saksılı Pembe Lilyum",
+      "price": 1179,
+      "category": "Lilyum",
+      "url": "https://hizlicicek.com/urun/saksili-pembe-lilyum"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Royal White Lilyum",
+      "price": 1599,
+      "category": "Lilyum",
+      "url": "https://hizlicicek.com/urun/royal-white-lilyum"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Luxury Roses Çiçek Buketi",
+      "price": 1199,
+      "category": "Gül",
+      "url": "https://hizlicicek.com/urun/luxury-roses-cicek-buketi"
     },
     {
       "site": "Hızlı Çiçek",
@@ -421,52 +407,31 @@
     },
     {
       "site": "Hızlı Çiçek",
-      "name": "Papatya Melody",
+      "name": "Beyaz Gül Buketi",
+      "price": 1259,
+      "category": "Gül",
+      "url": "https://hizlicicek.com/urun/beyaz-gul-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Beyaz Papatya Buketi",
+      "price": 879,
+      "category": "Papatya",
+      "url": "https://hizlicicek.com/urun/beyaz-papatya-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Sarı Papatya Buketi",
       "price": 889,
       "category": "Papatya",
-      "url": "https://hizlicicek.com/urun/papatya-melody"
+      "url": "https://hizlicicek.com/urun/sari-papatya-buketi"
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Happy Mixx",
-      "price": 1459.9,
+      "name": "Charlotte",
+      "price": 1599.9,
       "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/cicek-buketi/happy-mixx"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Chloe",
-      "price": 1799.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/vazoda-cicek/chloe"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Teachers Bloom!",
-      "price": 1299.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/cicek-buketi/teachers-bloom"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Marla",
-      "price": 1899.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/vazoda-cicek/marla-turuncu-mor-sonbahar-gul-duzenlemesi"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Charlotte & B&F Chocolate Öğretmenler Günü (20'li) Bundle",
-      "price": 2449.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/cicek-buketi/charlotte-b-f-chocolate-ogretmenler-gunu-20-li-bundle"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Dora",
-      "price": 1999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/vazoda-cicek/dora"
+      "url": "https://www.bloomandfresh.com/cicek-buketi/charlotte-gul-buketi"
     },
     {
       "site": "Bloom and Fresh",
@@ -477,10 +442,17 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Verona Aura",
-      "price": 2999.9,
+      "name": "Mystic",
+      "price": 1699.9,
       "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/vazoda-cicek/verona-aura"
+      "url": "https://www.bloomandfresh.com/cicek-buketi/mystic-turuncu-mor-sonbahar-gul-buketi"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Gemma",
+      "price": 1499.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/vazoda-cicek/gemma"
     },
     {
       "site": "Bloom and Fresh",
@@ -491,10 +463,17 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Dante",
-      "price": 1699.9,
+      "name": "Hera",
+      "price": 1399.9,
       "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/vazoda-cicek/dante-vazoda-guller"
+      "url": "https://www.bloomandfresh.com/vazoda-cicek/hera"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Verona Aura",
+      "price": 2999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/vazoda-cicek/verona-aura"
     },
     {
       "site": "Bloom and Fresh",
@@ -519,24 +498,17 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Lavender",
+      "name": "Padova",
       "price": 1999.9,
       "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/orkide/lavender-somon-pembe-ithal-phalaenopsis-orkide"
+      "url": "https://www.bloomandfresh.com/orkide/padova"
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Honey",
+      "name": "Seraphina Berry",
       "price": 1999.9,
       "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/orkide/honey-turuncu-sari-kircilli-orkide"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Lily Vintage Pink",
-      "price": 1999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/saksida-cicek/lily-vintage-pink"
+      "url": "https://www.bloomandfresh.com/orkide/seraphina-berry"
     },
     {
       "site": "Bloom and Fresh",
@@ -547,31 +519,10 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Zuzu Moonstone",
-      "price": 2099.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/saksida-cicek/zuzu-moonstone"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Rossa Chica",
+      "name": "Pinky Gold",
       "price": 1599.9,
       "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/saksida-cicek/rossa-chica"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Gina Curry",
-      "price": 2199.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/orkide/gina-curry"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Zuzu Granada",
-      "price": 1999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/saksida-cicek/zuzu-granada"
+      "url": "https://www.bloomandfresh.com/saksida-cicek/pinky-gold"
     },
     {
       "site": "Bloom and Fresh",
@@ -582,6 +533,34 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Zuzu Granada",
+      "price": 1999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/saksida-cicek/zuzu-granada"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Lily Vintage Pink",
+      "price": 1999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/saksida-cicek/lily-vintage-pink"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Lily Colors",
+      "price": 1899.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/saksida-cicek/lily-colors-saksida-antoryum"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Zuzu Gold",
+      "price": 2199.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/saksida-cicek/zuzu-gold-saksida-antoryum-cicegi-"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Flamingo",
       "price": 1899.9,
       "category": "Karma/Diğer",
@@ -589,141 +568,182 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "B&F Chocolate Öğretmenler Günü (20'li)",
-      "price": 999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/cikolata/bloomandfresh-chocolate-ogretmenler-gunu-20li-cikolata"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Yılın En iyi Öğretmeni & B&F Chocolate Öğretmenler Günü (20'li) Bundle",
-      "price": 1599.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/cikolata/yilin-en-iyi-ogretmeni-bf-chocolate-ogretmenler-gunu-20li-bundle"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Elit Glutensiz Öğretmenler Günü Çikolatası (130g)",
-      "price": 899.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/cikolata/elit-glutensiz-ogretmenler-gunu-cikolatasi-130g"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "B&F Öğretmenime Macarons (24'lü)",
+      "name": "Astrid",
       "price": 1299.9,
       "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/makaron/bf-ogretmenime-macarons-24-lu"
+      "url": "https://www.bloomandfresh.com/saksida-cicek/astrid-seramik-saksida-alocasia-bitkisi"
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Öğretmenime Okkalı",
-      "price": 2199.9,
+      "name": "DOIY Fast Food Burger Vazo",
+      "price": 2999.9,
       "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/hediye-kutusu/ogretmenler-gunu-turk-kahvesi-cikolata-hediye-seti"
+      "url": "https://www.bloomandfresh.com/vazo-ve-saksi-cesitleri/doiy-fast-food-burger-vazo"
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Öğretmenime Coffee & Chocolate",
-      "price": 1699.9,
+      "name": "Paddywax Apothecary Cam Mum - Amber & Smoke (226g)",
+      "price": 1499.9,
       "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/hediye-kutusu/ogretmenler-gunu-kahve-cikolata-hediye-seti"
+      "url": "https://www.bloomandfresh.com/mum-koku/paddywax-apothecary-cam-mum-amber-smoke-226g"
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Altın Kalpli Öğretmenim",
-      "price": 1999.9,
+      "name": "Candle + Friends No 6 Golden Pumpkint Special Edition Silindir Cam Mum",
+      "price": 3799.9,
       "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/hediye-kutusu/altin-kalpli-ogretmenime"
+      "url": "https://www.bloomandfresh.com/mum-koku/candle-friends-no-6-golden-pumpkint-special-edition-silindir-cam-mum"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "DOIY Rainbow Gökkuşağı Kitap Tutucu",
+      "price": 2299.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/ev-dekor/doiy-rainbow-gokkusagi-kitap-tutucu"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Bloom Privé – Mom & Baby Edition",
+      "price": 4599.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/hediye-kutusu/bloom-prive-mom-baby-edition"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Celebration",
+      "price": 3999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/hediye-kutusu/celebration-kutlamalara-ozel-hediye-kutusu"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Elit Advent Calender Kutusunda Sütlü Glutensiz Çikolata 140g",
+      "price": 999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/cikolata/elit-advent-calender-kutusunda-sutlu-glutensiz-cikolata-140g"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "B&F Wild Jungle Macarons (24'lü)",
+      "price": 1299.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/makaron/bf-wild-jungle-macarons-24lu"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "B&F Chocolate (20'li)",
+      "price": 849.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/cikolata/bloomandfresh-chocolate-20li-cikolata"
     }
   ],
   "price_analysis": {
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "817.52",
+        "avg_price": "805.19",
         "min_price": "449.99",
         "max_price": "1299.00"
       },
       "Hızlı Çiçek": {
         "product_count": 30,
-        "avg_price": "1212.33",
+        "avg_price": "1322.00",
         "min_price": "599.00",
-        "max_price": "2399.00"
+        "max_price": "2999.00"
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "1816.90",
-        "min_price": "899.90",
-        "max_price": "2999.90"
+        "avg_price": "2028.23",
+        "min_price": "849.90",
+        "max_price": "4599.90"
       }
     },
     "by_category": {
       "Gül": {
-        "count": 32,
+        "count": 29,
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 22,
             "avg": "825.72"
           },
           "Hızlı Çiçek": {
-            "count": 10,
-            "avg": "1395.00"
+            "count": 7,
+            "avg": "1559.00"
           }
         },
-        "avg_price": "1003.62"
+        "avg_price": "1002.72"
       },
       "Gerbera": {
-        "count": 6,
+        "count": 5,
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 5,
             "avg": "767.99"
-          },
-          "Hızlı Çiçek": {
-            "count": 1,
-            "avg": "599.00"
           }
         },
-        "avg_price": "739.82"
+        "avg_price": "767.99"
       },
       "Papatya": {
-        "count": 6,
+        "count": 7,
         "prices_by_site": {
           "Çiçek Sepeti": {
-            "count": 3,
-            "avg": "839.99"
+            "count": 2,
+            "avg": "824.99"
           },
           "Hızlı Çiçek": {
-            "count": 3,
-            "avg": "885.67"
+            "count": 5,
+            "avg": "885.00"
           }
         },
-        "avg_price": "862.83"
+        "avg_price": "867.85"
+      },
+      "Karma/Diğer": {
+        "count": 41,
+        "prices_by_site": {
+          "Çiçek Sepeti": {
+            "count": 1,
+            "avg": "499.99"
+          },
+          "Hızlı Çiçek": {
+            "count": 10,
+            "avg": "986.00"
+          },
+          "Bloom and Fresh": {
+            "count": 30,
+            "avg": "2028.23"
+          }
+        },
+        "avg_price": "1736.76"
+      },
+      "Lilyum": {
+        "count": 5,
+        "prices_by_site": {
+          "Hızlı Çiçek": {
+            "count": 5,
+            "avg": "1553.00"
+          }
+        },
+        "avg_price": "1553.00"
       },
       "Orkide": {
+        "count": 1,
+        "prices_by_site": {
+          "Hızlı Çiçek": {
+            "count": 1,
+            "avg": "2999.00"
+          }
+        },
+        "avg_price": "2999.00"
+      },
+      "Lale": {
         "count": 2,
         "prices_by_site": {
           "Hızlı Çiçek": {
             "count": 2,
-            "avg": "2399.00"
+            "avg": "1849.00"
           }
         },
-        "avg_price": "2399.00"
-      },
-      "Karma/Diğer": {
-        "count": 44,
-        "prices_by_site": {
-          "Hızlı Çiçek": {
-            "count": 14,
-            "avg": "1026.14"
-          },
-          "Bloom and Fresh": {
-            "count": 30,
-            "avg": "1816.90"
-          }
-        },
-        "avg_price": "1565.30"
+        "avg_price": "1849.00"
       }
     }
   }
