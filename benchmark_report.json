@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-25T06:41:19.352Z",
+  "date": "2025-11-25T09:31:46.208Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -19,13 +19,6 @@
       "price": 679.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/hayatimin-askina-7li-gul-buketi-at4030"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Koyu Kahve Bukette Pembe Güller ve Lilyumlar",
-      "price": 819.99,
-      "category": "Gül",
-      "url": "https://www.ciceksepeti.com/koyu-kahve-bukette-pembe-guller-ve-lilyumlar-vbt1484"
     },
     {
       "site": "Çiçek Sepeti",
@@ -169,13 +162,6 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Gri Pembe Bukette Pembe Gerberalar ve Papatyalar",
-      "price": 969.99,
-      "category": "Papatya",
-      "url": "https://www.ciceksepeti.com/gri-pembe-bukette-pembe-gerberalar-ve-papatyalar-at5861"
-    },
-    {
-      "site": "Çiçek Sepeti",
       "name": "Beyaz Gerberalar Çiçek Buketi Lolaflora",
       "price": 689.99,
       "category": "Gerbera",
@@ -215,6 +201,20 @@
       "price": 679.99,
       "category": "Papatya",
       "url": "https://www.ciceksepeti.com/sari-bukette-beyaz-papatyalar-at5865"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Pembe Papatyalar Çiçek Buketi",
+      "price": 899.99,
+      "category": "Papatya",
+      "url": "https://www.ciceksepeti.com/pembe-papatyalar-cicek-buketi-at4255"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Beyaz Papatyalar Çiçek Buketi",
+      "price": 649.99,
+      "category": "Papatya",
+      "url": "https://www.ciceksepeti.com/beyaz-papatyalar-cicek-buketi-at4253"
     },
     {
       "site": "Hızlı Çiçek",
@@ -449,6 +449,13 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Poppy",
+      "price": 1599.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/cicek-buketi/poppy-papatya-bahar-buketi"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Gemma",
       "price": 1499.9,
       "category": "Karma/Diğer",
@@ -628,20 +635,13 @@
       "price": 1299.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/makaron/bf-wild-jungle-macarons-24lu"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "B&F Chocolate (20'li)",
-      "price": 849.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/cikolata/bloomandfresh-chocolate-20li-cikolata"
     }
   ],
   "price_analysis": {
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "805.19",
+        "avg_price": "797.19",
         "min_price": "449.99",
         "max_price": "1299.00"
       },
@@ -653,25 +653,25 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2028.23",
-        "min_price": "849.90",
+        "avg_price": "2053.23",
+        "min_price": "999.90",
         "max_price": "4599.90"
       }
     },
     "by_category": {
       "Gül": {
-        "count": 29,
+        "count": 28,
         "prices_by_site": {
           "Çiçek Sepeti": {
-            "count": 22,
-            "avg": "825.72"
+            "count": 21,
+            "avg": "825.99"
           },
           "Hızlı Çiçek": {
             "count": 7,
             "avg": "1559.00"
           }
         },
-        "avg_price": "1002.72"
+        "avg_price": "1009.24"
       },
       "Gerbera": {
         "count": 5,
@@ -682,20 +682,6 @@
           }
         },
         "avg_price": "767.99"
-      },
-      "Papatya": {
-        "count": 7,
-        "prices_by_site": {
-          "Çiçek Sepeti": {
-            "count": 2,
-            "avg": "824.99"
-          },
-          "Hızlı Çiçek": {
-            "count": 5,
-            "avg": "885.00"
-          }
-        },
-        "avg_price": "867.85"
       },
       "Karma/Diğer": {
         "count": 41,
@@ -710,10 +696,24 @@
           },
           "Bloom and Fresh": {
             "count": 30,
-            "avg": "2028.23"
+            "avg": "2053.23"
           }
         },
-        "avg_price": "1736.76"
+        "avg_price": "1755.05"
+      },
+      "Papatya": {
+        "count": 8,
+        "prices_by_site": {
+          "Çiçek Sepeti": {
+            "count": 3,
+            "avg": "743.32"
+          },
+          "Hızlı Çiçek": {
+            "count": 5,
+            "avg": "885.00"
+          }
+        },
+        "avg_price": "831.87"
       },
       "Lilyum": {
         "count": 5,
