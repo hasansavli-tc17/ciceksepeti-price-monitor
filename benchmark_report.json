@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-27T09:30:51.439Z",
+  "date": "2025-11-27T12:56:39.651Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -246,6 +246,13 @@
     },
     {
       "site": "Hızlı Çiçek",
+      "name": "Vazoda Nergis Çiçeği",
+      "price": 979,
+      "category": "Karma/Diğer",
+      "url": "https://hizlicicek.com/urun/vazoda-nergis-cicegi"
+    },
+    {
+      "site": "Hızlı Çiçek",
       "name": "Beyaz Papatya Buketi",
       "price": 879,
       "category": "Papatya",
@@ -379,13 +386,6 @@
     },
     {
       "site": "Hızlı Çiçek",
-      "name": "Saksılı Pembe Lilyum",
-      "price": 1179,
-      "category": "Lilyum",
-      "url": "https://hizlicicek.com/urun/saksili-pembe-lilyum"
-    },
-    {
-      "site": "Hızlı Çiçek",
       "name": "Royal White Lilyum",
       "price": 1599,
       "category": "Lilyum",
@@ -414,17 +414,24 @@
     },
     {
       "site": "Hızlı Çiçek",
+      "name": "Vazoda Nergis Çiçeği",
+      "price": 979,
+      "category": "Karma/Diğer",
+      "url": "https://hizlicicek.com/urun/vazoda-nergis-cicegi"
+    },
+    {
+      "site": "Hızlı Çiçek",
       "name": "Beyaz Papatya Buketi",
       "price": 879,
       "category": "Papatya",
       "url": "https://hizlicicek.com/urun/beyaz-papatya-buketi"
     },
     {
-      "site": "Hızlı Çiçek",
-      "name": "Sarı Papatya Buketi",
-      "price": 889,
-      "category": "Papatya",
-      "url": "https://hizlicicek.com/urun/sari-papatya-buketi"
+      "site": "Bloom and Fresh",
+      "name": "Kokina Double",
+      "price": 1159.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/cicek-buketi/kokina-double"
     },
     {
       "site": "Bloom and Fresh",
@@ -628,13 +635,6 @@
       "price": 2299.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/ev-dekor/doiy-rainbow-gokkusagi-kitap-tutucu"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Bloom Privé – Mom & Baby Edition",
-      "price": 4599.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/hediye-kutusu/bloom-prive-mom-baby-edition"
     }
   ],
   "price_analysis": {
@@ -647,31 +647,31 @@
       },
       "Hızlı Çiçek": {
         "product_count": 30,
-        "avg_price": "1319.33",
+        "avg_price": "1315.67",
         "min_price": "599.00",
         "max_price": "2999.00"
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2035.23",
-        "min_price": "1299.90",
-        "max_price": "4599.90"
+        "avg_price": "1920.57",
+        "min_price": "1159.90",
+        "max_price": "3799.90"
       }
     },
     "by_category": {
       "Papatya": {
-        "count": 9,
+        "count": 8,
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 4,
             "avg": "702.49"
           },
           "Hızlı Çiçek": {
-            "count": 5,
-            "avg": "885.00"
+            "count": 4,
+            "avg": "884.00"
           }
         },
-        "avg_price": "803.88"
+        "avg_price": "793.25"
       },
       "Gül": {
         "count": 26,
@@ -698,32 +698,32 @@
         "avg_price": "754.99"
       },
       "Karma/Diğer": {
-        "count": 41,
+        "count": 43,
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 1,
             "avg": "499.99"
           },
           "Hızlı Çiçek": {
-            "count": 10,
-            "avg": "978.00"
+            "count": 12,
+            "avg": "978.17"
           },
           "Bloom and Fresh": {
             "count": 30,
-            "avg": "2035.23"
+            "avg": "1920.57"
           }
         },
-        "avg_price": "1739.93"
+        "avg_price": "1624.53"
       },
       "Lilyum": {
-        "count": 5,
+        "count": 4,
         "prices_by_site": {
           "Hızlı Çiçek": {
-            "count": 5,
-            "avg": "1553.00"
+            "count": 4,
+            "avg": "1646.50"
           }
         },
-        "avg_price": "1553.00"
+        "avg_price": "1646.50"
       },
       "Orkide": {
         "count": 1,
