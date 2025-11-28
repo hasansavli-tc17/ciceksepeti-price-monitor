@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-28T06:41:08.023Z",
+  "date": "2025-11-28T09:29:01.742Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -79,7 +79,7 @@
     {
       "site": "Çiçek Sepeti",
       "name": "Kraft Taşımalı Bukette Gerberalar ve Kasımpatı",
-      "price": 759.99,
+      "price": 589.99,
       "category": "Gerbera",
       "url": "https://www.ciceksepeti.com/kraft-tasimali-bukette-gerberalar-ve-krizantemler-vbt1367"
     },
@@ -435,13 +435,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Happy Mixx",
-      "price": 1459.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/cicek-buketi/happy-mixx"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Everybloom!",
       "price": 1299.9,
       "category": "Karma/Diğer",
@@ -502,13 +495,6 @@
       "price": 1399.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/vazoda-cicek/hera"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Verona Aura",
-      "price": 2999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/vazoda-cicek/verona-aura"
     },
     {
       "site": "Bloom and Fresh",
@@ -635,13 +621,27 @@
       "price": 2299.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/ev-dekor/doiy-rainbow-gokkusagi-kitap-tutucu"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Celebration",
+      "price": 3999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/hediye-kutusu/celebration-kutlamalara-ozel-hediye-kutusu"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Elit Advent Calender Kutusunda Sütlü Glutensiz Çikolata 140g",
+      "price": 999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/cikolata/elit-advent-calender-kutusunda-sutlu-glutensiz-cikolata-140g"
     }
   ],
   "price_analysis": {
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "718.22",
+        "avg_price": "712.56",
         "min_price": "379.99",
         "max_price": "1299.00"
       },
@@ -653,9 +653,9 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "1920.57",
-        "min_price": "1159.90",
-        "max_price": "3799.90"
+        "avg_price": "1938.57",
+        "min_price": "999.90",
+        "max_price": "3999.90"
       }
     },
     "by_category": {
@@ -692,10 +692,10 @@
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 6,
-            "avg": "664.99"
+            "avg": "636.66"
           }
         },
-        "avg_price": "664.99"
+        "avg_price": "636.66"
       },
       "Karma/Diğer": {
         "count": 43,
@@ -710,10 +710,10 @@
           },
           "Bloom and Fresh": {
             "count": 30,
-            "avg": "1920.57"
+            "avg": "1938.57"
           }
         },
-        "avg_price": "1621.74"
+        "avg_price": "1634.30"
       },
       "Lilyum": {
         "count": 4,
