@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-28T09:29:01.742Z",
+  "date": "2025-11-28T12:55:07.257Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -575,13 +575,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Zuzu Gold",
-      "price": 2199.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/saksida-cicek/zuzu-gold-saksida-antoryum-cicegi-"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Flamingo",
       "price": 1899.9,
       "category": "Karma/Diğer",
@@ -635,6 +628,13 @@
       "price": 999.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/cikolata/elit-advent-calender-kutusunda-sutlu-glutensiz-cikolata-140g"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "B&F Wild Jungle Macarons (24'lü)",
+      "price": 1299.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/makaron/bf-wild-jungle-macarons-24lu"
     }
   ],
   "price_analysis": {
@@ -653,7 +653,7 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "1938.57",
+        "avg_price": "1908.57",
         "min_price": "999.90",
         "max_price": "3999.90"
       }
@@ -710,10 +710,10 @@
           },
           "Bloom and Fresh": {
             "count": 30,
-            "avg": "1938.57"
+            "avg": "1908.57"
           }
         },
-        "avg_price": "1634.30"
+        "avg_price": "1613.37"
       },
       "Lilyum": {
         "count": 4,
