@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-03T06:41:55.675Z",
+  "date": "2025-12-03T09:32:21.060Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -505,6 +505,13 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Mocha",
+      "price": 1899.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/mocha"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Aria Silver",
       "price": 1899.9,
       "category": "Karma/Diğer",
@@ -523,13 +530,6 @@
       "price": 1999.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/padova"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Seraphina Berry",
-      "price": 1999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/seraphina-berry"
     },
     {
       "site": "Bloom and Fresh",
@@ -653,7 +653,7 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "1913.57",
+        "avg_price": "1910.23",
         "min_price": "849.90",
         "max_price": "3999.90"
       }
@@ -710,10 +710,10 @@
           },
           "Bloom and Fresh": {
             "count": 30,
-            "avg": "1913.57"
+            "avg": "1910.23"
           }
         },
-        "avg_price": "1610.35"
+        "avg_price": "1608.02"
       },
       "Lilyum": {
         "count": 4,
