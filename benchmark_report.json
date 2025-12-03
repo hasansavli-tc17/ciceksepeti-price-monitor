@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-03T09:32:21.060Z",
+  "date": "2025-12-03T12:59:14.703Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -79,7 +79,7 @@
     {
       "site": "Çiçek Sepeti",
       "name": "Kırmızı Gerbera Çiçek Buketi",
-      "price": 519.99,
+      "price": 549.99,
       "category": "Gerbera",
       "url": "https://www.ciceksepeti.com/kirmizi-gerbera-cicek-buketi-at4258"
     },
@@ -114,7 +114,7 @@
     {
       "site": "Çiçek Sepeti",
       "name": "Krem Pudra Bukette Kurdeleli Pembe Çardak Güller",
-      "price": 589.99,
+      "price": 599.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/krem-pudra-bukette-kurdeleli-pembe-cardak-guller-vbt1238"
     },
@@ -212,7 +212,7 @@
     {
       "site": "Çiçek Sepeti",
       "name": "Sarı Bukette Beyaz Papatyalar",
-      "price": 459.99,
+      "price": 479.99,
       "category": "Papatya",
       "url": "https://www.ciceksepeti.com/sari-bukette-beyaz-papatyalar-at5865"
     },
@@ -359,7 +359,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Vazoda Beyaz Laleler",
-      "price": 2399,
+      "price": 2299,
       "category": "Lale",
       "url": "https://hizlicicek.com/urun/vazoda-beyaz-laleler"
     },
@@ -428,10 +428,24 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Kokina & B&F Chocolate Bundle",
+      "price": 1399.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Kokina Double",
       "price": 1159.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/kokina-double"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina Golde",
+      "price": 1999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/kokina-golde"
     },
     {
       "site": "Bloom and Fresh",
@@ -575,13 +589,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Paddywax Apothecary Cam Mum - Amber & Smoke (226g)",
-      "price": 1499.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/paddywax-apothecary-cam-mum-amber-smoke-226g"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Candle + Friends No 6 Golden Pumpkint Special Edition Silindir Cam Mum",
       "price": 3799.9,
       "category": "Karma/Diğer",
@@ -617,13 +624,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Elit Advent Calender Kutusunda Sütlü Glutensiz Çikolata 140g",
-      "price": 999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/elit-advent-calender-kutusunda-sutlu-glutensiz-cikolata-140g"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "B&F Wild Jungle Macarons (24'lü)",
       "price": 1299.9,
       "category": "Karma/Diğer",
@@ -641,19 +641,19 @@
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "748.19",
+        "avg_price": "750.19",
         "min_price": "349.99",
         "max_price": "1299.00"
       },
       "Hızlı Çiçek": {
         "product_count": 30,
-        "avg_price": "1244.33",
+        "avg_price": "1241.00",
         "min_price": "599.00",
         "max_price": "2399.00"
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "1910.23",
+        "avg_price": "1940.23",
         "min_price": "849.90",
         "max_price": "3999.90"
       }
@@ -664,38 +664,38 @@
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 19,
-            "avg": "816.62"
+            "avg": "817.15"
           },
           "Hızlı Çiçek": {
             "count": 7,
             "avg": "1424.71"
           }
         },
-        "avg_price": "980.34"
+        "avg_price": "980.72"
       },
       "Gerbera": {
         "count": 5,
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 5,
-            "avg": "723.99"
+            "avg": "729.99"
           }
         },
-        "avg_price": "723.99"
+        "avg_price": "729.99"
       },
       "Papatya": {
         "count": 8,
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 5,
-            "avg": "577.99"
+            "avg": "581.99"
           },
           "Hızlı Çiçek": {
             "count": 3,
             "avg": "885.67"
           }
         },
-        "avg_price": "693.37"
+        "avg_price": "695.87"
       },
       "Karma/Diğer": {
         "count": 43,
@@ -710,10 +710,10 @@
           },
           "Bloom and Fresh": {
             "count": 30,
-            "avg": "1910.23"
+            "avg": "1940.23"
           }
         },
-        "avg_price": "1608.02"
+        "avg_price": "1628.95"
       },
       "Lilyum": {
         "count": 4,
@@ -740,10 +740,10 @@
         "prices_by_site": {
           "Hızlı Çiçek": {
             "count": 1,
-            "avg": "2399.00"
+            "avg": "2299.00"
           }
         },
-        "avg_price": "2399.00"
+        "avg_price": "2299.00"
       }
     }
   }
