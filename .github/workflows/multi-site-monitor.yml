@@ -81,3 +81,43 @@ jobs:
             benchmark_report.json
           retention-days: 30
 
+  kokina-monitor:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 🔍 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: 📦 Install Node dependencies
+        run: npm ci
+      
+      - name: 🎄 Run Kokina Price Monitor
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: node kokina-price-monitor.js
+      
+      - name: 💾 Commit and push kokina changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add kokina_price_history.json kokina_benchmark_report.json
+          git diff --staged --quiet || git commit -m "🎄 Kokina price update - $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
+      
+      - name: 📝 Upload kokina artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: kokina-monitoring-data-${{ github.run_number }}
+          path: |
+            kokina_price_history.json
+            kokina_benchmark_report.json
+          retention-days: 30
+
