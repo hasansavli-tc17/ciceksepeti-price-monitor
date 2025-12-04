@@ -1,0 +1,185 @@
+{
+  "last_update": "2025-12-04T10:07:34.944Z",
+  "product_type": "kokina",
+  "sites": {
+    "ciceksepeti": {
+      "name": "Çiçek Sepeti",
+      "products": {},
+      "scraped_at": "2025-12-04T10:06:34.243Z"
+    },
+    "hizlicicek": {
+      "name": "Hızlı Çiçek",
+      "products": {
+        "hizlicicek_kokinanin-isigi": {
+          "name": "Kokinanın Işığı",
+          "price": 899,
+          "url": "https://hizlicicek.com/urun/kokinanin-isigi",
+          "timestamp": "2025-12-04T10:06:59.811Z"
+        },
+        "hizlicicek_merry-kokina-buketi": {
+          "name": "Merry Kokina Buketi",
+          "price": 1199,
+          "url": "https://hizlicicek.com/urun/merry-kokina-buketi",
+          "timestamp": "2025-12-04T10:06:59.811Z"
+        },
+        "hizlicicek_red-rose-kokina-bliss-_pasabahce-vazoda_": {
+          "name": "Red Rose & Kokina Bliss (Paşabahçe vazoda)",
+          "price": 1399,
+          "url": "https://hizlicicek.com/urun/red-rose-kokina-bliss-(pasabahce-vazoda)",
+          "timestamp": "2025-12-04T10:06:59.811Z"
+        },
+        "hizlicicek_red-winter-charm": {
+          "name": "Red Winter Charm",
+          "price": 789,
+          "url": "https://hizlicicek.com/urun/red-winter-charm",
+          "timestamp": "2025-12-04T10:06:59.811Z"
+        },
+        "hizlicicek_red-dream-kokina-buketi": {
+          "name": "Red Dream Kokina Buketi",
+          "price": 979,
+          "url": "https://hizlicicek.com/urun/red-dream-kokina-buketi",
+          "timestamp": "2025-12-04T10:06:59.811Z"
+        },
+        "hizlicicek_beyaz-gul-ve-kokina-buketi": {
+          "name": "Beyaz Gül ve Kokina Buketi",
+          "price": 1389,
+          "url": "https://hizlicicek.com/urun/beyaz-gul-ve-kokina-buketi",
+          "timestamp": "2025-12-04T10:06:59.811Z"
+        },
+        "hizlicicek_kokina-elegance-_seramik-saksida_": {
+          "name": "Kokina Elegance (seramik saksıda)",
+          "price": 1139,
+          "url": "https://hizlicicek.com/urun/kokina-elegance-(seramik-saksida)",
+          "timestamp": "2025-12-04T10:06:59.811Z"
+        },
+        "hizlicicek_vazoda-kokina": {
+          "name": "Vazoda Kokina",
+          "price": 899,
+          "url": "https://hizlicicek.com/urun/vazoda-kokina",
+          "timestamp": "2025-12-04T10:06:59.811Z"
+        },
+        "hizlicicek_papatyalar-ve-kokina": {
+          "name": "Papatyalar ve Kokina",
+          "price": 1199,
+          "url": "https://hizlicicek.com/urun/papatyalar-ve-kokina",
+          "timestamp": "2025-12-04T10:06:59.811Z"
+        },
+        "hizlicicek_vazoda-kirmizi-gul-kokina": {
+          "name": "Vazoda Kırmızı Gül & Kokina",
+          "price": 1199,
+          "url": "https://hizlicicek.com/urun/vazoda-kirmizi-gul-kokina",
+          "timestamp": "2025-12-04T10:06:59.811Z"
+        },
+        "hizlicicek_gold-christmas-kokina-buketi": {
+          "name": "Gold Christmas Kokina Buketi",
+          "price": 1399,
+          "url": "https://hizlicicek.com/urun/gold-christmas-kokina-buketi",
+          "timestamp": "2025-12-04T10:06:59.811Z"
+        },
+        "hizlicicek_glamour-copper": {
+          "name": "Glamour Copper",
+          "price": 4399,
+          "url": "https://hizlicicek.com/urun/glamour-copper",
+          "timestamp": "2025-12-04T10:06:59.811Z"
+        },
+        "hizlicicek_golden-festive-rose": {
+          "name": "Golden Festive Rose",
+          "price": 1779,
+          "url": "https://hizlicicek.com/urun/golden-festive-rose",
+          "timestamp": "2025-12-04T10:06:59.811Z"
+        },
+        "hizlicicek_winter-forest-luck": {
+          "name": "Winter Forest Luck",
+          "price": 879,
+          "url": "https://hizlicicek.com/urun/winter-forest-luck",
+          "timestamp": "2025-12-04T10:06:59.811Z"
+        },
+        "hizlicicek_red-ember-christmas-aranjmani": {
+          "name": "Red Ember Christmas Aranjmanı",
+          "price": 1579,
+          "url": "https://hizlicicek.com/urun/red-ember-christmas-aranjmani",
+          "timestamp": "2025-12-04T10:06:59.811Z"
+        },
+        "hizlicicek_santa-s-blue-baby-orkide": {
+          "name": "Santa's Blue Baby Orkide",
+          "price": 3799,
+          "url": "https://hizlicicek.com/urun/santa-s-blue-baby-orkide",
+          "timestamp": "2025-12-04T10:06:59.811Z"
+        },
+        "hizlicicek_christmas-kokina-buketi": {
+          "name": "Christmas Kokina Buketi",
+          "price": 879,
+          "url": "https://hizlicicek.com/urun/christmas-kokina-buketi",
+          "timestamp": "2025-12-04T10:06:59.811Z"
+        },
+        "hizlicicek_golden-red-masa-aranjmani": {
+          "name": "Golden Red Masa Aranjmanı",
+          "price": 2990,
+          "url": "https://hizlicicek.com/urun/golden-red-masa-aranjmani",
+          "timestamp": "2025-12-04T10:06:59.811Z"
+        },
+        "hizlicicek_gold-red-harmony": {
+          "name": "Gold Red Harmony",
+          "price": 1199,
+          "url": "https://hizlicicek.com/urun/gold-red-harmony",
+          "timestamp": "2025-12-04T10:06:59.811Z"
+        },
+        "hizlicicek_crimson-elegance": {
+          "name": "Crimson Elegance",
+          "price": 1959,
+          "url": "https://hizlicicek.com/urun/crimson-elegance",
+          "timestamp": "2025-12-04T10:06:59.811Z"
+        },
+        "hizlicicek_christmas-masa-aranjmani": {
+          "name": "Christmas Masa Aranjmanı",
+          "price": 3699,
+          "url": "https://hizlicicek.com/urun/christmas-masa-aranjmani",
+          "timestamp": "2025-12-04T10:06:59.811Z"
+        },
+        "hizlicicek_christmas-festive-masa-aranjmani": {
+          "name": "Christmas Festive Masa Aranjmanı",
+          "price": 2999,
+          "url": "https://hizlicicek.com/urun/christmas-festive-masa-aranjmani",
+          "timestamp": "2025-12-04T10:06:59.811Z"
+        },
+        "hizlicicek_yilbasi-agaci_35-cm_": {
+          "name": "Yılbaşı Ağacı(35 Cm)",
+          "price": 989,
+          "url": "https://hizlicicek.com/urun/yilbasi-agaci(35-cm)",
+          "timestamp": "2025-12-04T10:06:59.811Z"
+        },
+        "hizlicicek_merry-yilbasi-kapi-susu": {
+          "name": "Merry Yılbaşı Kapı Süsü",
+          "price": 1799,
+          "url": "https://hizlicicek.com/urun/merry-yilbasi-kapi-susu",
+          "timestamp": "2025-12-04T10:06:59.811Z"
+        }
+      },
+      "scraped_at": "2025-12-04T10:06:59.812Z"
+    },
+    "bloomandfresh": {
+      "name": "Bloom and Fresh",
+      "products": {
+        "bloomandfresh_kokina-double": {
+          "name": "Kokina Double",
+          "price": 1159.9,
+          "url": "https://www.bloomandfresh.com/p/kokina-double",
+          "timestamp": "2025-12-04T10:07:31.790Z"
+        },
+        "bloomandfresh_kokina-cikolata-yeni-yil-seti": {
+          "name": "Kokina & B&F Chocolate Bundle",
+          "price": 1399.9,
+          "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
+          "timestamp": "2025-12-04T10:07:31.790Z"
+        },
+        "bloomandfresh_kokina-golden": {
+          "name": "Kokina Golden",
+          "price": 1999.9,
+          "url": "https://www.bloomandfresh.com/p/kokina-golden",
+          "timestamp": "2025-12-04T10:07:31.790Z"
+        }
+      },
+      "scraped_at": "2025-12-04T10:07:31.790Z"
+    }
+  }
+}

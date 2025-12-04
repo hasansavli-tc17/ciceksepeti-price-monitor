@@ -1,0 +1,369 @@
+{
+  "date": "2025-12-04T10:07:34.944Z",
+  "product_type": "kokina",
+  "summary": {
+    "total_sites": 3,
+    "successful_sites": 3,
+    "total_products": 57
+  },
+  "all_products": [
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Kokinanın Işığı",
+      "price": 899,
+      "url": "https://hizlicicek.com/urun/kokinanin-isigi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Merry Kokina Buketi",
+      "price": 1199,
+      "url": "https://hizlicicek.com/urun/merry-kokina-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Red Rose & Kokina Bliss (Paşabahçe vazoda)",
+      "price": 1399,
+      "url": "https://hizlicicek.com/urun/red-rose-kokina-bliss-(pasabahce-vazoda)"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Red Winter Charm",
+      "price": 789,
+      "url": "https://hizlicicek.com/urun/red-winter-charm"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Red Dream Kokina Buketi",
+      "price": 979,
+      "url": "https://hizlicicek.com/urun/red-dream-kokina-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Beyaz Gül ve Kokina Buketi",
+      "price": 1389,
+      "url": "https://hizlicicek.com/urun/beyaz-gul-ve-kokina-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Kokina Elegance (seramik saksıda)",
+      "price": 1139,
+      "url": "https://hizlicicek.com/urun/kokina-elegance-(seramik-saksida)"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Vazoda Kokina",
+      "price": 899,
+      "url": "https://hizlicicek.com/urun/vazoda-kokina"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Papatyalar ve Kokina",
+      "price": 1199,
+      "url": "https://hizlicicek.com/urun/papatyalar-ve-kokina"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Vazoda Kırmızı Gül & Kokina",
+      "price": 1199,
+      "url": "https://hizlicicek.com/urun/vazoda-kirmizi-gul-kokina"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Gold Christmas Kokina Buketi",
+      "price": 1399,
+      "url": "https://hizlicicek.com/urun/gold-christmas-kokina-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Glamour Copper",
+      "price": 4399,
+      "url": "https://hizlicicek.com/urun/glamour-copper"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Golden Festive Rose",
+      "price": 1779,
+      "url": "https://hizlicicek.com/urun/golden-festive-rose"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Winter Forest Luck",
+      "price": 879,
+      "url": "https://hizlicicek.com/urun/winter-forest-luck"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Red Ember Christmas Aranjmanı",
+      "price": 1579,
+      "url": "https://hizlicicek.com/urun/red-ember-christmas-aranjmani"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Santa's Blue Baby Orkide",
+      "price": 3799,
+      "url": "https://hizlicicek.com/urun/santa-s-blue-baby-orkide"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Christmas Kokina Buketi",
+      "price": 879,
+      "url": "https://hizlicicek.com/urun/christmas-kokina-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Golden Red Masa Aranjmanı",
+      "price": 2990,
+      "url": "https://hizlicicek.com/urun/golden-red-masa-aranjmani"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Gold Red Harmony",
+      "price": 1199,
+      "url": "https://hizlicicek.com/urun/gold-red-harmony"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Crimson Elegance",
+      "price": 1959,
+      "url": "https://hizlicicek.com/urun/crimson-elegance"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Christmas Masa Aranjmanı",
+      "price": 3699,
+      "url": "https://hizlicicek.com/urun/christmas-masa-aranjmani"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Christmas Festive Masa Aranjmanı",
+      "price": 2999,
+      "url": "https://hizlicicek.com/urun/christmas-festive-masa-aranjmani"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Yılbaşı Ağacı(35 Cm)",
+      "price": 989,
+      "url": "https://hizlicicek.com/urun/yilbasi-agaci(35-cm)"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Merry Yılbaşı Kapı Süsü",
+      "price": 1799,
+      "url": "https://hizlicicek.com/urun/merry-yilbasi-kapi-susu"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Kokinanın Işığı",
+      "price": 899,
+      "url": "https://hizlicicek.com/urun/kokinanin-isigi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Merry Kokina Buketi",
+      "price": 1199,
+      "url": "https://hizlicicek.com/urun/merry-kokina-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Red Rose & Kokina Bliss (Paşabahçe vazoda)",
+      "price": 1399,
+      "url": "https://hizlicicek.com/urun/red-rose-kokina-bliss-(pasabahce-vazoda)"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Red Winter Charm",
+      "price": 789,
+      "url": "https://hizlicicek.com/urun/red-winter-charm"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Red Dream Kokina Buketi",
+      "price": 979,
+      "url": "https://hizlicicek.com/urun/red-dream-kokina-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Beyaz Gül ve Kokina Buketi",
+      "price": 1389,
+      "url": "https://hizlicicek.com/urun/beyaz-gul-ve-kokina-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Kokina Elegance (seramik saksıda)",
+      "price": 1139,
+      "url": "https://hizlicicek.com/urun/kokina-elegance-(seramik-saksida)"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Vazoda Kokina",
+      "price": 899,
+      "url": "https://hizlicicek.com/urun/vazoda-kokina"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Papatyalar ve Kokina",
+      "price": 1199,
+      "url": "https://hizlicicek.com/urun/papatyalar-ve-kokina"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Vazoda Kırmızı Gül & Kokina",
+      "price": 1199,
+      "url": "https://hizlicicek.com/urun/vazoda-kirmizi-gul-kokina"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Gold Christmas Kokina Buketi",
+      "price": 1399,
+      "url": "https://hizlicicek.com/urun/gold-christmas-kokina-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Glamour Copper",
+      "price": 4399,
+      "url": "https://hizlicicek.com/urun/glamour-copper"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Golden Festive Rose",
+      "price": 1779,
+      "url": "https://hizlicicek.com/urun/golden-festive-rose"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Winter Forest Luck",
+      "price": 879,
+      "url": "https://hizlicicek.com/urun/winter-forest-luck"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Red Ember Christmas Aranjmanı",
+      "price": 1579,
+      "url": "https://hizlicicek.com/urun/red-ember-christmas-aranjmani"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Santa's Blue Baby Orkide",
+      "price": 3799,
+      "url": "https://hizlicicek.com/urun/santa-s-blue-baby-orkide"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Christmas Kokina Buketi",
+      "price": 879,
+      "url": "https://hizlicicek.com/urun/christmas-kokina-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Golden Red Masa Aranjmanı",
+      "price": 2990,
+      "url": "https://hizlicicek.com/urun/golden-red-masa-aranjmani"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Gold Red Harmony",
+      "price": 1199,
+      "url": "https://hizlicicek.com/urun/gold-red-harmony"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Crimson Elegance",
+      "price": 1959,
+      "url": "https://hizlicicek.com/urun/crimson-elegance"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Christmas Masa Aranjmanı",
+      "price": 3699,
+      "url": "https://hizlicicek.com/urun/christmas-masa-aranjmani"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Christmas Festive Masa Aranjmanı",
+      "price": 2999,
+      "url": "https://hizlicicek.com/urun/christmas-festive-masa-aranjmani"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Yılbaşı Ağacı(35 Cm)",
+      "price": 989,
+      "url": "https://hizlicicek.com/urun/yilbasi-agaci(35-cm)"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Merry Yılbaşı Kapı Süsü",
+      "price": 1799,
+      "url": "https://hizlicicek.com/urun/merry-yilbasi-kapi-susu"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina Double",
+      "price": 1159.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-double"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina & B&F Chocolate Bundle",
+      "price": 1399.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina Golden",
+      "price": 1999.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-golden"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina Double",
+      "price": 1159.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-double"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina & B&F Chocolate Bundle",
+      "price": 1399.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina Golden",
+      "price": 1999.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-golden"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina Double",
+      "price": 1159.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-double"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina & B&F Chocolate Bundle",
+      "price": 1399.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina Golden",
+      "price": 1999.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-golden"
+    }
+  ],
+  "price_analysis": {
+    "by_site": {
+      "Hızlı Çiçek": {
+        "product_count": 48,
+        "avg_price": "1726.54",
+        "min_price": "789.00",
+        "max_price": "4399.00"
+      },
+      "Bloom and Fresh": {
+        "product_count": 9,
+        "avg_price": "1519.90",
+        "min_price": "1159.90",
+        "max_price": "1999.90"
+      }
+    }
+  }
+}
