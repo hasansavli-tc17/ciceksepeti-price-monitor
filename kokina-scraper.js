@@ -26,6 +26,13 @@ function getKokinaPaginationUrl(site, pageNum) {
   return patterns[site.id] || null;
 }
 
+// Ürün adından kokina içerip içermediğini kontrol et (fallback için)
+function isKokinaName(name) {
+  if (!name) return false;
+  const n = name.toLowerCase();
+  return n.includes('kokina');
+}
+
 // Universal selector denemesi - birden fazla selector dene
 async function findElements(page, selectors) {
   const selectorList = Array.isArray(selectors) ? selectors : [selectors];
@@ -220,6 +227,36 @@ async function scrapeSite(browser, site) {
       if (pageNum < maxPages) {
         await new Promise(resolve => setTimeout(resolve, 2000));
       }
+    }
+
+    // Eğer Çiçek Sepeti kokina sayfasında hiç ürün bulunamazsa, cicek-buketleri sayfalarından kokina ara (fallback)
+    if (site.id === 'ciceksepeti' && allProducts.length === 0) {
+      console.error('  ⚠️ Çiçek Sepeti kokina sayfasında ürün bulunamadı, cicek-buketleri sayfalarından kokina aranıyor...');
+
+      const buketPattern = site.pagination && site.pagination.url_pattern
+        ? site.pagination.url_pattern
+        : 'https://www.ciceksepeti.com/cicek-buketleri?page={page}';
+
+      const fallbackMaxPages = 5;
+      let fallbackProducts = [];
+
+      for (let pageNum = 1; pageNum <= fallbackMaxPages; pageNum++) {
+        const pageUrl = buketPattern.replace('{page}', pageNum);
+        const products = await scrapePageProducts(page, site, pageUrl);
+        const kokinaOnly = products.filter(p => isKokinaName(p.name));
+        console.error(`    🔍 Fallback sayfa ${pageNum}: ${kokinaOnly.length} kokina ürünü bulundu (${products.length} toplam ürün içinden)`);
+        fallbackProducts = fallbackProducts.concat(kokinaOnly);
+
+        if (products.length === 0) {
+          break;
+        }
+
+        if (pageNum < fallbackMaxPages) {
+          await new Promise(resolve => setTimeout(resolve, 2000));
+        }
+      }
+
+      allProducts = fallbackProducts;
     }
     
     console.error(`  🎯 Toplam ${allProducts.length} kokina ürünü bulundu`);
