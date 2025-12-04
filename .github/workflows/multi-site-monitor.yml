@@ -11,6 +11,7 @@ permissions:
 
 jobs:
   monitor:
+    if: ${{ false }}  # Multi-site fiyat taraması geçici olarak askıya alındı
     runs-on: ubuntu-latest
     
     steps:
