@@ -1,6 +1,7 @@
 const { exec } = require('child_process');
 const fs = require('fs');
 const https = require('https');
+const { syncKokinaToGoogleSheets } = require('./google-sheets-sync');
 
 const PRICE_DB_FILE = './kokina_price_history.json';
 const SLACK_WEBHOOK = process.env.SLACK_WEBHOOK_URL;
@@ -59,7 +60,7 @@ function sendSlackMessage(message) {
 }
 
 // Kokina fiyat değişikliği bildirimi
-async function sendKokinaPriceChangeNotification(changes, siteResults, reportUrl) {
+async function sendKokinaPriceChangeNotification(changes, siteResults, reportUrl, sheetsUrl) {
   if (changes.length === 0) {
     // Değişiklik yok bildirimi
     const totalProducts = siteResults.reduce((sum, s) => sum + s.products.length, 0);
@@ -86,7 +87,9 @@ async function sendKokinaPriceChangeNotification(changes, siteResults, reportUrl
       }
     });
     
-    if (reportUrl) {
+    if (sheetsUrl) {
+      message += `📊 <${sheetsUrl}|Google Sheets'te Tüm Kokina Ürünlerini Gör>`;
+    } else if (reportUrl) {
       message += `📋 <${reportUrl}|Detaylı Raporu Gör>`;
     }
     
@@ -110,7 +113,9 @@ async function sendKokinaPriceChangeNotification(changes, siteResults, reportUrl
     `📊 ${Object.keys(changeBySite).length} sitede değişiklik var\n` +
     `🕐 ${turkeyTime}\n\n`;
   
-  if (reportUrl) {
+  if (sheetsUrl) {
+    headerMessage += `📊 <${sheetsUrl}|Google Sheets'te Tüm Kokina Ürünlerini Gör>`;
+  } else if (reportUrl) {
     headerMessage += `📋 <${reportUrl}|Detaylı Raporu Gör>`;
   }
   
@@ -207,6 +212,11 @@ function generateBenchmarkingReport(siteResults) {
   };
   
   // Site bazında analiz
+  const siteCounters = {};
+  const visibleLimits = {
+    'Çiçek Sepeti': 23, // Sayfada görünen kokina ürün sayısı
+  };
+  
   siteResults.forEach(siteResult => {
     if (!siteResult.success || siteResult.products.length === 0) return;
     
@@ -224,13 +234,25 @@ function generateBenchmarkingReport(siteResults) {
       max_price: maxPrice.toFixed(2)
     };
     
-    // Tüm ürünleri listeye ekle
+    // Tüm ürünleri listeye ekle (Kategori kolonunu "Görünür / Gizli" label olarak kullan)
     siteResult.products.forEach(product => {
+      const siteName = siteResult.site_name;
+      const currentIndex = (siteCounters[siteName] || 0) + 1;
+      siteCounters[siteName] = currentIndex;
+      
+      let visibilityLabel = '-';
+      if (visibleLimits[siteName]) {
+        visibilityLabel = currentIndex <= visibleLimits[siteName]
+          ? 'Görünür'
+          : 'Gizli/ekstra';
+      }
+      
       report.all_products.push({
-        site: siteResult.site_name,
+        site: siteName,
         name: product.name,
         price: product.price,
-        url: product.url
+        url: product.url,
+        category: visibilityLabel
       });
     });
   });
@@ -286,8 +308,20 @@ async function main() {
       // GitHub rapor linki
       const reportUrl = 'https://github.com/hasansavli-tc17/ciceksepeti-price-monitor/blob/main/kokina_benchmark_report.json';
       
+      // Google Sheets'e sync (başarısız olursa bile sheet URL'ini fallback olarak kullan)
+      console.log('📊 Kokina ürünleri Google Sheets\'e gönderiliyor...');
+      let sheetsUrl = null;
+      try {
+        sheetsUrl = await syncKokinaToGoogleSheets();
+      } catch (e) {
+        console.log('⚠️  Kokina Sheets sync hatası, sadece link gösterilecek:', e.message);
+      }
+      if (!sheetsUrl && process.env.GOOGLE_SHEETS_ID) {
+        sheetsUrl = `https://docs.google.com/spreadsheets/d/${process.env.GOOGLE_SHEETS_ID}`;
+      }
+      
       // Slack'e bildir
-      await sendKokinaPriceChangeNotification(changes, siteResults, reportUrl);
+      await sendKokinaPriceChangeNotification(changes, siteResults, reportUrl, sheetsUrl);
       
       // Yeni fiyatları kaydet
       savePrices(currentData);

@@ -112,15 +112,6 @@ jobs:
           GOOGLE_SHEETS_ID: ${{ secrets.GOOGLE_SHEETS_ID }}
           GCP_SERVICE_ACCOUNT_KEY: ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
         run: node kokina-price-monitor.js
-      
-      - name: 💾 Commit and push kokina changes
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add kokina_price_history.json kokina_benchmark_report.json
-          git diff --staged --quiet || git commit -m "🎄 Kokina price update - $(date +'%Y-%m-%d %H:%M:%S')"
-          git push
-      
       - name: 📝 Upload kokina artifacts
         uses: actions/upload-artifact@v4
         with:
