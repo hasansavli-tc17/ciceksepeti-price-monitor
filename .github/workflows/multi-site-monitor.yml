@@ -2,8 +2,8 @@ name: Multi-Site Price Monitor
 
 on:
   schedule:
-    # Her gün 06:00, 09:00, 12:00 UTC (Türkiye saati: 09:00, 12:00, 15:00)
-    - cron: '0 6,9,12 * * *'
+    # Her gün 06:00, 09:00, 12:00, 15:00 UTC (Türkiye saati: 09:00, 12:00, 15:00, 18:00)
+    - cron: '0 6,9,12,15 * * *'
   workflow_dispatch:  # Manuel çalıştırma
     inputs:
       run_multi_site:
