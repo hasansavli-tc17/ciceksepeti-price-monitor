@@ -183,8 +183,14 @@ async function scrapeSite(browser, site) {
       };
     }
     
-    // Sayfalama varsa tüm sayfaları tara
-    const maxPages = site.pagination && site.pagination.enabled ? site.pagination.max_pages : 1;
+    // Sayfalama: kokina sayfalarında genelde daha fazla ürün var, o yüzden üst limite biz karar verelim
+    // Çiçek Sepeti için 5 sayfaya kadar dene, diğerleri için config'teki değeri kullan ya da en az 3 sayfa tara
+    let maxPages = 3;
+    if (site.id === 'ciceksepeti') {
+      maxPages = 5;
+    } else if (site.pagination && site.pagination.enabled && site.pagination.max_pages > 3) {
+      maxPages = site.pagination.max_pages;
+    }
     
     for (let pageNum = 1; pageNum <= maxPages; pageNum++) {
       let pageUrl;

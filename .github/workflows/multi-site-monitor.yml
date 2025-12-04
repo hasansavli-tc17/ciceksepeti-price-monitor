@@ -5,13 +5,19 @@ on:
     # Her gün 06:00, 09:00, 12:00 UTC (Türkiye saati: 09:00, 12:00, 15:00)
     - cron: '0 6,9,12 * * *'
   workflow_dispatch:  # Manuel çalıştırma
+    inputs:
+      run_multi_site:
+        description: 'Multi-site fiyat taramasını çalıştır (kokina her zaman çalışır)'
+        required: false
+        default: 'false'
 
 permissions:
   contents: write
 
 jobs:
   monitor:
-    if: ${{ false }}  # Multi-site fiyat taraması geçici olarak askıya alındı
+    # Multi-site fiyat taraması sadece manuel tetikleme ve açıkça istenirse çalışır
+    if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_multi_site == 'true' }}
     runs-on: ubuntu-latest
     
     steps:
@@ -103,6 +109,8 @@ jobs:
       - name: 🎄 Run Kokina Price Monitor
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          GOOGLE_SHEETS_ID: ${{ secrets.GOOGLE_SHEETS_ID }}
+          GCP_SERVICE_ACCOUNT_KEY: ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
         run: node kokina-price-monitor.js
       
       - name: 💾 Commit and push kokina changes
