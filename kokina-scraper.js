@@ -4,13 +4,26 @@ const fs = require('fs');
 // Config dosyasını yükle
 const config = JSON.parse(fs.readFileSync('./sites-config.json', 'utf8'));
 
-// Kokina ürünlerini filtrele
-function isKokinaProduct(productName) {
-  const nameLower = productName.toLowerCase();
-  return nameLower.includes('kokina') || 
-         nameLower.includes('kokina çiçeği') ||
-         nameLower.includes('kokina buket') ||
-         nameLower.includes('kokina aranjman');
+// Site bazında kokina URL'lerini belirle
+function getKokinaUrl(site) {
+  const kokinaUrls = {
+    'ciceksepeti': 'https://www.ciceksepeti.com/d/kokina',
+    'hizlicicek': 'https://hizlicicek.com/kokina',
+    'bloomandfresh': 'https://www.bloomandfresh.com/c/cicek?cicek-turu=kokina'
+  };
+  
+  return kokinaUrls[site.id] || null;
+}
+
+// Kokina sayfası için sayfalama URL pattern'i
+function getKokinaPaginationUrl(site, pageNum) {
+  const patterns = {
+    'ciceksepeti': `https://www.ciceksepeti.com/d/kokina?page=${pageNum}`,
+    'hizlicicek': `https://hizlicicek.com/kokina?page=${pageNum}`,
+    'bloomandfresh': `https://www.bloomandfresh.com/c/cicek?page=${pageNum}&cicek-turu=kokina`
+  };
+  
+  return patterns[site.id] || null;
 }
 
 // Universal selector denemesi - birden fazla selector dene
@@ -144,9 +157,9 @@ async function scrapePageProducts(page, site, pageUrl) {
   return products;
 }
 
-// Bir siteyi tamamen tara ve kokina ürünlerini filtrele
+// Bir siteyi tamamen tara - kokina özel sayfasından
 async function scrapeSite(browser, site) {
-  console.error(`\n🌸 ${site.name} taranıyor (Kokina ürünleri)...`);
+  console.error(`\n🎄 ${site.name} taranıyor (Kokina sayfası)...`);
   
   const page = await browser.newPage();
   await page.setUserAgent(config.scraping_settings.user_agent);
@@ -156,44 +169,60 @@ async function scrapeSite(browser, site) {
   let allProducts = [];
   
   try {
-    if (site.pagination && site.pagination.enabled) {
-      // Sayfalama varsa - daha fazla sayfa tara (kokina bulmak için)
-      const maxPages = Math.min(site.pagination.max_pages * 2, 10); // Daha fazla sayfa tara
-      for (let pageNum = 1; pageNum <= maxPages; pageNum++) {
-        const pageUrl = site.pagination.url_pattern.replace('{page}', pageNum);
-        const products = await scrapePageProducts(page, site, pageUrl);
-        console.error(`    ✅ ${products.length} ürün bulundu`);
-        allProducts = allProducts.concat(products);
-        
-        // Yeterli kokina ürünü bulduysak dur (en az 10 kokina ürünü)
-        const kokinaProducts = allProducts.filter(p => isKokinaProduct(p.name));
-        if (kokinaProducts.length >= 10) {
-          console.error(`    🎯 ${kokinaProducts.length} kokina ürünü bulundu, tarama durduruluyor`);
-          break;
-        }
-        
-        // Sayfalar arası kısa bekleme
-        if (pageNum < maxPages) {
-          await new Promise(resolve => setTimeout(resolve, 2000));
-        }
-      }
-    } else {
-      // Tek sayfa
-      const products = await scrapePageProducts(page, site, site.category_url);
-      console.error(`    ✅ ${products.length} ürün bulundu`);
-      allProducts = products;
+    // Kokina özel URL'sini al
+    const kokinaUrl = getKokinaUrl(site);
+    if (!kokinaUrl) {
+      console.error(`  ⚠️  ${site.name} için kokina URL'si tanımlı değil, atlanıyor`);
+      return {
+        site_id: site.id,
+        site_name: site.name,
+        success: false,
+        error: 'Kokina URL tanımlı değil',
+        products: [],
+        scraped_at: new Date().toISOString()
+      };
     }
     
-    // Sadece kokina ürünlerini filtrele
-    const kokinaProducts = allProducts.filter(p => isKokinaProduct(p.name));
+    // Sayfalama varsa tüm sayfaları tara
+    const maxPages = site.pagination && site.pagination.enabled ? site.pagination.max_pages : 1;
     
-    console.error(`  🎯 ${kokinaProducts.length} kokina ürünü bulundu (toplam ${allProducts.length} ürün arasından)`);
+    for (let pageNum = 1; pageNum <= maxPages; pageNum++) {
+      let pageUrl;
+      if (pageNum === 1) {
+        pageUrl = kokinaUrl;
+      } else {
+        // Sayfalama URL'i oluştur
+        const paginationUrl = getKokinaPaginationUrl(site, pageNum);
+        if (paginationUrl) {
+          pageUrl = paginationUrl;
+        } else {
+          // Fallback: genel pattern kullan
+          pageUrl = kokinaUrl + (kokinaUrl.includes('?') ? '&' : '?') + `page=${pageNum}`;
+        }
+      }
+      
+      const products = await scrapePageProducts(page, site, pageUrl);
+      console.error(`    ✅ Sayfa ${pageNum}: ${products.length} ürün bulundu`);
+      allProducts = allProducts.concat(products);
+      
+      // Eğer bu sayfada ürün yoksa dur
+      if (products.length === 0) {
+        break;
+      }
+      
+      // Sayfalar arası kısa bekleme
+      if (pageNum < maxPages) {
+        await new Promise(resolve => setTimeout(resolve, 2000));
+      }
+    }
+    
+    console.error(`  🎯 Toplam ${allProducts.length} kokina ürünü bulundu`);
     
     return {
       site_id: site.id,
       site_name: site.name,
       success: true,
-      products: kokinaProducts,
+      products: allProducts,
       scraped_at: new Date().toISOString()
     };
     
@@ -212,11 +241,11 @@ async function scrapeSite(browser, site) {
   }
 }
 
-// Ana fonksiyon - tüm siteleri tara ve kokina ürünlerini filtrele
+// Ana fonksiyon - tüm sitelerin kokina sayfalarını tara
 async function scrapeKokinaProducts() {
   console.error('🎄 Kokina Çiçek Fiyat Taraması Başlıyor...\n');
   console.error(`📋 ${config.sites.filter(s => s.enabled).length} site taranacak`);
-  console.error(`🎯 Her siteden kokina ürünleri aranacak\n`);
+  console.error(`🎯 Her sitenin kokina özel sayfasından ürünler alınacak\n`);
   
   const browser = await puppeteer.launch({
     headless: 'new',
