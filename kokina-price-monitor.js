@@ -61,39 +61,9 @@ function sendSlackMessage(message) {
 
 // Kokina fiyat değişikliği bildirimi
 async function sendKokinaPriceChangeNotification(changes, siteResults, reportUrl, sheetsUrl) {
+  // Fiyat değişikliği yoksa bildirim gönderme
   if (changes.length === 0) {
-    // Değişiklik yok bildirimi
-    const totalProducts = siteResults.reduce((sum, s) => sum + s.products.length, 0);
-    const turkeyTime = new Date().toLocaleString('tr-TR', { timeZone: 'Europe/Istanbul' });
-    let message = `🎄 *Kokina Çiçek Fiyat Taraması Tamamlandı*\n\n` +
-      `✅ ${siteResults.filter(s => s.success).length} site tarandı\n` +
-      `🎄 ${totalProducts} kokina ürünü kontrol edildi\n` +
-      `✨ Fiyat değişikliği yok\n` +
-      `🕐 ${turkeyTime}\n\n`;
-    
-    // Site bazında özet
-    siteResults.forEach(siteResult => {
-      if (siteResult.success && siteResult.products.length > 0) {
-        const prices = siteResult.products.map(p => p.price).filter(p => p > 0);
-        if (prices.length > 0) {
-          const avgPrice = prices.reduce((sum, p) => sum + p, 0) / prices.length;
-          const minPrice = Math.min(...prices);
-          const maxPrice = Math.max(...prices);
-          
-          message += `*${siteResult.site_name}*\n`;
-          message += `• Ürün: ${siteResult.products.length}\n`;
-          message += `• Ort: ${avgPrice.toFixed(2)}₺ | Min: ${minPrice.toFixed(2)}₺ | Max: ${maxPrice.toFixed(2)}₺\n\n`;
-        }
-      }
-    });
-    
-    if (sheetsUrl) {
-      message += `📊 <${sheetsUrl}|Google Sheets'te Tüm Kokina Ürünlerini Gör>`;
-    } else if (reportUrl) {
-      message += `📋 <${reportUrl}|Detaylı Raporu Gör>`;
-    }
-    
-    await sendSlackMessage(message);
+    console.log('✨ Fiyat değişikliği yok, bildirim gönderilmiyor');
     return;
   }
   
