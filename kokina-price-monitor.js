@@ -125,11 +125,11 @@ async function sendKokinaPriceChangeNotification(changes, siteResults, reportUrl
   });
   
   // Ana mesaj
-  const turkeyTime = new Date().toLocaleString('tr-TR', { timeZone: 'Europe/Istanbul' });
+  const formattedTime = now.toLocaleString('tr-TR', { timeZone: 'Europe/Istanbul' });
   let headerMessage = `🎄 *Kokina Çiçek Fiyat Güncellemesi*\n\n` +
     `*${changes.length} kokina ürününün fiyatı değişti!*\n` +
     `📊 ${Object.keys(changeBySite).length} sitede değişiklik var\n` +
-    `🕐 ${turkeyTime}\n\n`;
+    `🕐 ${formattedTime}\n\n`;
   
   if (sheetsUrl) {
     headerMessage += `📊 <${sheetsUrl}|Google Sheets'te Tüm Kokina Ürünlerini Gör>`;
