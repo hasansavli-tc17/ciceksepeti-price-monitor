@@ -61,10 +61,15 @@ function sendSlackMessage(message) {
 
 // Kokina fiyat değişikliği bildirimi
 async function sendKokinaPriceChangeNotification(changes, siteResults, reportUrl, sheetsUrl) {
-  // Gün sonu kontrolü (18:00 TR = 15:00 UTC)
+  // Gün sonu kontrolü (18:00 TR)
   const now = new Date();
-  const turkeyTime = new Date(now.toLocaleString('en-US', { timeZone: 'Europe/Istanbul' }));
-  const isEndOfDay = turkeyTime.getHours() === 18; // 18:00 TR
+  const formatter = new Intl.DateTimeFormat('en-US', { 
+    timeZone: 'Europe/Istanbul', 
+    hour: 'numeric', 
+    hour12: false 
+  });
+  const turkeyHour = parseInt(formatter.format(now));
+  const isEndOfDay = turkeyHour === 18; // 18:00 TR
   
   // Fiyat değişikliği yoksa
   if (changes.length === 0) {
@@ -73,7 +78,7 @@ async function sendKokinaPriceChangeNotification(changes, siteResults, reportUrl
       console.log('📊 Gün sonu özet bildirimi gönderiliyor (18:00 TR)');
       
       const totalProducts = siteResults.reduce((sum, s) => sum + s.products.length, 0);
-      const formattedTime = turkeyTime.toLocaleString('tr-TR', { timeZone: 'Europe/Istanbul' });
+      const formattedTime = now.toLocaleString('tr-TR', { timeZone: 'Europe/Istanbul' });
       
       let message = `🎄 *Kokina Çiçek Gün Sonu Özeti*\n\n` +
         `✅ ${siteResults.filter(s => s.success).length} site tarandı\n` +
