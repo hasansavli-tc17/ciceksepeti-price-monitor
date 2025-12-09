@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-09T12:39:37.138Z",
+  "date": "2025-12-09T15:22:10.042Z",
   "product_type": "kokina",
   "summary": {
     "total_sites": 3,
@@ -177,6 +177,13 @@
     },
     {
       "site": "Çiçek Sepeti",
+      "name": "Cam Vazoda Kokina ve Kırmızı Gül",
+      "price": 1199,
+      "url": "https://www.ciceksepeti.com/cam-vazoda-kokina-ve-kirmizi-gul-kcm2628120",
+      "category": "Gizli/ekstra"
+    },
+    {
+      "site": "Çiçek Sepeti",
       "name": "Kraft Bukette Kokina, Gül, Gerbera ve Krizantem",
       "price": 849.99,
       "url": "https://www.ciceksepeti.com/kraft-bukette-kokina-gul-gerbera-ve-krizantem-at5672",
@@ -191,30 +198,23 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kraft Bukette Turuncu Güller ve Yılbaşı Kokina Çiçeği",
-      "price": 1572,
-      "url": "https://www.ciceksepeti.com/kraft-bukette-turuncu-guller-ve-yilbasi-kokina-cicegi-kcm27665086",
+      "name": "Kraft Kağıtta Kokina Buketi",
+      "price": 925,
+      "url": "https://www.ciceksepeti.com/kraft-kagitta-kokina-buketi-kcm6414384",
       "category": "Gizli/ekstra"
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Bukette Kokina Yılbaşı Çiçeği",
-      "price": 899,
-      "url": "https://www.ciceksepeti.com/bukette-kokina-yilbasi-cicegi-kcm94501959",
+      "name": "Yeni Yıl Kokina Buketi",
+      "price": 885,
+      "url": "https://www.ciceksepeti.com/yeni-yil-kokina-buketi-kcm47180508",
       "category": "Gizli/ekstra"
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Akvaryumda Kokina Çiçeği ve Turuncu Güller",
-      "price": 1599,
-      "url": "https://www.ciceksepeti.com/akvaryumda-kokina-cicegi-ve-turuncu-guller-kcm14868727",
-      "category": "Gizli/ekstra"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Bukette Turuncu Güller ve Kokina Çiçeği",
-      "price": 1529,
-      "url": "https://www.ciceksepeti.com/bukette-turuncu-guller-ve-kokina-cicegi-kcm42259334",
+      "name": "Fanus Vazoda Kokina Yeni Yıl Çiçeği",
+      "price": 1299,
+      "url": "https://www.ciceksepeti.com/fanus-vazoda-kokina-yeni-yil-cicegi-kcm72029351",
       "category": "Gizli/ekstra"
     },
     {
@@ -789,7 +789,7 @@
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "984.03",
+        "avg_price": "940.99",
         "min_price": "429.99",
         "max_price": "1699.00"
       },
