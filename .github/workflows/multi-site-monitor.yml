@@ -114,12 +114,23 @@ jobs:
           GCP_SERVICE_ACCOUNT_KEY: ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
         run: node kokina-price-monitor.js
       
+      - name: 💾 Commit and push kokina price history
+        continue-on-error: true
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add kokina_price_history.json kokina_benchmark_report.json
+          git diff --staged --quiet || git commit -m "🎄 Kokina price update - $(date +'%Y-%m-%d %H:%M:%S')"
+          git pull --rebase origin main || true
+          git push || echo "⚠️  Push failed, but continuing..."
+      
       - name: 📝 Upload kokina artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: kokina-monitoring-data-${{ github.run_number }}
+          name: kokina-monitoring-data
           path: |
             kokina_price_history.json
             kokina_benchmark_report.json
           retention-days: 30
+          overwrite: true
 
