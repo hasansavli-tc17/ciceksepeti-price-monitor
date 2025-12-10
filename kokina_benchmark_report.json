@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-10T04:53:46.748Z",
+  "date": "2025-12-10T09:22:53.681Z",
   "product_type": "kokina",
   "summary": {
     "total_sites": 3,
@@ -38,7 +38,7 @@
     {
       "site": "Çiçek Sepeti",
       "name": "Kraft Buket Kağıdında Kokina Yılbaşı Çiçeği",
-      "price": 929.99,
+      "price": 949.99,
       "url": "https://www.ciceksepeti.com/kraft-buket-kagidinda-kokina-yilbasi-cicegi-vbt1154",
       "category": "Görünür"
     },
@@ -789,7 +789,7 @@
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "1008.69",
+        "avg_price": "1009.36",
         "min_price": "429.99",
         "max_price": "1699.00"
       },
