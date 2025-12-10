@@ -1,10 +1,10 @@
 {
-  "date": "2025-12-10T09:22:53.681Z",
+  "date": "2025-12-10T12:39:59.361Z",
   "product_type": "kokina",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
-    "total_products": 111
+    "total_products": 114
   },
   "all_products": [
     {
@@ -177,6 +177,13 @@
     },
     {
       "site": "Çiçek Sepeti",
+      "name": "Cam Vazoda Kokina ve Kırmızı Gül",
+      "price": 1199,
+      "url": "https://www.ciceksepeti.com/cam-vazoda-kokina-ve-kirmizi-gul-kcm2628120",
+      "category": "Gizli/ekstra"
+    },
+    {
+      "site": "Çiçek Sepeti",
       "name": "Kırmızı Beyaz Güller ve Kokina Çiçeği",
       "price": 1519,
       "url": "https://www.ciceksepeti.com/kirmizi-beyaz-guller-ve-kokina-cicegi-kcm8797788",
@@ -211,13 +218,6 @@
       "category": "Gizli/ekstra"
     },
     {
-      "site": "Çiçek Sepeti",
-      "name": "Kraft Bukette Turuncu Güller ve Yılbaşı Kokina Çiçeği",
-      "price": 1572,
-      "url": "https://www.ciceksepeti.com/kraft-bukette-turuncu-guller-ve-yilbasi-kokina-cicegi-kcm27665086",
-      "category": "Gizli/ekstra"
-    },
-    {
       "site": "Hızlı Çiçek",
       "name": "Kokinanın Işığı",
       "price": 899,
@@ -283,7 +283,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Kokina Snow Dream",
-      "price": 1299,
+      "price": 999,
       "url": "https://hizlicicek.com/urun/kokina-snow-dream",
       "category": "-"
     },
@@ -380,9 +380,9 @@
     },
     {
       "site": "Hızlı Çiçek",
-      "name": "Yılbaşı Ağacı (50 cm)",
-      "price": 1599,
-      "url": "https://hizlicicek.com/urun/yilbasi-agaci-(50-cm)",
+      "name": "Christmas Kokina Buketi",
+      "price": 1199,
+      "url": "https://hizlicicek.com/urun/christmas-kokina-buketi",
       "category": "-"
     },
     {
@@ -451,7 +451,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Kokina Snow Dream",
-      "price": 1299,
+      "price": 999,
       "url": "https://hizlicicek.com/urun/kokina-snow-dream",
       "category": "-"
     },
@@ -548,9 +548,9 @@
     },
     {
       "site": "Hızlı Çiçek",
-      "name": "Yılbaşı Ağacı (50 cm)",
-      "price": 1599,
-      "url": "https://hizlicicek.com/urun/yilbasi-agaci-(50-cm)",
+      "name": "Christmas Kokina Buketi",
+      "price": 1199,
+      "url": "https://hizlicicek.com/urun/christmas-kokina-buketi",
       "category": "-"
     },
     {
@@ -619,7 +619,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Kokina Snow Dream",
-      "price": 1299,
+      "price": 999,
       "url": "https://hizlicicek.com/urun/kokina-snow-dream",
       "category": "-"
     },
@@ -716,9 +716,9 @@
     },
     {
       "site": "Hızlı Çiçek",
-      "name": "Yılbaşı Ağacı (50 cm)",
-      "price": 1599,
-      "url": "https://hizlicicek.com/urun/yilbasi-agaci-(50-cm)",
+      "name": "Christmas Kokina Buketi",
+      "price": 1199,
+      "url": "https://hizlicicek.com/urun/christmas-kokina-buketi",
       "category": "-"
     },
     {
@@ -744,23 +744,9 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Kokina Double",
-      "price": 1159.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-double",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Kokina & B&F Chocolate Bundle",
-      "price": 1399.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Kokina Golden",
-      "price": 1999.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-golden",
+      "name": "Kokina Extra Large",
+      "price": 2399.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-extra-large",
       "category": "-"
     },
     {
@@ -782,6 +768,41 @@
       "name": "Kokina Golden",
       "price": 1999.9,
       "url": "https://www.bloomandfresh.com/p/kokina-golden",
+      "category": "-"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina Extra Large",
+      "price": 2399.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-extra-large",
+      "category": "-"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina Double",
+      "price": 1159.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-double",
+      "category": "-"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina & B&F Chocolate Bundle",
+      "price": 1399.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
+      "category": "-"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina Golden",
+      "price": 1999.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-golden",
+      "category": "-"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina Extra Large",
+      "price": 2399.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-extra-large",
       "category": "-"
     }
   ],
@@ -789,21 +810,21 @@
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "1009.36",
+        "avg_price": "996.93",
         "min_price": "429.99",
         "max_price": "1699.00"
       },
       "Hızlı Çiçek": {
         "product_count": 72,
-        "avg_price": "1807.75",
+        "avg_price": "1778.58",
         "min_price": "789.00",
         "max_price": "4399.00"
       },
       "Bloom and Fresh": {
-        "product_count": 9,
-        "avg_price": "1519.90",
+        "product_count": 12,
+        "avg_price": "1739.90",
         "min_price": "1159.90",
-        "max_price": "1999.90"
+        "max_price": "2399.90"
       }
     }
   }
