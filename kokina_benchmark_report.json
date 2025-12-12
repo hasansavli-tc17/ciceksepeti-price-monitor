@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-12T09:23:58.217Z",
+  "date": "2025-12-12T12:39:45.102Z",
   "product_type": "kokina",
   "summary": {
     "total_sites": 3,
@@ -135,6 +135,13 @@
     },
     {
       "site": "Çiçek Sepeti",
+      "name": "Cam Akvaryumda Kokina Çiçeği ve Kozalaklar",
+      "price": 1299,
+      "url": "https://www.ciceksepeti.com/cam-akvaryumda-kokina-cicegi-ve-kozalaklar-kcm85765297",
+      "category": "Görünür"
+    },
+    {
+      "site": "Çiçek Sepeti",
       "name": "Kraft Bukette Turuncu Güller ve Kokina Çiçeği",
       "price": 1049,
       "url": "https://www.ciceksepeti.com/kraft-bukette-turuncu-guller-ve-kokina-cicegi-vbt1156",
@@ -166,7 +173,7 @@
       "name": "Kraft Bukette Kokina, Gül, Gerbera ve Krizantem",
       "price": 849.99,
       "url": "https://www.ciceksepeti.com/kraft-bukette-kokina-gul-gerbera-ve-krizantem-at5672",
-      "category": "Görünür"
+      "category": "Gizli/ekstra"
     },
     {
       "site": "Çiçek Sepeti",
@@ -211,13 +218,6 @@
       "category": "Gizli/ekstra"
     },
     {
-      "site": "Çiçek Sepeti",
-      "name": "Kokina Buketi",
-      "price": 899,
-      "url": "https://www.ciceksepeti.com/kokina-buketi-kcm19763597",
-      "category": "Gizli/ekstra"
-    },
-    {
       "site": "Hızlı Çiçek",
       "name": "Kokinanın Işığı",
       "price": 899,
@@ -723,13 +723,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Kokina Double",
-      "price": 1159.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-double",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Kokina & B&F Chocolate Bundle",
       "price": 1399.9,
       "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
@@ -803,6 +796,13 @@
       "name": "Kokina Extra Large",
       "price": 2399.9,
       "url": "https://www.bloomandfresh.com/p/kokina-extra-large",
+      "category": "-"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina Double",
+      "price": 1159.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-double",
       "category": "-"
     }
   ],
@@ -810,7 +810,7 @@
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "996.03",
+        "avg_price": "1009.36",
         "min_price": "429.99",
         "max_price": "1699.00"
       },
