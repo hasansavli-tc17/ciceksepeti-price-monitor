@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-12T15:21:01.295Z",
+  "date": "2025-12-13T04:48:07.314Z",
   "product_type": "kokina",
   "summary": {
     "total_sites": 3,
@@ -51,16 +51,16 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Cam Vazoda Kokina Çiçeği ve Kırmızı Güller",
-      "price": 929.99,
-      "url": "https://www.ciceksepeti.com/cam-vazoda-kokina-cicegi-ve-kirmizi-guller-at5652",
+      "name": "Kraft Bukette Kokina, Kırmızı Gül ve Beyaz Gerbera",
+      "price": 839.99,
+      "url": "https://www.ciceksepeti.com/kraft-bukette-kokina-kirmizi-gul-ve-beyaz-gerbera-at5669",
       "category": "Görünür"
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kraft Bukette Kokina, Kırmızı Gül ve Beyaz Gerbera",
-      "price": 839.99,
-      "url": "https://www.ciceksepeti.com/kraft-bukette-kokina-kirmizi-gul-ve-beyaz-gerbera-at5669",
+      "name": "Cam Vazoda Kokina Çiçeği ve Kırmızı Güller",
+      "price": 929.99,
+      "url": "https://www.ciceksepeti.com/cam-vazoda-kokina-cicegi-ve-kirmizi-guller-at5652",
       "category": "Görünür"
     },
     {
@@ -79,16 +79,16 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kırmızı Gül & Kırmızı Gerbera ve Kokina Buketi",
-      "price": 729.99,
-      "url": "https://www.ciceksepeti.com/kirmizi-gul-kirmizi-gerbera-ve-kokina-buketi-at5344",
+      "name": "Bukette Kırmızı Beyaz Güller ve Kokina Çiçeği",
+      "price": 1099,
+      "url": "https://www.ciceksepeti.com/bukette-kirmizi-beyaz-guller-ve-kokina-cicegi-vbt1158",
       "category": "Görünür"
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Bukette Kırmızı Beyaz Güller ve Kokina Çiçeği",
-      "price": 1099,
-      "url": "https://www.ciceksepeti.com/bukette-kirmizi-beyaz-guller-ve-kokina-cicegi-vbt1158",
+      "name": "Kırmızı Gül & Kırmızı Gerbera ve Kokina Buketi",
+      "price": 729.99,
+      "url": "https://www.ciceksepeti.com/kirmizi-gul-kirmizi-gerbera-ve-kokina-buketi-at5344",
       "category": "Görünür"
     },
     {
@@ -121,6 +121,13 @@
     },
     {
       "site": "Çiçek Sepeti",
+      "name": "Kraft Bukette Turuncu Güller ve Kokina Çiçeği",
+      "price": 1049,
+      "url": "https://www.ciceksepeti.com/kraft-bukette-turuncu-guller-ve-kokina-cicegi-vbt1156",
+      "category": "Görünür"
+    },
+    {
+      "site": "Çiçek Sepeti",
       "name": "Turuncu Kırmızı Güller ve Kokina Buketi",
       "price": 1099,
       "url": "https://www.ciceksepeti.com/turuncu-kirmizi-guller-ve-kokina-buketi-at5348",
@@ -131,20 +138,6 @@
       "name": "Beyaz Lilyum & Kırmızı Gül & Gerbera ve Kokina",
       "price": 1149,
       "url": "https://www.ciceksepeti.com/beyaz-lilyum-kirmizi-gul-gerbera-ve-kokina-vbt1051",
-      "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Cam Akvaryumda Kokina Çiçeği ve Kozalaklar",
-      "price": 1299,
-      "url": "https://www.ciceksepeti.com/cam-akvaryumda-kokina-cicegi-ve-kozalaklar-kcm85765297",
-      "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Kraft Bukette Turuncu Güller ve Kokina Çiçeği",
-      "price": 1049,
-      "url": "https://www.ciceksepeti.com/kraft-bukette-turuncu-guller-ve-kokina-cicegi-vbt1156",
       "category": "Görünür"
     },
     {
@@ -163,6 +156,13 @@
     },
     {
       "site": "Çiçek Sepeti",
+      "name": "Cam Akvaryumda Kokina Çiçeği ve Kozalaklar",
+      "price": 1299,
+      "url": "https://www.ciceksepeti.com/cam-akvaryumda-kokina-cicegi-ve-kozalaklar-kcm85765297",
+      "category": "Görünür"
+    },
+    {
+      "site": "Çiçek Sepeti",
       "name": "Kurdeleli Kraft Bukette Kokina ve Mirkeladus",
       "price": 429.99,
       "url": "https://www.ciceksepeti.com/kurdeleli-kraft-bukette-kokina-ve-mirkeladus-vbt1176",
@@ -170,16 +170,16 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kraft Bukette Kokina, Gül, Gerbera ve Krizantem",
-      "price": 849.99,
-      "url": "https://www.ciceksepeti.com/kraft-bukette-kokina-gul-gerbera-ve-krizantem-at5672",
+      "name": "Cam Vazoda Kokina ve Kırmızı Gül",
+      "price": 1199,
+      "url": "https://www.ciceksepeti.com/cam-vazoda-kokina-ve-kirmizi-gul-kcm2628120",
       "category": "Gizli/ekstra"
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Cam Vazoda Kokina ve Kırmızı Gül",
-      "price": 1199,
-      "url": "https://www.ciceksepeti.com/cam-vazoda-kokina-ve-kirmizi-gul-kcm2628120",
+      "name": "Kraft Bukette Kokina, Gül, Gerbera ve Krizantem",
+      "price": 849.99,
+      "url": "https://www.ciceksepeti.com/kraft-bukette-kokina-gul-gerbera-ve-krizantem-at5672",
       "category": "Gizli/ekstra"
     },
     {
@@ -191,20 +191,6 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kırmızı Beyaz Güller ve Kokina Çiçeği",
-      "price": 1519,
-      "url": "https://www.ciceksepeti.com/kirmizi-beyaz-guller-ve-kokina-cicegi-kcm8797788",
-      "category": "Gizli/ekstra"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Bukette Turuncu Güller ve Kokina Çiçeği",
-      "price": 1529,
-      "url": "https://www.ciceksepeti.com/bukette-turuncu-guller-ve-kokina-cicegi-kcm42259334",
-      "category": "Gizli/ekstra"
-    },
-    {
-      "site": "Çiçek Sepeti",
       "name": "Kraft Bukette Kokina ve Sarı Top Krizantemler",
       "price": 749.99,
       "url": "https://www.ciceksepeti.com/kraft-bukette-kokina-ve-sari-top-krizantemler-vbt1177",
@@ -212,9 +198,23 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Akvaryumda Kokina Çiçeği ve Turuncu Güller",
-      "price": 1599,
-      "url": "https://www.ciceksepeti.com/akvaryumda-kokina-cicegi-ve-turuncu-guller-kcm14868727",
+      "name": "Kraft Çantada Kokina, Krizantem ve Renkli Güller",
+      "price": 799.99,
+      "url": "https://www.ciceksepeti.com/kraft-cantada-kokina-krizantem-ve-renkli-guller-vbt1562",
+      "category": "Gizli/ekstra"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Kokina Buketi",
+      "price": 899,
+      "url": "https://www.ciceksepeti.com/kokina-buketi-kcm19763597",
+      "category": "Gizli/ekstra"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Kırmızı Beyaz Güller ve Kokina Çiçeği",
+      "price": 1519,
+      "url": "https://www.ciceksepeti.com/kirmizi-beyaz-guller-ve-kokina-cicegi-kcm8797788",
       "category": "Gizli/ekstra"
     },
     {
@@ -240,6 +240,13 @@
     },
     {
       "site": "Hızlı Çiçek",
+      "name": "Golden Festive Rose",
+      "price": 1779,
+      "url": "https://hizlicicek.com/urun/golden-festive-rose",
+      "category": "-"
+    },
+    {
+      "site": "Hızlı Çiçek",
       "name": "Red Silver Kokina Buketi",
       "price": 1379,
       "url": "https://hizlicicek.com/urun/red-silver-kokina-buketi",
@@ -369,13 +376,6 @@
       "name": "Golden Red Masa Aranjmanı",
       "price": 3499,
       "url": "https://hizlicicek.com/urun/golden-red-masa-aranjmani",
-      "category": "-"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Golden Festive Rose",
-      "price": 1779,
-      "url": "https://hizlicicek.com/urun/golden-festive-rose",
       "category": "-"
     },
     {
@@ -408,6 +408,13 @@
     },
     {
       "site": "Hızlı Çiçek",
+      "name": "Golden Festive Rose",
+      "price": 1779,
+      "url": "https://hizlicicek.com/urun/golden-festive-rose",
+      "category": "-"
+    },
+    {
+      "site": "Hızlı Çiçek",
       "name": "Red Silver Kokina Buketi",
       "price": 1379,
       "url": "https://hizlicicek.com/urun/red-silver-kokina-buketi",
@@ -537,13 +544,6 @@
       "name": "Golden Red Masa Aranjmanı",
       "price": 3499,
       "url": "https://hizlicicek.com/urun/golden-red-masa-aranjmani",
-      "category": "-"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Golden Festive Rose",
-      "price": 1779,
-      "url": "https://hizlicicek.com/urun/golden-festive-rose",
       "category": "-"
     },
     {
@@ -576,6 +576,13 @@
     },
     {
       "site": "Hızlı Çiçek",
+      "name": "Golden Festive Rose",
+      "price": 1779,
+      "url": "https://hizlicicek.com/urun/golden-festive-rose",
+      "category": "-"
+    },
+    {
+      "site": "Hızlı Çiçek",
       "name": "Red Silver Kokina Buketi",
       "price": 1379,
       "url": "https://hizlicicek.com/urun/red-silver-kokina-buketi",
@@ -709,13 +716,6 @@
     },
     {
       "site": "Hızlı Çiçek",
-      "name": "Golden Festive Rose",
-      "price": 1779,
-      "url": "https://hizlicicek.com/urun/golden-festive-rose",
-      "category": "-"
-    },
-    {
-      "site": "Hızlı Çiçek",
       "name": "Christmas Kokina Buketi",
       "price": 1199,
       "url": "https://hizlicicek.com/urun/christmas-kokina-buketi",
@@ -730,13 +730,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Kokina & B&F Chocolate Bundle",
-      "price": 1399.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Kokina Golden",
       "price": 1999.9,
       "url": "https://www.bloomandfresh.com/p/kokina-golden",
@@ -747,6 +740,13 @@
       "name": "Kokina Extra Large",
       "price": 2399.9,
       "url": "https://www.bloomandfresh.com/p/kokina-extra-large",
+      "category": "-"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina & B&F Chocolate Bundle",
+      "price": 1399.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
       "category": "-"
     },
     {
@@ -758,13 +758,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Kokina & B&F Chocolate Bundle",
-      "price": 1399.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Kokina Golden",
       "price": 1999.9,
       "url": "https://www.bloomandfresh.com/p/kokina-golden",
@@ -775,6 +768,13 @@
       "name": "Kokina Extra Large",
       "price": 2399.9,
       "url": "https://www.bloomandfresh.com/p/kokina-extra-large",
+      "category": "-"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina & B&F Chocolate Bundle",
+      "price": 1399.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
       "category": "-"
     },
     {
@@ -786,13 +786,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Kokina & B&F Chocolate Bundle",
-      "price": 1399.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Kokina Golden",
       "price": 1999.9,
       "url": "https://www.bloomandfresh.com/p/kokina-golden",
@@ -803,6 +796,13 @@
       "name": "Kokina Extra Large",
       "price": 2399.9,
       "url": "https://www.bloomandfresh.com/p/kokina-extra-large",
+      "category": "-"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina & B&F Chocolate Bundle",
+      "price": 1399.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
       "category": "-"
     }
   ],
@@ -810,7 +810,7 @@
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "994.69",
+        "avg_price": "947.06",
         "min_price": "429.99",
         "max_price": "1699.00"
       },
