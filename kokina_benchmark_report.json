@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-13T15:17:47.055Z",
+  "date": "2025-12-14T04:54:21.766Z",
   "product_type": "kokina",
   "summary": {
     "total_sites": 3,
@@ -30,16 +30,16 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kırmızı Beyaz Gerberalar ve Kokina Buketi",
-      "price": 829.99,
-      "url": "https://www.ciceksepeti.com/kirmizi-beyaz-gerberalar-ve-kokina-buketi-at5349",
+      "name": "Kraft Buket Kağıdında Kokina Yılbaşı Çiçeği",
+      "price": 949.99,
+      "url": "https://www.ciceksepeti.com/kraft-buket-kagidinda-kokina-yilbasi-cicegi-vbt1154",
       "category": "Görünür"
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kraft Buket Kağıdında Kokina Yılbaşı Çiçeği",
-      "price": 949.99,
-      "url": "https://www.ciceksepeti.com/kraft-buket-kagidinda-kokina-yilbasi-cicegi-vbt1154",
+      "name": "Kırmızı Beyaz Gerberalar ve Kokina Buketi",
+      "price": 829.99,
+      "url": "https://www.ciceksepeti.com/kirmizi-beyaz-gerberalar-ve-kokina-buketi-at5349",
       "category": "Görünür"
     },
     {
@@ -51,9 +51,9 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kraft Bukette Kokina, Kırmızı Gül ve Beyaz Gerbera",
-      "price": 839.99,
-      "url": "https://www.ciceksepeti.com/kraft-bukette-kokina-kirmizi-gul-ve-beyaz-gerbera-at5669",
+      "name": "Akvaryum Cam Vazoda Kokina Çiçeği - Yılbaşı Çiçeği",
+      "price": 999.99,
+      "url": "https://www.ciceksepeti.com/akvaryum-cam-vazoda-kokina-cicegi-yilbasi-cicegi-vbt1148",
       "category": "Görünür"
     },
     {
@@ -65,16 +65,9 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Cam Akvaryumda Kokina Çiçeği ve Turuncu Güller",
-      "price": 1149,
-      "url": "https://www.ciceksepeti.com/viabonte-first-day-of-the-new-year-vbt677",
-      "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Akvaryum Cam Vazoda Kokina Çiçeği - Yılbaşı Çiçeği",
-      "price": 999.99,
-      "url": "https://www.ciceksepeti.com/akvaryum-cam-vazoda-kokina-cicegi-yilbasi-cicegi-vbt1148",
+      "name": "Kraft Bukette Kokina, Kırmızı Gül ve Beyaz Gerbera",
+      "price": 839.99,
+      "url": "https://www.ciceksepeti.com/kraft-bukette-kokina-kirmizi-gul-ve-beyaz-gerbera-at5669",
       "category": "Görünür"
     },
     {
@@ -82,6 +75,13 @@
       "name": "Bukette Kırmızı Beyaz Güller ve Kokina Çiçeği",
       "price": 1099,
       "url": "https://www.ciceksepeti.com/bukette-kirmizi-beyaz-guller-ve-kokina-cicegi-vbt1158",
+      "category": "Görünür"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Cam Akvaryumda Kokina Çiçeği ve Turuncu Güller",
+      "price": 1149,
+      "url": "https://www.ciceksepeti.com/viabonte-first-day-of-the-new-year-vbt677",
       "category": "Görünür"
     },
     {
@@ -156,6 +156,13 @@
     },
     {
       "site": "Çiçek Sepeti",
+      "name": "Kraft Çantada Kokina, Krizantem ve Renkli Güller",
+      "price": 799.99,
+      "url": "https://www.ciceksepeti.com/kraft-cantada-kokina-krizantem-ve-renkli-guller-vbt1562",
+      "category": "Görünür"
+    },
+    {
+      "site": "Çiçek Sepeti",
       "name": "Kurdeleli Kraft Bukette Kokina ve Mirkeladus",
       "price": 429.99,
       "url": "https://www.ciceksepeti.com/kurdeleli-kraft-bukette-kokina-ve-mirkeladus-vbt1176",
@@ -166,7 +173,7 @@
       "name": "Kraft Bukette Kokina, Gül, Gerbera ve Krizantem",
       "price": 849.99,
       "url": "https://www.ciceksepeti.com/kraft-bukette-kokina-gul-gerbera-ve-krizantem-at5672",
-      "category": "Görünür"
+      "category": "Gizli/ekstra"
     },
     {
       "site": "Çiçek Sepeti",
@@ -184,9 +191,9 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kraft Çantada Kokina, Krizantem ve Renkli Güller",
-      "price": 799.99,
-      "url": "https://www.ciceksepeti.com/kraft-cantada-kokina-krizantem-ve-renkli-guller-vbt1562",
+      "name": "Bukette Kokina Yılbaşı Çiçeği",
+      "price": 899,
+      "url": "https://www.ciceksepeti.com/bukette-kokina-yilbasi-cicegi-kcm94501959",
       "category": "Gizli/ekstra"
     },
     {
@@ -198,23 +205,16 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kırmızı Beyaz Güller ve Kokina Çiçeği",
-      "price": 1519,
-      "url": "https://www.ciceksepeti.com/kirmizi-beyaz-guller-ve-kokina-cicegi-kcm8797788",
-      "category": "Gizli/ekstra"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Bukette Turuncu Güller ve Kokina Çiçeği",
-      "price": 1529,
-      "url": "https://www.ciceksepeti.com/bukette-turuncu-guller-ve-kokina-cicegi-kcm42259334",
-      "category": "Gizli/ekstra"
-    },
-    {
-      "site": "Çiçek Sepeti",
       "name": "Akvaryumda Kokina Çiçeği ve Turuncu Güller",
       "price": 1599,
       "url": "https://www.ciceksepeti.com/akvaryumda-kokina-cicegi-ve-turuncu-guller-kcm14868727",
+      "category": "Gizli/ekstra"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Kırmızı Beyaz Güller ve Kokina Çiçeği",
+      "price": 1519,
+      "url": "https://www.ciceksepeti.com/kirmizi-beyaz-guller-ve-kokina-cicegi-kcm8797788",
       "category": "Gizli/ekstra"
     },
     {
@@ -810,7 +810,7 @@
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "954.73",
+        "avg_price": "933.73",
         "min_price": "429.99",
         "max_price": "1599.00"
       },
