@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-16T09:25:31.802Z",
+  "date": "2025-12-16T12:40:24.459Z",
   "product_type": "kokina",
   "summary": {
     "total_sites": 3,
@@ -184,9 +184,23 @@
     },
     {
       "site": "Çiçek Sepeti",
+      "name": "Cam Vazoda Kokina ve Kırmızı Gül",
+      "price": 1199,
+      "url": "https://www.ciceksepeti.com/cam-vazoda-kokina-ve-kirmizi-gul-kcm2628120",
+      "category": "Gizli/ekstra"
+    },
+    {
+      "site": "Çiçek Sepeti",
       "name": "Bukette Turuncu Güller ve Kokina Çiçeği",
       "price": 1529,
       "url": "https://www.ciceksepeti.com/bukette-turuncu-guller-ve-kokina-cicegi-kcm42259334",
+      "category": "Gizli/ekstra"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Kraft Kağıtta Kokina Buketi",
+      "price": 925,
+      "url": "https://www.ciceksepeti.com/kraft-kagitta-kokina-buketi-kcm6414384",
       "category": "Gizli/ekstra"
     },
     {
@@ -201,20 +215,6 @@
       "name": "Bukette Turuncu Güller ve Kokina Çiçeği",
       "price": 1639,
       "url": "https://www.ciceksepeti.com/bukette-turuncu-guller-ve-kokina-cicegi-kcm96832083",
-      "category": "Gizli/ekstra"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Kokina Buketi",
-      "price": 899,
-      "url": "https://www.ciceksepeti.com/kokina-buketi-kcm19763597",
-      "category": "Gizli/ekstra"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Kırmızı Beyaz Güller ve Kokina Çiçeği",
-      "price": 1519,
-      "url": "https://www.ciceksepeti.com/kirmizi-beyaz-guller-ve-kokina-cicegi-kcm8797788",
       "category": "Gizli/ekstra"
     },
     {
@@ -915,7 +915,7 @@
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "993.66",
+        "avg_price": "983.86",
         "min_price": "429.99",
         "max_price": "1699.00"
       },
