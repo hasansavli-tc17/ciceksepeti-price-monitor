@@ -1,10 +1,10 @@
 {
-  "date": "2025-12-16T12:40:24.459Z",
+  "date": "2025-12-16T15:22:24.667Z",
   "product_type": "kokina",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
-    "total_products": 129
+    "total_products": 114
   },
   "all_products": [
     {
@@ -122,7 +122,7 @@
     {
       "site": "Çiçek Sepeti",
       "name": "Turuncu Kırmızı Güller ve Kokina Buketi",
-      "price": 1099,
+      "price": 1049,
       "url": "https://www.ciceksepeti.com/turuncu-kirmizi-guller-ve-kokina-buketi-at5348",
       "category": "Görünür"
     },
@@ -804,118 +804,13 @@
       "price": 1979,
       "url": "https://hizlicicek.com/urun/kokina-glass-elegance",
       "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Lux",
-      "price": 1799.9,
-      "url": "https://www.bloomandfresh.com/p/lux-yeni-yil-cicek-aranjmani",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Kokina Double",
-      "price": 1159.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-double",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Kokina & B&F Chocolate Bundle",
-      "price": 1399.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Kokina Golden",
-      "price": 1999.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-golden",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Kokina Extra Large",
-      "price": 2399.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-extra-large",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Lux",
-      "price": 1799.9,
-      "url": "https://www.bloomandfresh.com/p/lux-yeni-yil-cicek-aranjmani",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Kokina Double",
-      "price": 1159.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-double",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Kokina & B&F Chocolate Bundle",
-      "price": 1399.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Kokina Golden",
-      "price": 1999.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-golden",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Kokina Extra Large",
-      "price": 2399.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-extra-large",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Lux",
-      "price": 1799.9,
-      "url": "https://www.bloomandfresh.com/p/lux-yeni-yil-cicek-aranjmani",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Kokina Double",
-      "price": 1159.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-double",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Kokina & B&F Chocolate Bundle",
-      "price": 1399.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Kokina Golden",
-      "price": 1999.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-golden",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Kokina Extra Large",
-      "price": 2399.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-extra-large",
-      "category": "-"
     }
   ],
   "price_analysis": {
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "983.86",
+        "avg_price": "982.19",
         "min_price": "429.99",
         "max_price": "1699.00"
       },
@@ -924,12 +819,6 @@
         "avg_price": "1665.43",
         "min_price": "699.00",
         "max_price": "4399.00"
-      },
-      "Bloom and Fresh": {
-        "product_count": 15,
-        "avg_price": "1751.90",
-        "min_price": "1159.90",
-        "max_price": "2399.90"
       }
     }
   }
