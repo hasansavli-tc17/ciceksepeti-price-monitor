@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-17T04:53:59.743Z",
+  "date": "2025-12-17T09:27:17.495Z",
   "product_type": "kokina",
   "summary": {
     "total_sites": 3,
@@ -198,26 +198,26 @@
     },
     {
       "site": "Çiçek Sepeti",
+      "name": "Premium Kokina ve Turuncu Güller",
+      "price": 1699,
+      "url": "https://www.ciceksepeti.com/premium-kokina-ve-turuncu-guller-kcm58678856",
+      "category": "Gizli/ekstra"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Kraft Kağıtta Kokina Buketi",
+      "price": 925,
+      "url": "https://www.ciceksepeti.com/kraft-kagitta-kokina-buketi-kcm6414384",
+      "category": "Gizli/ekstra"
+    },
+    {
+      "site": "Çiçek Sepeti",
       "name": "Bukette Turuncu Güller ve Kokina Çiçeği",
       "price": 1639,
       "url": "https://www.ciceksepeti.com/bukette-turuncu-guller-ve-kokina-cicegi-kcm96832083",
       "category": "Gizli/ekstra"
     },
     {
-      "site": "Çiçek Sepeti",
-      "name": "Bukette Kokina Yılbaşı Çiçeği",
-      "price": 899,
-      "url": "https://www.ciceksepeti.com/bukette-kokina-yilbasi-cicegi-kcm94501959",
-      "category": "Gizli/ekstra"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Kokina Buketi",
-      "price": 899,
-      "url": "https://www.ciceksepeti.com/kokina-buketi-kcm19763597",
-      "category": "Gizli/ekstra"
-    },
-    {
       "site": "Hızlı Çiçek",
       "name": "Merry Kokina Buketi",
       "price": 1199,
@@ -241,7 +241,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Winter Charm",
-      "price": 1199,
+      "price": 1799,
       "url": "",
       "category": "-"
     },
@@ -276,7 +276,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Red Winter Charm",
-      "price": 789,
+      "price": 699,
       "url": "",
       "category": "-"
     },
@@ -409,7 +409,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Winter Charm",
-      "price": 1199,
+      "price": 1799,
       "url": "",
       "category": "-"
     },
@@ -444,7 +444,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Red Winter Charm",
-      "price": 789,
+      "price": 699,
       "url": "",
       "category": "-"
     },
@@ -577,7 +577,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Winter Charm",
-      "price": 1199,
+      "price": 1799,
       "url": "",
       "category": "-"
     },
@@ -612,7 +612,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Red Winter Charm",
-      "price": 789,
+      "price": 699,
       "url": "",
       "category": "-"
     },
@@ -831,14 +831,14 @@
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "981.33",
+        "avg_price": "1008.86",
         "min_price": "429.99",
         "max_price": "1699.00"
       },
       "Hızlı Çiçek": {
         "product_count": 72,
-        "avg_price": "1816.08",
-        "min_price": "789.00",
+        "avg_price": "1837.33",
+        "min_price": "699.00",
         "max_price": "4399.00"
       },
       "Bloom and Fresh": {
