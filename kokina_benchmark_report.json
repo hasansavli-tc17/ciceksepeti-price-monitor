@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-17T15:21:46.655Z",
+  "date": "2025-12-18T04:55:26.270Z",
   "product_type": "kokina",
   "summary": {
     "total_sites": 3,
@@ -79,13 +79,6 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kraft Bukette Kokina Yılbaşı Çiçeği & Beyaz Gerbera",
-      "price": 699.99,
-      "url": "https://www.ciceksepeti.com/kraft-bukette-kokina-yilbasi-cicegi-beyaz-gerbera-at5665",
-      "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
       "name": "Kurdeleli Kraft Bukette Kokina ve Kozalaklar",
       "price": 649.99,
       "url": "https://www.ciceksepeti.com/kurdeleli-kraft-bukette-kokina-ve-kozalaklar-vbt1175",
@@ -93,9 +86,9 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kraft Bukette Kokina Yılbaşı Çiçeği ve Sarı Luna",
-      "price": 549.99,
-      "url": "https://www.ciceksepeti.com/kraft-bukette-kokina-yilbasi-cicegi-ve-sari-luna-at5664",
+      "name": "Kraft Bukette Kokina Yılbaşı Çiçeği & Beyaz Gerbera",
+      "price": 699.99,
+      "url": "https://www.ciceksepeti.com/kraft-bukette-kokina-yilbasi-cicegi-beyaz-gerbera-at5665",
       "category": "Görünür"
     },
     {
@@ -103,6 +96,13 @@
       "name": "Kraft Bukette Turuncu Güller ve Kokina Çiçeği",
       "price": 1049,
       "url": "https://www.ciceksepeti.com/kraft-bukette-turuncu-guller-ve-kokina-cicegi-vbt1156",
+      "category": "Görünür"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Kraft Bukette Kokina Yılbaşı Çiçeği ve Sarı Luna",
+      "price": 549.99,
+      "url": "https://www.ciceksepeti.com/kraft-bukette-kokina-yilbasi-cicegi-ve-sari-luna-at5664",
       "category": "Görünür"
     },
     {
@@ -177,16 +177,23 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kraft Bukette Turuncu Güller ve Yılbaşı Kokina Çiçeği",
-      "price": 1572,
-      "url": "https://www.ciceksepeti.com/kraft-bukette-turuncu-guller-ve-yilbasi-kokina-cicegi-kcm27665086",
+      "name": "Bukette Turuncu Güller ve Kokina Çiçeği",
+      "price": 1529,
+      "url": "https://www.ciceksepeti.com/bukette-turuncu-guller-ve-kokina-cicegi-kcm42259334",
       "category": "Gizli/ekstra"
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Bukette Turuncu Güller ve Kokina Çiçeği",
-      "price": 1529,
-      "url": "https://www.ciceksepeti.com/bukette-turuncu-guller-ve-kokina-cicegi-kcm42259334",
+      "name": "Cam Vazoda Kokina Çiçeği",
+      "price": 899,
+      "url": "https://www.ciceksepeti.com/cam-vazoda-kokina-cicegi-kcm41891075",
+      "category": "Gizli/ekstra"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Kraft Bukette Turuncu Güller ve Yılbaşı Kokina Çiçeği",
+      "price": 1572,
+      "url": "https://www.ciceksepeti.com/kraft-bukette-turuncu-guller-ve-yilbasi-kokina-cicegi-kcm27665086",
       "category": "Gizli/ekstra"
     },
     {
@@ -198,23 +205,16 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Premium Kokina ve Turuncu Güller",
-      "price": 1699,
-      "url": "https://www.ciceksepeti.com/premium-kokina-ve-turuncu-guller-kcm58678856",
-      "category": "Gizli/ekstra"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Kraft Kağıtta Kokina Buketi",
-      "price": 925,
-      "url": "https://www.ciceksepeti.com/kraft-kagitta-kokina-buketi-kcm6414384",
-      "category": "Gizli/ekstra"
-    },
-    {
-      "site": "Çiçek Sepeti",
       "name": "Bukette Turuncu Güller ve Kokina Çiçeği",
       "price": 1639,
       "url": "https://www.ciceksepeti.com/bukette-turuncu-guller-ve-kokina-cicegi-kcm96832083",
+      "category": "Gizli/ekstra"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Bukette Kokina Yılbaşı Çiçeği",
+      "price": 899,
+      "url": "https://www.ciceksepeti.com/bukette-kokina-yilbasi-cicegi-kcm94501959",
       "category": "Gizli/ekstra"
     },
     {
@@ -831,7 +831,7 @@
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "1008.86",
+        "avg_price": "981.33",
         "min_price": "429.99",
         "max_price": "1699.00"
       },
