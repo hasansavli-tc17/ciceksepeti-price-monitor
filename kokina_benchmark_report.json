@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-19T09:22:53.013Z",
+  "date": "2025-12-19T12:37:51.600Z",
   "product_type": "kokina",
   "summary": {
     "total_sites": 3,
@@ -177,23 +177,9 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Cam Vazoda Kokina ve Kırmızı Gül",
-      "price": 1199,
-      "url": "https://www.ciceksepeti.com/cam-vazoda-kokina-ve-kirmizi-gul-kcm2628120",
-      "category": "Gizli/ekstra"
-    },
-    {
-      "site": "Çiçek Sepeti",
       "name": "Cam Vazoda Kokina Çiçeği - Yılbaşı Çiçeği",
       "price": 1299,
       "url": "https://www.ciceksepeti.com/cam-vazoda-kokina-cicegi-yilbasi-cicegi-kcm34015779",
-      "category": "Gizli/ekstra"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Yeni Yıl Kokina Buketi",
-      "price": 885,
-      "url": "https://www.ciceksepeti.com/yeni-yil-kokina-buketi-kcm47180508",
       "category": "Gizli/ekstra"
     },
     {
@@ -205,19 +191,33 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kraft Kağıtta Kokina Buketi",
-      "price": 925,
-      "url": "https://www.ciceksepeti.com/kraft-kagitta-kokina-buketi-kcm6414384",
-      "category": "Gizli/ekstra"
-    },
-    {
-      "site": "Çiçek Sepeti",
       "name": "Bukette Kırmızı Beyaz Güller ve Kokina",
       "price": 1449,
       "url": "https://www.ciceksepeti.com/bukette-kirmizi-beyaz-guller-ve-kokina-kcm85911835",
       "category": "Gizli/ekstra"
     },
     {
+      "site": "Çiçek Sepeti",
+      "name": "Kokina Buketi",
+      "price": 899,
+      "url": "https://www.ciceksepeti.com/kokina-buketi-kcm19763597",
+      "category": "Gizli/ekstra"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Yılbaşı Kokina Buketi",
+      "price": 1699,
+      "url": "https://www.ciceksepeti.com/yilbasi-kokina-buketi-kcm56375918",
+      "category": "Gizli/ekstra"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Kokina ve Renkli Gerbera Buketi",
+      "price": 1099,
+      "url": "https://www.ciceksepeti.com/kokina-ve-renkli-gerbera-buketi-kcm19774991",
+      "category": "Gizli/ekstra"
+    },
+    {
       "site": "Hızlı Çiçek",
       "name": "Red Dream Kokina Buketi",
       "price": 979,
@@ -723,34 +723,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Kokina Double",
-      "price": 1159.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-double",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Kokina & B&F Chocolate Bundle",
-      "price": 1399.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Kokina Golden",
-      "price": 1999.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-golden",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Kokina Extra Large",
-      "price": 2399.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-extra-large",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Lux",
       "price": 1799.9,
       "url": "https://www.bloomandfresh.com/p/lux-yeni-yil-cicek-aranjmani",
@@ -824,6 +796,34 @@
       "name": "Lux",
       "price": 1799.9,
       "url": "https://www.bloomandfresh.com/p/lux-yeni-yil-cicek-aranjmani",
+      "category": "-"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina Double",
+      "price": 1159.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-double",
+      "category": "-"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina & B&F Chocolate Bundle",
+      "price": 1399.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
+      "category": "-"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina Golden",
+      "price": 1999.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-golden",
+      "category": "-"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina Extra Large",
+      "price": 2399.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-extra-large",
       "category": "-"
     }
   ],
@@ -831,7 +831,7 @@
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "963.29",
+        "avg_price": "986.23",
         "min_price": "429.99",
         "max_price": "1699.00"
       },
