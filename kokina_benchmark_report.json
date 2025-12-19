@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-19T04:55:22.294Z",
+  "date": "2025-12-19T09:22:53.013Z",
   "product_type": "kokina",
   "summary": {
     "total_sites": 3,
@@ -199,7 +199,7 @@
     {
       "site": "Çiçek Sepeti",
       "name": "Cam Vazoda Kokina Çiçeği",
-      "price": 899,
+      "price": 1099,
       "url": "https://www.ciceksepeti.com/cam-vazoda-kokina-cicegi-kcm41891075",
       "category": "Gizli/ekstra"
     },
@@ -219,8 +219,22 @@
     },
     {
       "site": "Hızlı Çiçek",
+      "name": "Red Dream Kokina Buketi",
+      "price": 979,
+      "url": "",
+      "category": "-"
+    },
+    {
+      "site": "Hızlı Çiçek",
       "name": "Kokinanın Işığı",
       "price": 899,
+      "url": "",
+      "category": "-"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Red Rose & Kokina Bliss (Paşabahçe vazoda)",
+      "price": 1399,
       "url": "",
       "category": "-"
     },
@@ -233,6 +247,13 @@
     },
     {
       "site": "Hızlı Çiçek",
+      "name": "Red Silver Kokina Buketi",
+      "price": 1379,
+      "url": "",
+      "category": "-"
+    },
+    {
+      "site": "Hızlı Çiçek",
       "name": "Premium Vazoda Kokina Aranjmanı",
       "price": 2799,
       "url": "",
@@ -240,8 +261,8 @@
     },
     {
       "site": "Hızlı Çiçek",
-      "name": "Red Rose & Kokina Bliss (Paşabahçe vazoda)",
-      "price": 1399,
+      "name": "Kokina Snow Dream",
+      "price": 999,
       "url": "",
       "category": "-"
     },
@@ -261,13 +282,6 @@
     },
     {
       "site": "Hızlı Çiçek",
-      "name": "Red Silver Kokina Buketi",
-      "price": 1379,
-      "url": "",
-      "category": "-"
-    },
-    {
-      "site": "Hızlı Çiçek",
       "name": "Red Winter Charm",
       "price": 699,
       "url": "",
@@ -277,13 +291,6 @@
       "site": "Hızlı Çiçek",
       "name": "Crimson Elegance",
       "price": 1959,
-      "url": "",
-      "category": "-"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Red Dream Kokina Buketi",
-      "price": 979,
       "url": "",
       "category": "-"
     },
@@ -305,13 +312,6 @@
       "site": "Hızlı Çiçek",
       "name": "Papatyalar ve Kokina",
       "price": 1199,
-      "url": "",
-      "category": "-"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Kokina Snow Dream",
-      "price": 999,
       "url": "",
       "category": "-"
     },
@@ -387,8 +387,22 @@
     },
     {
       "site": "Hızlı Çiçek",
+      "name": "Red Dream Kokina Buketi",
+      "price": 979,
+      "url": "",
+      "category": "-"
+    },
+    {
+      "site": "Hızlı Çiçek",
       "name": "Kokinanın Işığı",
       "price": 899,
+      "url": "",
+      "category": "-"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Red Rose & Kokina Bliss (Paşabahçe vazoda)",
+      "price": 1399,
       "url": "",
       "category": "-"
     },
@@ -401,6 +415,13 @@
     },
     {
       "site": "Hızlı Çiçek",
+      "name": "Red Silver Kokina Buketi",
+      "price": 1379,
+      "url": "",
+      "category": "-"
+    },
+    {
+      "site": "Hızlı Çiçek",
       "name": "Premium Vazoda Kokina Aranjmanı",
       "price": 2799,
       "url": "",
@@ -408,8 +429,8 @@
     },
     {
       "site": "Hızlı Çiçek",
-      "name": "Red Rose & Kokina Bliss (Paşabahçe vazoda)",
-      "price": 1399,
+      "name": "Kokina Snow Dream",
+      "price": 999,
       "url": "",
       "category": "-"
     },
@@ -429,13 +450,6 @@
     },
     {
       "site": "Hızlı Çiçek",
-      "name": "Red Silver Kokina Buketi",
-      "price": 1379,
-      "url": "",
-      "category": "-"
-    },
-    {
-      "site": "Hızlı Çiçek",
       "name": "Red Winter Charm",
       "price": 699,
       "url": "",
@@ -445,13 +459,6 @@
       "site": "Hızlı Çiçek",
       "name": "Crimson Elegance",
       "price": 1959,
-      "url": "",
-      "category": "-"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Red Dream Kokina Buketi",
-      "price": 979,
       "url": "",
       "category": "-"
     },
@@ -473,13 +480,6 @@
       "site": "Hızlı Çiçek",
       "name": "Papatyalar ve Kokina",
       "price": 1199,
-      "url": "",
-      "category": "-"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Kokina Snow Dream",
-      "price": 999,
       "url": "",
       "category": "-"
     },
@@ -555,8 +555,22 @@
     },
     {
       "site": "Hızlı Çiçek",
+      "name": "Red Dream Kokina Buketi",
+      "price": 979,
+      "url": "",
+      "category": "-"
+    },
+    {
+      "site": "Hızlı Çiçek",
       "name": "Kokinanın Işığı",
       "price": 899,
+      "url": "",
+      "category": "-"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Red Rose & Kokina Bliss (Paşabahçe vazoda)",
+      "price": 1399,
       "url": "",
       "category": "-"
     },
@@ -569,6 +583,13 @@
     },
     {
       "site": "Hızlı Çiçek",
+      "name": "Red Silver Kokina Buketi",
+      "price": 1379,
+      "url": "",
+      "category": "-"
+    },
+    {
+      "site": "Hızlı Çiçek",
       "name": "Premium Vazoda Kokina Aranjmanı",
       "price": 2799,
       "url": "",
@@ -576,8 +597,8 @@
     },
     {
       "site": "Hızlı Çiçek",
-      "name": "Red Rose & Kokina Bliss (Paşabahçe vazoda)",
-      "price": 1399,
+      "name": "Kokina Snow Dream",
+      "price": 999,
       "url": "",
       "category": "-"
     },
@@ -597,13 +618,6 @@
     },
     {
       "site": "Hızlı Çiçek",
-      "name": "Red Silver Kokina Buketi",
-      "price": 1379,
-      "url": "",
-      "category": "-"
-    },
-    {
-      "site": "Hızlı Çiçek",
       "name": "Red Winter Charm",
       "price": 699,
       "url": "",
@@ -613,13 +627,6 @@
       "site": "Hızlı Çiçek",
       "name": "Crimson Elegance",
       "price": 1959,
-      "url": "",
-      "category": "-"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Red Dream Kokina Buketi",
-      "price": 979,
       "url": "",
       "category": "-"
     },
@@ -641,13 +648,6 @@
       "site": "Hızlı Çiçek",
       "name": "Papatyalar ve Kokina",
       "price": 1199,
-      "url": "",
-      "category": "-"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Kokina Snow Dream",
-      "price": 999,
       "url": "",
       "category": "-"
     },
@@ -744,16 +744,16 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Lux",
-      "price": 1799.9,
-      "url": "https://www.bloomandfresh.com/p/lux-yeni-yil-cicek-aranjmani",
+      "name": "Kokina Extra Large",
+      "price": 2399.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-extra-large",
       "category": "-"
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Kokina Extra Large",
-      "price": 2399.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-extra-large",
+      "name": "Lux",
+      "price": 1799.9,
+      "url": "https://www.bloomandfresh.com/p/lux-yeni-yil-cicek-aranjmani",
       "category": "-"
     },
     {
@@ -779,16 +779,16 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Lux",
-      "price": 1799.9,
-      "url": "https://www.bloomandfresh.com/p/lux-yeni-yil-cicek-aranjmani",
+      "name": "Kokina Extra Large",
+      "price": 2399.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-extra-large",
       "category": "-"
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Kokina Extra Large",
-      "price": 2399.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-extra-large",
+      "name": "Lux",
+      "price": 1799.9,
+      "url": "https://www.bloomandfresh.com/p/lux-yeni-yil-cicek-aranjmani",
       "category": "-"
     },
     {
@@ -814,16 +814,16 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Lux",
-      "price": 1799.9,
-      "url": "https://www.bloomandfresh.com/p/lux-yeni-yil-cicek-aranjmani",
+      "name": "Kokina Extra Large",
+      "price": 2399.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-extra-large",
       "category": "-"
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Kokina Extra Large",
-      "price": 2399.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-extra-large",
+      "name": "Lux",
+      "price": 1799.9,
+      "url": "https://www.bloomandfresh.com/p/lux-yeni-yil-cicek-aranjmani",
       "category": "-"
     }
   ],
@@ -831,7 +831,7 @@
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "956.63",
+        "avg_price": "963.29",
         "min_price": "429.99",
         "max_price": "1699.00"
       },
