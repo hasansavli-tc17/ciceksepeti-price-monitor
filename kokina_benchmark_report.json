@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-20T09:18:47.885Z",
+  "date": "2025-12-20T12:34:51.706Z",
   "product_type": "kokina",
   "summary": {
     "total_sites": 3,
@@ -191,13 +191,6 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Turuncu Kırmızı Güller ve Kokina Buketi",
-      "price": 1699,
-      "url": "https://www.ciceksepeti.com/turuncu-kirmizi-guller-ve-kokina-buketi-kcm93697241",
-      "category": "Gizli/ekstra"
-    },
-    {
-      "site": "Çiçek Sepeti",
       "name": "Siyah Bukette Kokina ve Kırmızı Craspedia",
       "price": 1049,
       "url": "https://www.ciceksepeti.com/siyah-bukette-kokina-ve-kirmizi-craspedia-at6055",
@@ -205,16 +198,23 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Cam Vazoda Kokina Çiçeği - Yılbaşı Çiçeği",
+      "name": "Cam Akvaryumda Kokina Çiçeği ve Kozalaklar",
       "price": 1299,
-      "url": "https://www.ciceksepeti.com/cam-vazoda-kokina-cicegi-yilbasi-cicegi-kcm34015779",
+      "url": "https://www.ciceksepeti.com/cam-akvaryumda-kokina-cicegi-ve-kozalaklar-kcm85765297",
       "category": "Gizli/ekstra"
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Cam Akvaryumda Kokina Çiçeği ve Kozalaklar",
-      "price": 1299,
-      "url": "https://www.ciceksepeti.com/cam-akvaryumda-kokina-cicegi-ve-kozalaklar-kcm85765297",
+      "name": "Kraft Çantada Kokina, Beyaz Gül ve Papatyalar",
+      "price": 649.99,
+      "url": "https://www.ciceksepeti.com/kraft-cantada-kokina-beyaz-gul-ve-papatyalar-at6054",
+      "category": "Gizli/ekstra"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Bukette Kırmızı Beyaz Güller ve Kokina",
+      "price": 1449,
+      "url": "https://www.ciceksepeti.com/bukette-kirmizi-beyaz-guller-ve-kokina-kcm85911835",
       "category": "Gizli/ekstra"
     },
     {
@@ -831,9 +831,9 @@
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "935.63",
+        "avg_price": "905.66",
         "min_price": "429.99",
-        "max_price": "1699.00"
+        "max_price": "1449.00"
       },
       "Hızlı Çiçek": {
         "product_count": 72,
