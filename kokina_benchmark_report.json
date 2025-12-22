@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-22T12:38:52.287Z",
+  "date": "2025-12-22T15:20:58.733Z",
   "product_type": "kokina",
   "summary": {
     "total_sites": 3,
@@ -737,13 +737,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Kokina & B&F Chocolate Bundle",
-      "price": 1399.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Kokina Golden",
       "price": 1999.9,
       "url": "https://www.bloomandfresh.com/p/kokina-golden",
@@ -754,6 +747,13 @@
       "name": "Kokina Extra Large",
       "price": 2399.9,
       "url": "https://www.bloomandfresh.com/p/kokina-extra-large",
+      "category": "-"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina & B&F Chocolate Bundle",
+      "price": 1399.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
       "category": "-"
     },
     {
@@ -772,13 +772,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Kokina & B&F Chocolate Bundle",
-      "price": 1399.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Kokina Golden",
       "price": 1999.9,
       "url": "https://www.bloomandfresh.com/p/kokina-golden",
@@ -789,6 +782,13 @@
       "name": "Kokina Extra Large",
       "price": 2399.9,
       "url": "https://www.bloomandfresh.com/p/kokina-extra-large",
+      "category": "-"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina & B&F Chocolate Bundle",
+      "price": 1399.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
       "category": "-"
     },
     {
@@ -807,13 +807,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Kokina & B&F Chocolate Bundle",
-      "price": 1399.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Kokina Golden",
       "price": 1999.9,
       "url": "https://www.bloomandfresh.com/p/kokina-golden",
@@ -824,6 +817,13 @@
       "name": "Kokina Extra Large",
       "price": 2399.9,
       "url": "https://www.bloomandfresh.com/p/kokina-extra-large",
+      "category": "-"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina & B&F Chocolate Bundle",
+      "price": 1399.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
       "category": "-"
     }
   ],
