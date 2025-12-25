@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-24T15:20:32.869Z",
+  "date": "2025-12-25T04:56:31.579Z",
   "product_type": "kokina",
   "summary": {
     "total_sites": 3,
@@ -44,16 +44,16 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Bej Vazoda Kırmızı Çiçekler ve Kokina Aranjmanı",
-      "price": 679.99,
-      "url": "https://www.ciceksepeti.com/bej-vazoda-kirmizi-cicekler-ve-kokina-aranjmani-vbt1036",
+      "name": "Elyaf Kırmızı Bukette Kokina Yılbaşı Çiçeği",
+      "price": 599.99,
+      "url": "https://www.ciceksepeti.com/elyaf-kirmizi-bukette-kokina-yilbasi-cicegi-vbt1178",
       "category": "Görünür"
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Elyaf Kırmızı Bukette Kokina Yılbaşı Çiçeği",
-      "price": 599.99,
-      "url": "https://www.ciceksepeti.com/elyaf-kirmizi-bukette-kokina-yilbasi-cicegi-vbt1178",
+      "name": "Bej Vazoda Kırmızı Çiçekler ve Kokina Aranjmanı",
+      "price": 679.99,
+      "url": "https://www.ciceksepeti.com/bej-vazoda-kirmizi-cicekler-ve-kokina-aranjmani-vbt1036",
       "category": "Görünür"
     },
     {
@@ -114,6 +114,13 @@
     },
     {
       "site": "Çiçek Sepeti",
+      "name": "Siyah Silindir Kutuda Kokina ve Kırmızı Kalanchoe",
+      "price": 879.99,
+      "url": "https://www.ciceksepeti.com/siyah-silindir-kutuda-kokina-ve-kirmizi-kalanchoe-vbt1565",
+      "category": "Görünür"
+    },
+    {
+      "site": "Çiçek Sepeti",
       "name": "Beyaz Lilyum & Kırmızı Gül & Gerbera ve Kokina",
       "price": 1149,
       "url": "https://www.ciceksepeti.com/beyaz-lilyum-kirmizi-gul-gerbera-ve-kokina-vbt1051",
@@ -124,20 +131,6 @@
       "name": "Kraft Bukette Kokina, Kırmızı Gerbera ve Krizantem",
       "price": 729.99,
       "url": "https://www.ciceksepeti.com/kraft-bukette-kokina-kirmizi-gerbera-ve-krizantem-at5666",
-      "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Siyah Silindir Kutuda Kokina ve Kırmızı Kalanchoe",
-      "price": 879.99,
-      "url": "https://www.ciceksepeti.com/siyah-silindir-kutuda-kokina-ve-kirmizi-kalanchoe-vbt1565",
-      "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Cam Akvaryumda Kokina Çiçeği ve Turuncu Güller",
-      "price": 1149,
-      "url": "https://www.ciceksepeti.com/viabonte-first-day-of-the-new-year-vbt677",
       "category": "Görünür"
     },
     {
@@ -156,6 +149,13 @@
     },
     {
       "site": "Çiçek Sepeti",
+      "name": "Cam Akvaryumda Kokina Çiçeği ve Turuncu Güller",
+      "price": 1149,
+      "url": "https://www.ciceksepeti.com/viabonte-first-day-of-the-new-year-vbt677",
+      "category": "Görünür"
+    },
+    {
+      "site": "Çiçek Sepeti",
       "name": "Kristal Cam Vazoda Kokina ve Turuncu Çardak Güller",
       "price": 1099,
       "url": "https://www.ciceksepeti.com/kristal-cam-vazoda-kokina-ve-turuncu-cardak-guller-at6053",
@@ -170,20 +170,6 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kraft Çantada Kokina, Beyaz Gül ve Papatyalar",
-      "price": 649.99,
-      "url": "https://www.ciceksepeti.com/kraft-cantada-kokina-beyaz-gul-ve-papatyalar-at6054",
-      "category": "Gizli/ekstra"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Kraft Bukette Kokina ve Sarı Top Krizantemler",
-      "price": 749.99,
-      "url": "https://www.ciceksepeti.com/kraft-bukette-kokina-ve-sari-top-krizantemler-vbt1177",
-      "category": "Gizli/ekstra"
-    },
-    {
-      "site": "Çiçek Sepeti",
       "name": "İnce Cam Vazoda Kokina ve Kırmızı Craspedia",
       "price": 549.99,
       "url": "https://www.ciceksepeti.com/ince-cam-vazoda-kokina-ve-kirmizi-craspedia-at6062",
@@ -191,9 +177,16 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kurdeleli Kraft Bukette Kokina ve Mirkeladus",
-      "price": 429.99,
-      "url": "https://www.ciceksepeti.com/kurdeleli-kraft-bukette-kokina-ve-mirkeladus-vbt1176",
+      "name": "Kraft Çantada Kokina, Beyaz Gül ve Papatyalar",
+      "price": 649.99,
+      "url": "https://www.ciceksepeti.com/kraft-cantada-kokina-beyaz-gul-ve-papatyalar-at6054",
+      "category": "Gizli/ekstra"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Yeşil Çizgili Polimer Vazoda Kokina ve Beyaz Gül",
+      "price": 569.99,
+      "url": "https://www.ciceksepeti.com/yesil-cizgili-polimer-vazoda-kokina-ve-beyaz-gul-at6065",
       "category": "Gizli/ekstra"
     },
     {
@@ -205,16 +198,23 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Akvaryum Vazoda Kokina ve Pembe Güller",
-      "price": 939.99,
-      "url": "https://www.ciceksepeti.com/akvaryum-vazoda-kokina-ve-pembe-guller-vbt1566",
+      "name": "Kurdeleli Kraft Bukette Kokina ve Mirkeladus",
+      "price": 429.99,
+      "url": "https://www.ciceksepeti.com/kurdeleli-kraft-bukette-kokina-ve-mirkeladus-vbt1176",
       "category": "Gizli/ekstra"
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kraft Bukette Kokina, Okaliptus ve Kozalaklar",
-      "price": 1099,
-      "url": "https://www.ciceksepeti.com/kraft-bukette-kokina-okaliptus-ve-kozalaklar-at6056",
+      "name": "Kraft Bukette Kokina ve Sarı Top Krizantemler",
+      "price": 749.99,
+      "url": "https://www.ciceksepeti.com/kraft-bukette-kokina-ve-sari-top-krizantemler-vbt1177",
+      "category": "Gizli/ekstra"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Siyah Silindir Kutuda Kokina ve Beyaz Papatyalar",
+      "price": 849.99,
+      "url": "https://www.ciceksepeti.com/siyah-silindir-kutuda-kokina-ve-beyaz-papatyalar-at6057",
       "category": "Gizli/ekstra"
     },
     {
@@ -831,7 +831,7 @@
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "860.43",
+        "avg_price": "839.79",
         "min_price": "429.99",
         "max_price": "1149.00"
       },
