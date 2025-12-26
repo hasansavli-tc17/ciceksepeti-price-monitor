@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-26T04:55:07.548Z",
+  "date": "2025-12-26T09:21:19.289Z",
   "product_type": "kokina",
   "summary": {
     "total_sites": 3,
@@ -10,7 +10,7 @@
     {
       "site": "Çiçek Sepeti",
       "name": "Gri Gazete Buketinde Kokina Yılbaşı Çiçeği",
-      "price": 919.99,
+      "price": 949.99,
       "url": "https://www.ciceksepeti.com/viabonte-christmas-bells-vbt665",
       "category": "Görünür"
     },
@@ -38,7 +38,7 @@
     {
       "site": "Çiçek Sepeti",
       "name": "Kraft Bukette Turuncu Güller ve Kokina Çiçeği",
-      "price": 1049,
+      "price": 1099,
       "url": "https://www.ciceksepeti.com/kraft-bukette-turuncu-guller-ve-kokina-cicegi-vbt1156",
       "category": "Görünür"
     },
@@ -737,6 +737,13 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Kokina & B&F Chocolate Bundle",
+      "price": 1399.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
+      "category": "-"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Kokina Golden",
       "price": 1999.9,
       "url": "https://www.bloomandfresh.com/p/kokina-golden",
@@ -747,13 +754,6 @@
       "name": "Kokina Extra Large",
       "price": 2399.9,
       "url": "https://www.bloomandfresh.com/p/kokina-extra-large",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Kokina & B&F Chocolate Bundle",
-      "price": 1399.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
       "category": "-"
     },
     {
@@ -772,6 +772,13 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Kokina & B&F Chocolate Bundle",
+      "price": 1399.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
+      "category": "-"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Kokina Golden",
       "price": 1999.9,
       "url": "https://www.bloomandfresh.com/p/kokina-golden",
@@ -782,13 +789,6 @@
       "name": "Kokina Extra Large",
       "price": 2399.9,
       "url": "https://www.bloomandfresh.com/p/kokina-extra-large",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Kokina & B&F Chocolate Bundle",
-      "price": 1399.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
       "category": "-"
     },
     {
@@ -807,6 +807,13 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Kokina & B&F Chocolate Bundle",
+      "price": 1399.9,
+      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
+      "category": "-"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Kokina Golden",
       "price": 1999.9,
       "url": "https://www.bloomandfresh.com/p/kokina-golden",
@@ -817,13 +824,6 @@
       "name": "Kokina Extra Large",
       "price": 2399.9,
       "url": "https://www.bloomandfresh.com/p/kokina-extra-large",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Kokina & B&F Chocolate Bundle",
-      "price": 1399.9,
-      "url": "https://www.bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
       "category": "-"
     }
   ],
@@ -831,7 +831,7 @@
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "890.43",
+        "avg_price": "893.09",
         "min_price": "549.99",
         "max_price": "1249.00"
       },
