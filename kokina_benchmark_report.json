@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-30T12:39:21.297Z",
+  "date": "2025-12-30T15:20:29.790Z",
   "product_type": "kokina",
   "summary": {
     "total_sites": 3,
@@ -723,23 +723,9 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Kokina Double",
-      "price": 1159.9,
-      "url": "https://bloomandfresh.com/p/kokina-double",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Kokina Golden",
       "price": 1999.9,
       "url": "https://bloomandfresh.com/p/kokina-golden",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Kokina Extra Large",
-      "price": 2399.9,
-      "url": "https://bloomandfresh.com/p/kokina-extra-large",
       "category": "-"
     },
     {
@@ -751,13 +737,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Kokina & B&F Chocolate Bundle",
-      "price": 1399.9,
-      "url": "https://bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
-      "category": "-"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Kokina Double",
       "price": 1159.9,
       "url": "https://bloomandfresh.com/p/kokina-double",
@@ -765,9 +744,9 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Kokina Golden",
-      "price": 1999.9,
-      "url": "https://bloomandfresh.com/p/kokina-golden",
+      "name": "Kokina & B&F Chocolate Bundle",
+      "price": 1399.9,
+      "url": "https://bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
       "category": "-"
     },
     {
@@ -779,16 +758,16 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Lux",
-      "price": 1799.9,
-      "url": "https://bloomandfresh.com/p/lux-yeni-yil-cicek-aranjmani",
+      "name": "Kokina Golden",
+      "price": 1999.9,
+      "url": "https://bloomandfresh.com/p/kokina-golden",
       "category": "-"
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Kokina & B&F Chocolate Bundle",
-      "price": 1399.9,
-      "url": "https://bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
+      "name": "Lux",
+      "price": 1799.9,
+      "url": "https://bloomandfresh.com/p/lux-yeni-yil-cicek-aranjmani",
       "category": "-"
     },
     {
@@ -800,9 +779,9 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Kokina Golden",
-      "price": 1999.9,
-      "url": "https://bloomandfresh.com/p/kokina-golden",
+      "name": "Kokina & B&F Chocolate Bundle",
+      "price": 1399.9,
+      "url": "https://bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
       "category": "-"
     },
     {
@@ -814,6 +793,13 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Kokina Golden",
+      "price": 1999.9,
+      "url": "https://bloomandfresh.com/p/kokina-golden",
+      "category": "-"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Lux",
       "price": 1799.9,
       "url": "https://bloomandfresh.com/p/lux-yeni-yil-cicek-aranjmani",
@@ -821,9 +807,23 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Kokina Double",
+      "price": 1159.9,
+      "url": "https://bloomandfresh.com/p/kokina-double",
+      "category": "-"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Kokina & B&F Chocolate Bundle",
       "price": 1399.9,
       "url": "https://bloomandfresh.com/p/kokina-cikolata-yeni-yil-seti",
+      "category": "-"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Kokina Extra Large",
+      "price": 2399.9,
+      "url": "https://bloomandfresh.com/p/kokina-extra-large",
       "category": "-"
     }
   ],
