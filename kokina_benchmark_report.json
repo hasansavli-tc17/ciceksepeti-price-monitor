@@ -1,45 +1,17 @@
 {
-  "date": "2026-01-04T09:18:42.493Z",
+  "date": "2026-01-04T12:36:30.840Z",
   "product_type": "kokina",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
-    "total_products": 114
+    "total_products": 93
   },
   "all_products": [
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Akvaryum Cam Vazoda Kokina Çiçeği - Yılbaşı Çiçeği",
-      "price": 1149,
-      "url": "https://www.ciceksepeti.com/akvaryum-cam-vazoda-kokina-cicegi-yilbasi-cicegi-vbt1148",
-      "category": "Görünür"
-    },
     {
       "site": "Çiçek Sepeti",
       "name": "Gri Gazete Buketinde Kokina Yılbaşı Çiçeği",
       "price": 1049,
       "url": "https://www.ciceksepeti.com/viabonte-christmas-bells-vbt665",
-      "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Yeşil Çizgili Polimer Vazoda Kokina ve Beyaz Gül",
-      "price": 669.99,
-      "url": "https://www.ciceksepeti.com/yesil-cizgili-polimer-vazoda-kokina-ve-beyaz-gul-at6065",
-      "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Kraft Buket Kağıdında Kokina Yılbaşı Çiçeği",
-      "price": 1049,
-      "url": "https://www.ciceksepeti.com/kraft-buket-kagidinda-kokina-yilbasi-cicegi-vbt1154",
-      "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Bukette Kırmızı Beyaz Güller ve Kokina Çiçeği",
-      "price": 1299,
-      "url": "https://www.ciceksepeti.com/bukette-kirmizi-beyaz-guller-ve-kokina-cicegi-vbt1158",
       "category": "Görünür"
     },
     {
@@ -51,51 +23,9 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kristal Cam Vazoda Kokina ve Kozalaklar",
-      "price": 1099,
-      "url": "https://www.ciceksepeti.com/kristal-cam-vazoda-kokina-ve-kozalaklar-at6052",
-      "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Kraft Bukette Turuncu Güller ve Kokina Çiçeği",
-      "price": 1349,
-      "url": "https://www.ciceksepeti.com/kraft-bukette-turuncu-guller-ve-kokina-cicegi-vbt1156",
-      "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Cam Vazoda Kokina Çiçeği ve Kırmızı Güller",
-      "price": 979.99,
-      "url": "https://www.ciceksepeti.com/cam-vazoda-kokina-cicegi-ve-kirmizi-guller-at5652",
-      "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Koyu Somon Bukette Kokina ve Kırmızı Karanfiller",
-      "price": 1049,
-      "url": "https://www.ciceksepeti.com/koyu-somon-bukette-kokina-ve-kirmizi-karanfiller-at6059",
-      "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Kristal Cam Vazoda Kokina ve Turuncu Çardak Güller",
-      "price": 1399,
-      "url": "https://www.ciceksepeti.com/kristal-cam-vazoda-kokina-ve-turuncu-cardak-guller-at6053",
-      "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Siyah Silindir Kutuda Kokina ve Kırmızı Kalanchoe",
-      "price": 969.99,
-      "url": "https://www.ciceksepeti.com/siyah-silindir-kutuda-kokina-ve-kirmizi-kalanchoe-vbt1565",
-      "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Sedef Çizgili Polimer Vazoda Kokina Tasarımı",
-      "price": 699.99,
-      "url": "https://www.ciceksepeti.com/sedef-cizgili-polimer-vazoda-kokina-tasarimi-at6066",
+      "name": "Bukette Kırmızı Beyaz Güller ve Kokina Çiçeği",
+      "price": 1299,
+      "url": "https://www.ciceksepeti.com/bukette-kirmizi-beyaz-guller-ve-kokina-cicegi-vbt1158",
       "category": "Görünür"
     },
     {
@@ -107,44 +37,9 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kraft Çantada Kokina, Krizantem ve Renkli Güller",
-      "price": 929.99,
-      "url": "https://www.ciceksepeti.com/kraft-cantada-kokina-krizantem-ve-renkli-guller-vbt1562",
-      "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Kraft Bukette Kokina Yılbaşı Çiçeği & Beyaz Gerbera",
-      "price": 759.99,
-      "url": "https://www.ciceksepeti.com/kraft-bukette-kokina-yilbasi-cicegi-beyaz-gerbera-at5665",
-      "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Kırmızı Beyaz Gerberalar ve Kokina Buketi",
-      "price": 879.99,
-      "url": "https://www.ciceksepeti.com/kirmizi-beyaz-gerberalar-ve-kokina-buketi-at5349",
-      "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Bej Vazoda Kırmızı Çiçekler ve Kokina Aranjmanı",
-      "price": 759.99,
-      "url": "https://www.ciceksepeti.com/bej-vazoda-kirmizi-cicekler-ve-kokina-aranjmani-vbt1036",
-      "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Kırmızı Kurdeleli Cam Vazoda Kokina Tasarımı",
-      "price": 1099,
-      "url": "https://www.ciceksepeti.com/kirmizi-kurdeleli-cam-vazoda-kokina-tasarimi-at6060",
-      "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Turuncu Kırmızı Güller ve Kokina Buketi",
-      "price": 1349,
-      "url": "https://www.ciceksepeti.com/turuncu-kirmizi-guller-ve-kokina-buketi-at5348",
+      "name": "Kraft Buket Kağıdında Kokina Yılbaşı Çiçeği",
+      "price": 1049,
+      "url": "https://www.ciceksepeti.com/kraft-buket-kagidinda-kokina-yilbasi-cicegi-vbt1154",
       "category": "Görünür"
     },
     {
@@ -163,59 +58,17 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kraft Çantada Kokina, Beyaz Gül ve Papatyalar",
-      "price": 759.99,
-      "url": "https://www.ciceksepeti.com/kraft-cantada-kokina-beyaz-gul-ve-papatyalar-at6054",
+      "name": "Kırmızı Beyaz Gerberalar ve Kokina Buketi",
+      "price": 879.99,
+      "url": "https://www.ciceksepeti.com/kirmizi-beyaz-gerberalar-ve-kokina-buketi-at5349",
       "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Sedef Çizgili Polimer Vazoda Kokina ve Beyaz Gül",
-      "price": 829.99,
-      "url": "https://www.ciceksepeti.com/sedef-cizgili-polimer-vazoda-kokina-ve-beyaz-gul-at6064",
-      "category": "Gizli/ekstra"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "İnce Cam Vazoda Kokina ve Kırmızı Craspedia",
-      "price": 629.99,
-      "url": "https://www.ciceksepeti.com/ince-cam-vazoda-kokina-ve-kirmizi-craspedia-at6062",
-      "category": "Gizli/ekstra"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Cam Akvaryumda Kokina Çiçeği ve Turuncu Güller",
-      "price": 1449,
-      "url": "https://www.ciceksepeti.com/viabonte-first-day-of-the-new-year-vbt677",
-      "category": "Gizli/ekstra"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Beyaz Lilyum & Kırmızı Gül & Gerbera ve Kokina",
-      "price": 1349,
-      "url": "https://www.ciceksepeti.com/beyaz-lilyum-kirmizi-gul-gerbera-ve-kokina-vbt1051",
-      "category": "Gizli/ekstra"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Çizgili Cam Vazoda Kokina ve Beyaz Güller",
-      "price": 1149,
-      "url": "https://www.ciceksepeti.com/cizgili-cam-vazoda-kokina-ve-beyaz-guller-at6061",
-      "category": "Gizli/ekstra"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Siyah Çizgili Vazoda Kokina ve Sarı Top Krizantem",
-      "price": 759.99,
-      "url": "https://www.ciceksepeti.com/siyah-cizgili-vazoda-kokina-ve-sari-top-krizantem-vbt1571",
-      "category": "Gizli/ekstra"
     },
     {
       "site": "Çiçek Sepeti",
       "name": "Kraft Bukette Kokina, Kırmızı Gerbera ve Krizantem",
       "price": 759.99,
       "url": "https://www.ciceksepeti.com/kraft-bukette-kokina-kirmizi-gerbera-ve-krizantem-at5666",
-      "category": "Gizli/ekstra"
+      "category": "Görünür"
     },
     {
       "site": "Hızlı Çiçek",
@@ -809,10 +662,10 @@
   "price_analysis": {
     "by_site": {
       "Çiçek Sepeti": {
-        "product_count": 30,
-        "avg_price": "975.89",
-        "min_price": "629.99",
-        "max_price": "1449.00"
+        "product_count": 9,
+        "avg_price": "898.55",
+        "min_price": "639.99",
+        "max_price": "1299.00"
       },
       "Hızlı Çiçek": {
         "product_count": 72,
