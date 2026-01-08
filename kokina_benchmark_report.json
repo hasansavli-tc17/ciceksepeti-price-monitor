@@ -1,10 +1,10 @@
 {
-  "date": "2026-01-08T04:59:03.031Z",
+  "date": "2026-01-08T09:27:22.197Z",
   "product_type": "kokina",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
-    "total_products": 114
+    "total_products": 113
   },
   "all_products": [
     {
@@ -26,13 +26,6 @@
       "name": "Kokina Buketi",
       "price": 764.1,
       "url": "https://www.ciceksepeti.com/kokina-buketi-kcm47839841",
-      "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Yılbaşı Kokina Buketi",
-      "price": 1849,
-      "url": "https://www.ciceksepeti.com/yilbasi-kokina-buketi-kcm56375918",
       "category": "Görünür"
     },
     {
@@ -173,7 +166,7 @@
       "name": "Kokina Çiçeği ve Turuncu Güller",
       "price": 1399,
       "url": "https://www.ciceksepeti.com/kokina-cicegi-ve-turuncu-guller-kcm2214399",
-      "category": "Gizli/ekstra"
+      "category": "Görünür"
     },
     {
       "site": "Çiçek Sepeti",
@@ -809,10 +802,10 @@
   "price_analysis": {
     "by_site": {
       "Çiçek Sepeti": {
-        "product_count": 30,
-        "avg_price": "1323.90",
+        "product_count": 29,
+        "avg_price": "1305.79",
         "min_price": "699.00",
-        "max_price": "1849.00"
+        "max_price": "1778.99"
       },
       "Hızlı Çiçek": {
         "product_count": 72,
