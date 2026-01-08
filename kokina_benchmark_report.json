@@ -1,10 +1,10 @@
 {
-  "date": "2026-01-08T09:27:22.197Z",
+  "date": "2026-01-08T12:41:28.936Z",
   "product_type": "kokina",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
-    "total_products": 113
+    "total_products": 110
   },
   "all_products": [
     {
@@ -40,13 +40,6 @@
       "name": "Cam Akvaryumda Kokina Çiçeği ve Kozalaklar",
       "price": 1599,
       "url": "https://www.ciceksepeti.com/cam-akvaryumda-kokina-cicegi-ve-kozalaklar-kcm85765297",
-      "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Premium Yeşil Jelatinde Kokina Yılbaşı Çiçeği Buketi",
-      "price": 899,
-      "url": "https://www.ciceksepeti.com/premium-yesil-jelatinde-kokina-yilbasi-cicegi-buketi-kcm78899635",
       "category": "Görünür"
     },
     {
@@ -135,13 +128,6 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Siyah Jelatinde Kokina Yılbaşı Çiçeği Buketi Tasarımı",
-      "price": 999,
-      "url": "https://www.ciceksepeti.com/siyah-jelatinde-kokina-yilbasi-cicegi-buketi-tasarimi-kcm52909566",
-      "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
       "name": "Kraft Bukette Kokina ve Kozalaklar",
       "price": 699,
       "url": "https://www.ciceksepeti.com/kraft-bukette-kokina-ve-kozalaklar-kcm33099389",
@@ -156,13 +142,6 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Premium Jüt Çuvalla Kokina Yılbaşı Çiçeği Buketi Tasarımı",
-      "price": 1099,
-      "url": "https://www.ciceksepeti.com/premium-jut-cuvalla-kokina-yilbasi-cicegi-buketi-tasarimi-kcm57783830",
-      "category": "Görünür"
-    },
-    {
-      "site": "Çiçek Sepeti",
       "name": "Kokina Çiçeği ve Turuncu Güller",
       "price": 1399,
       "url": "https://www.ciceksepeti.com/kokina-cicegi-ve-turuncu-guller-kcm2214399",
@@ -173,21 +152,21 @@
       "name": "Cam Vazoda Kokina Çiçeği - Yılbaşı Çiçeği",
       "price": 1199,
       "url": "https://www.ciceksepeti.com/cam-vazoda-kokina-cicegi-yilbasi-cicegi-kcm34015779",
-      "category": "Gizli/ekstra"
+      "category": "Görünür"
     },
     {
       "site": "Çiçek Sepeti",
       "name": "Vazoda Kokina Çiçeği ve Kırmızı Güller",
       "price": 999,
       "url": "https://www.ciceksepeti.com/vazoda-kokina-cicegi-ve-kirmizi-guller-kcm46800691",
-      "category": "Gizli/ekstra"
+      "category": "Görünür"
     },
     {
       "site": "Çiçek Sepeti",
       "name": "Yılbaşı Temalı Bukette Kokina ve Kozalak",
       "price": 1399,
       "url": "https://www.ciceksepeti.com/yilbasi-temali-bukette-kokina-ve-kozalak-kcm77118701",
-      "category": "Gizli/ekstra"
+      "category": "Görünür"
     },
     {
       "site": "Çiçek Sepeti",
@@ -802,8 +781,8 @@
   "price_analysis": {
     "by_site": {
       "Çiçek Sepeti": {
-        "product_count": 29,
-        "avg_price": "1305.79",
+        "product_count": 26,
+        "avg_price": "1341.19",
         "min_price": "699.00",
         "max_price": "1778.99"
       },
