@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-10T09:18:47.525Z",
+  "date": "2026-01-10T12:35:54.689Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -232,6 +232,13 @@
     },
     {
       "site": "Hızlı Çiçek",
+      "name": "Vazoda Şebboy Çiçeği",
+      "price": 979,
+      "category": "Karma/Diğer",
+      "url": ""
+    },
+    {
+      "site": "Hızlı Çiçek",
       "name": "Vazoda Nergis Çiçeği",
       "price": 1199,
       "category": "Karma/Diğer",
@@ -241,20 +248,6 @@
       "site": "Hızlı Çiçek",
       "name": "Merry Kokina Buketi",
       "price": 1199,
-      "category": "Karma/Diğer",
-      "url": ""
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Red Dream Kokina Buketi",
-      "price": 799,
-      "category": "Karma/Diğer",
-      "url": ""
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Kokinanın Işığı",
-      "price": 899,
       "category": "Karma/Diğer",
       "url": ""
     },
@@ -386,6 +379,13 @@
     },
     {
       "site": "Hızlı Çiçek",
+      "name": "Red Silver Kokina Buketi",
+      "price": 1379,
+      "category": "Karma/Diğer",
+      "url": ""
+    },
+    {
+      "site": "Hızlı Çiçek",
       "name": "Double White Orkide",
       "price": 949,
       "category": "Orkide",
@@ -396,6 +396,13 @@
       "name": "Premium 51 Kırmızı Gül",
       "price": 1999,
       "category": "Gül",
+      "url": ""
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Vazoda Şebboy Çiçeği",
+      "price": 979,
+      "category": "Karma/Diğer",
       "url": ""
     },
     {
@@ -414,16 +421,9 @@
     },
     {
       "site": "Hızlı Çiçek",
-      "name": "Red Dream Kokina Buketi",
-      "price": 799,
-      "category": "Karma/Diğer",
-      "url": ""
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Kokinanın Işığı",
-      "price": 899,
-      "category": "Karma/Diğer",
+      "name": "Red Rose & Kokina Bliss (Paşabahçe vazoda)",
+      "price": 1399,
+      "category": "Gül",
       "url": ""
     },
     {
@@ -467,13 +467,6 @@
       "price": 2999.9,
       "category": "Karma/Diğer",
       "url": "https://bloomandfresh.com/p/olivrosa"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Currant",
-      "price": 2499.9,
-      "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/currant-vazoda-bigoudi-krizantem-cicek-duzenlemesi"
     },
     {
       "site": "Bloom and Fresh",
@@ -635,6 +628,13 @@
       "price": 2799.9,
       "category": "Karma/Diğer",
       "url": "https://bloomandfresh.com/p/doiy-bobby-siyah-vazo"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Chocco'm Çikolata Seti (6’lı)",
+      "price": 2299.9,
+      "category": "Karma/Diğer",
+      "url": "https://bloomandfresh.com/p/choccom-cikolata-seti-6li"
     }
   ],
   "price_analysis": {
@@ -647,31 +647,31 @@
       },
       "Hızlı Çiçek": {
         "product_count": 30,
-        "avg_price": "1438.00",
+        "avg_price": "1482.67",
         "min_price": "599.00",
         "max_price": "5789.00"
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2263.57",
+        "avg_price": "2256.90",
         "min_price": "1449.90",
         "max_price": "3799.90"
       }
     },
     "by_category": {
       "Gül": {
-        "count": 15,
+        "count": 16,
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 12,
             "avg": "846.57"
           },
           "Hızlı Çiçek": {
-            "count": 3,
-            "avg": "1799.00"
+            "count": 4,
+            "avg": "1699.00"
           }
         },
-        "avg_price": "1037.06"
+        "avg_price": "1059.68"
       },
       "Papatya": {
         "count": 7,
@@ -704,22 +704,22 @@
         "avg_price": "566.66"
       },
       "Karma/Diğer": {
-        "count": 51,
+        "count": 50,
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 1,
             "avg": "429.99"
           },
           "Hızlı Çiçek": {
-            "count": 21,
-            "avg": "1375.19"
+            "count": 20,
+            "avg": "1441.00"
           },
           "Bloom and Fresh": {
             "count": 29,
-            "avg": "2227.83"
+            "avg": "2220.93"
           }
         },
-        "avg_price": "1841.49"
+        "avg_price": "1873.14"
       },
       "Orkide": {
         "count": 4,
