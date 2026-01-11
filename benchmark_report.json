@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-10T15:18:19.626Z",
+  "date": "2026-01-11T05:01:55.242Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -50,17 +50,17 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Pembe Papatyalar Çiçek Buketi",
-      "price": 649.99,
-      "category": "Papatya",
-      "url": "https://www.ciceksepeti.com/pembe-papatyalar-cicek-buketi-at4255"
-    },
-    {
-      "site": "Çiçek Sepeti",
       "name": "Pudra Bukette Pembe Karanfiller",
       "price": 519.99,
       "category": "Karanfil",
       "url": "https://www.ciceksepeti.com/pudra-bukette-pembe-karanfiller-ve-cipsolar-at5402"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Pembe Papatyalar Çiçek Buketi",
+      "price": 649.99,
+      "category": "Papatya",
+      "url": "https://www.ciceksepeti.com/pembe-papatyalar-cicek-buketi-at4255"
     },
     {
       "site": "Çiçek Sepeti",
@@ -85,13 +85,6 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kraft Bukette 5 Pembe Gül ve Çardak Güller",
-      "price": 999.99,
-      "category": "Gül",
-      "url": "https://www.ciceksepeti.com/kraft-bukette-5-pembe-gul-ve-cardak-guller-vbt1478"
-    },
-    {
-      "site": "Çiçek Sepeti",
       "name": "Kırmızı Karanfil Çiçek Buketi",
       "price": 619.99,
       "category": "Karanfil",
@@ -99,10 +92,10 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Lila Pembe Bukette Pembe Güller",
-      "price": 629.99,
+      "name": "Kraft Bukette 5 Pembe Gül ve Çardak Güller",
+      "price": 999.99,
       "category": "Gül",
-      "url": "https://www.ciceksepeti.com/lila-pembe-bukette-pembe-guller-vbt1532"
+      "url": "https://www.ciceksepeti.com/kraft-bukette-5-pembe-gul-ve-cardak-guller-vbt1478"
     },
     {
       "site": "Çiçek Sepeti",
@@ -110,6 +103,13 @@
       "price": 419.99,
       "category": "Papatya",
       "url": "https://www.ciceksepeti.com/kraft-tasimali-bukette-papatyalar-ve-lavantalar-at5847"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Lila Pembe Bukette Pembe Güller",
+      "price": 629.99,
+      "category": "Gül",
+      "url": "https://www.ciceksepeti.com/lila-pembe-bukette-pembe-guller-vbt1532"
     },
     {
       "site": "Çiçek Sepeti",
@@ -141,13 +141,6 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Pembe Gazete Kağıdı Bukette Beyaz Papatyalar",
-      "price": 439.99,
-      "category": "Papatya",
-      "url": "https://www.ciceksepeti.com/pembe-gazete-kagidi-bukette-beyaz-papatyalar-at5771"
-    },
-    {
-      "site": "Çiçek Sepeti",
       "name": "Beyaz Karanfil Çiçek Buketi",
       "price": 619.99,
       "category": "Karanfil",
@@ -155,10 +148,10 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Beyaz Çizgili Bukette Kırmızı Güller ve Craspedia",
-      "price": 559.99,
-      "category": "Gül",
-      "url": "https://www.ciceksepeti.com/beyaz-cizgili-bukette-kirmizi-guller-ve-craspedia-at5770"
+      "name": "Pembe Gazete Kağıdı Bukette Beyaz Papatyalar",
+      "price": 439.99,
+      "category": "Papatya",
+      "url": "https://www.ciceksepeti.com/pembe-gazete-kagidi-bukette-beyaz-papatyalar-at5771"
     },
     {
       "site": "Çiçek Sepeti",
@@ -166,6 +159,13 @@
       "price": 649.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/seni-seviyorum-5li-kirmizi-gul-buketi-at2929"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Beyaz Çizgili Bukette Kırmızı Güller ve Craspedia",
+      "price": 559.99,
+      "category": "Gül",
+      "url": "https://www.ciceksepeti.com/beyaz-cizgili-bukette-kirmizi-guller-ve-craspedia-at5770"
     },
     {
       "site": "Çiçek Sepeti",
@@ -183,6 +183,13 @@
     },
     {
       "site": "Çiçek Sepeti",
+      "name": "Krem Pudra Bukette Pembe ve Beyaz Karanfiller",
+      "price": 449.99,
+      "category": "Karanfil",
+      "url": "https://www.ciceksepeti.com/krem-pudra-bukette-pembe-ve-beyaz-karanfiller-at5772"
+    },
+    {
+      "site": "Çiçek Sepeti",
       "name": "Tasarım Gazete Kağıtta Hüsnüyusuf Buketi",
       "price": 429.99,
       "category": "Karma/Diğer",
@@ -190,10 +197,10 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Krem Pudra Bukette Pembe ve Beyaz Karanfiller",
-      "price": 449.99,
-      "category": "Karanfil",
-      "url": "https://www.ciceksepeti.com/krem-pudra-bukette-pembe-ve-beyaz-karanfiller-at5772"
+      "name": "Kraft Buket Kağıdında 9'lu Kırmızı Gül Aranjmanı",
+      "price": 829.99,
+      "category": "Gül",
+      "url": "https://www.ciceksepeti.com/kraft-buket-kagidinda-9-lu-kirmizi-gul-aranjmani-at5790"
     },
     {
       "site": "Çiçek Sepeti",
@@ -208,13 +215,6 @@
       "price": 699.99,
       "category": "Gerbera",
       "url": "https://www.ciceksepeti.com/lila-bukette-pembe-gerberalar-ve-husnuyusuflar-at5450"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Kraft Buket Kağıdında 9'lu Kırmızı Gül Aranjmanı",
-      "price": 829.99,
-      "category": "Gül",
-      "url": "https://www.ciceksepeti.com/kraft-buket-kagidinda-9-lu-kirmizi-gul-aranjmani-at5790"
     },
     {
       "site": "Hızlı Çiçek",
@@ -431,210 +431,210 @@
       "name": "Mistral",
       "price": 2299.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/mistral"
+      "url": "https://www.bloomandfresh.com/p/mistral"
     },
     {
       "site": "Bloom and Fresh",
       "name": "Galaxy of Love",
       "price": 2699.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/galaxy-of-love"
+      "url": "https://www.bloomandfresh.com/p/galaxy-of-love"
     },
     {
       "site": "Bloom and Fresh",
       "name": "Charlotte",
       "price": 1599.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/charlotte-gul-buketi"
+      "url": "https://www.bloomandfresh.com/p/charlotte-gul-buketi"
     },
     {
       "site": "Bloom and Fresh",
       "name": "Athena",
       "price": 1449.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/athena-pembe-gul-buketi"
+      "url": "https://www.bloomandfresh.com/p/athena-pembe-gul-buketi"
     },
     {
       "site": "Bloom and Fresh",
       "name": "Alice",
       "price": 1699.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/alice-acik-pembe-koyu-pembe-gul-buketi"
+      "url": "https://www.bloomandfresh.com/p/alice-acik-pembe-koyu-pembe-gul-buketi"
     },
     {
       "site": "Bloom and Fresh",
       "name": "Olivrosa",
       "price": 2999.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/olivrosa"
+      "url": "https://www.bloomandfresh.com/p/olivrosa"
     },
     {
       "site": "Bloom and Fresh",
       "name": "Chloe",
       "price": 1899.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/chloe"
+      "url": "https://www.bloomandfresh.com/p/chloe"
     },
     {
       "site": "Bloom and Fresh",
       "name": "Candy Extra",
       "price": 1999.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/candy-extra"
+      "url": "https://www.bloomandfresh.com/p/candy-extra"
     },
     {
       "site": "Bloom and Fresh",
       "name": "Zuzu Granada",
       "price": 1999.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/zuzu-granada"
+      "url": "https://www.bloomandfresh.com/p/zuzu-granada"
     },
     {
       "site": "Bloom and Fresh",
       "name": "Dark Sienna Bronze",
       "price": 1799.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/dark-sienna-bronze"
+      "url": "https://www.bloomandfresh.com/p/dark-sienna-bronze"
     },
     {
       "site": "Bloom and Fresh",
       "name": "Lily Gold",
       "price": 1799.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/lily-gold"
+      "url": "https://www.bloomandfresh.com/p/lily-gold"
     },
     {
       "site": "Bloom and Fresh",
       "name": "Pinky",
       "price": 1459.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/pinky-saksida-pembe-antoryum"
+      "url": "https://www.bloomandfresh.com/p/pinky-saksida-pembe-antoryum"
     },
     {
       "site": "Bloom and Fresh",
       "name": "Gina Gold",
       "price": 2299.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/gina-gold"
+      "url": "https://www.bloomandfresh.com/p/gina-gold"
     },
     {
       "site": "Bloom and Fresh",
       "name": "Aria Silver",
       "price": 1899.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/aria-silver-cift-dalli-fusya-orkide"
+      "url": "https://www.bloomandfresh.com/p/aria-silver-cift-dalli-fusya-orkide"
     },
     {
       "site": "Bloom and Fresh",
       "name": "Dark Sienna Gold",
       "price": 1799.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/dark-sienna-gold"
+      "url": "https://www.bloomandfresh.com/p/dark-sienna-gold"
     },
     {
       "site": "Bloom and Fresh",
       "name": "Gina Curry",
       "price": 2299.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/gina-curry"
+      "url": "https://www.bloomandfresh.com/p/gina-curry"
     },
     {
       "site": "Bloom and Fresh",
       "name": "Lily Vintage Pink",
       "price": 1999.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/lily-vintage-pink"
+      "url": "https://www.bloomandfresh.com/p/lily-vintage-pink"
     },
     {
       "site": "Bloom and Fresh",
       "name": "Flamingo",
       "price": 1899.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/flamingo-saksida-aglaonema-bitkisi"
+      "url": "https://www.bloomandfresh.com/p/flamingo-saksida-aglaonema-bitkisi"
     },
     {
       "site": "Bloom and Fresh",
       "name": "Chess & Cheers",
       "price": 2399.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/chess-cheers"
+      "url": "https://www.bloomandfresh.com/p/chess-cheers"
     },
     {
       "site": "Bloom and Fresh",
       "name": "Munchies",
       "price": 1599.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/munchies"
+      "url": "https://www.bloomandfresh.com/p/munchies"
     },
     {
       "site": "Bloom and Fresh",
       "name": "The Gingerbread Man",
       "price": 2299.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/the-gingerbread-man"
+      "url": "https://www.bloomandfresh.com/p/the-gingerbread-man"
     },
     {
       "site": "Bloom and Fresh",
       "name": "The Holiday Season",
       "price": 3599.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/the-holiday-season"
+      "url": "https://www.bloomandfresh.com/p/the-holiday-season"
     },
     {
       "site": "Bloom and Fresh",
       "name": "Vase Blossia",
       "price": 2799.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/vase-blossia"
+      "url": "https://www.bloomandfresh.com/p/vase-blossia"
     },
     {
       "site": "Bloom and Fresh",
       "name": "DOIY Fast Food Burger Vazo",
       "price": 2999.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/doiy-fast-food-burger-vazo"
+      "url": "https://www.bloomandfresh.com/p/doiy-fast-food-burger-vazo"
     },
     {
       "site": "Bloom and Fresh",
       "name": "Candle + Friends No 6 Golden Pumpkint Special Edition Silindir Cam Mum",
       "price": 3799.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/candle-friends-no-6-golden-pumpkint-special-edition-silindir-cam-mum"
+      "url": "https://www.bloomandfresh.com/p/candle-friends-no-6-golden-pumpkint-special-edition-silindir-cam-mum"
     },
     {
       "site": "Bloom and Fresh",
       "name": "LEGO Botanicals Orkide - 608 Parça (10311)",
       "price": 3299.9,
       "category": "Orkide",
-      "url": "https://bloomandfresh.com/p/lego-botanicals-orkide-608-parca-10311"
+      "url": "https://www.bloomandfresh.com/p/lego-botanicals-orkide-608-parca-10311"
     },
     {
       "site": "Bloom and Fresh",
       "name": "DOIY Rainbow Gökkuşağı Kitap Tutucu",
       "price": 2299.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/doiy-rainbow-gokkusagi-kitap-tutucu"
+      "url": "https://www.bloomandfresh.com/p/doiy-rainbow-gokkusagi-kitap-tutucu"
     },
     {
       "site": "Bloom and Fresh",
       "name": "DOIY Rodeo Kovboy Botu Seramik Düzenleyici",
       "price": 1599.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/doiy-rodeo-kovboy-botu-seramik-duzenleyici"
+      "url": "https://www.bloomandfresh.com/p/doiy-rodeo-kovboy-botu-seramik-duzenleyici"
     },
     {
       "site": "Bloom and Fresh",
       "name": "DOIY Bobby Siyah Vazo",
       "price": 2799.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/doiy-bobby-siyah-vazo"
+      "url": "https://www.bloomandfresh.com/p/doiy-bobby-siyah-vazo"
     },
     {
       "site": "Bloom and Fresh",
       "name": "Chocco'm Çikolata Seti (6’lı)",
       "price": 2299.9,
       "category": "Karma/Diğer",
-      "url": "https://bloomandfresh.com/p/choccom-cikolata-seti-6li"
+      "url": "https://www.bloomandfresh.com/p/choccom-cikolata-seti-6li"
     }
   ],
   "price_analysis": {
