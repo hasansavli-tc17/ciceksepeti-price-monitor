@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-11T12:36:55.323Z",
+  "date": "2026-01-11T15:18:35.212Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -428,13 +428,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Mistral",
-      "price": 2299.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/mistral"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Galaxy of Love",
       "price": 2699.9,
       "category": "Karma/Diğer",
@@ -635,6 +628,13 @@
       "price": 2999.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/atelier-rebul-apple-cinnamon-miniature-home-kit"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Mistral",
+      "price": 2299.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/mistral"
     }
   ],
   "price_analysis": {
