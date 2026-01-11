@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-11T09:19:29.922Z",
+  "date": "2026-01-11T12:36:55.323Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -477,13 +477,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Candy Extra",
-      "price": 1999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/candy-extra"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Zuzu Granada",
       "price": 1999.9,
       "category": "Karma/Diğer",
@@ -635,6 +628,13 @@
       "price": 2299.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/choccom-cikolata-seti-6li"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Atelier Rebul Apple & Cinnamon Miniature Home Kit",
+      "price": 2999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/atelier-rebul-apple-cinnamon-miniature-home-kit"
     }
   ],
   "price_analysis": {
@@ -653,7 +653,7 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2256.90",
+        "avg_price": "2290.23",
         "min_price": "1449.90",
         "max_price": "3799.90"
       }
@@ -716,10 +716,10 @@
           },
           "Bloom and Fresh": {
             "count": 29,
-            "avg": "2220.93"
+            "avg": "2255.42"
           }
         },
-        "avg_price": "1873.14"
+        "avg_price": "1893.14"
       },
       "Orkide": {
         "count": 4,
