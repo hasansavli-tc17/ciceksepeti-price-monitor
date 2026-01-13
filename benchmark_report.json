@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-13T12:42:14.748Z",
+  "date": "2026-01-13T15:24:15.421Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -268,7 +268,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Saksıda Blue Kasımpatı",
-      "price": 859,
+      "price": 899,
       "category": "Karma/Diğer",
       "url": ""
     },
@@ -331,7 +331,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Kırmızı Antoryum",
-      "price": 759,
+      "price": 799,
       "category": "Karma/Diğer",
       "url": ""
     },
@@ -366,7 +366,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Saksıda Pembe Kasımpatı",
-      "price": 859,
+      "price": 899,
       "category": "Karma/Diğer",
       "url": ""
     },
@@ -647,7 +647,7 @@
       },
       "Hızlı Çiçek": {
         "product_count": 30,
-        "avg_price": "1402.67",
+        "avg_price": "1406.67",
         "min_price": "599.00",
         "max_price": "5789.00"
       },
@@ -712,14 +712,14 @@
           },
           "Hızlı Çiçek": {
             "count": 20,
-            "avg": "1381.00"
+            "avg": "1387.00"
           },
           "Bloom and Fresh": {
             "count": 29,
             "avg": "2179.56"
           }
         },
-        "avg_price": "1824.54"
+        "avg_price": "1826.94"
       },
       "Orkide": {
         "count": 4,
