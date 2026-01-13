@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-13T09:27:06.954Z",
+  "date": "2026-01-13T12:42:14.748Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -191,7 +191,7 @@
     {
       "site": "Çiçek Sepeti",
       "name": "Tasarım Gazete Kağıtta Hüsnüyusuf Buketi",
-      "price": 409.99,
+      "price": 399.99,
       "category": "Karma/Diğer",
       "url": "https://www.ciceksepeti.com/pembe-gazete-bukette-husnuyusuf-cicekleri-at5659"
     },
@@ -247,14 +247,14 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Merry Kokina Buketi",
-      "price": 1199,
+      "price": 749,
       "category": "Karma/Diğer",
       "url": ""
     },
     {
       "site": "Hızlı Çiçek",
       "name": "Red Rose & Kokina Bliss (Paşabahçe vazoda)",
-      "price": 1399,
+      "price": 799,
       "category": "Gül",
       "url": ""
     },
@@ -415,14 +415,14 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Merry Kokina Buketi",
-      "price": 1199,
+      "price": 749,
       "category": "Karma/Diğer",
       "url": ""
     },
     {
       "site": "Hızlı Çiçek",
       "name": "Red Rose & Kokina Bliss (Paşabahçe vazoda)",
-      "price": 1399,
+      "price": 799,
       "category": "Gül",
       "url": ""
     },
@@ -641,13 +641,13 @@
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "683.29",
+        "avg_price": "682.96",
         "min_price": "389.99",
         "max_price": "1349.00"
       },
       "Hızlı Çiçek": {
         "product_count": 30,
-        "avg_price": "1472.67",
+        "avg_price": "1402.67",
         "min_price": "599.00",
         "max_price": "5789.00"
       },
@@ -668,10 +668,10 @@
           },
           "Hızlı Çiçek": {
             "count": 4,
-            "avg": "1699.00"
+            "avg": "1399.00"
           }
         },
-        "avg_price": "1040.93"
+        "avg_price": "965.93"
       },
       "Papatya": {
         "count": 7,
@@ -708,18 +708,18 @@
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 1,
-            "avg": "409.99"
+            "avg": "399.99"
           },
           "Hızlı Çiçek": {
             "count": 20,
-            "avg": "1426.00"
+            "avg": "1381.00"
           },
           "Bloom and Fresh": {
             "count": 29,
             "avg": "2179.56"
           }
         },
-        "avg_price": "1842.74"
+        "avg_price": "1824.54"
       },
       "Orkide": {
         "count": 4,
