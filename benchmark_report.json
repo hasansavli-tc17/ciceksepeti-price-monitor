@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-14T09:28:00.418Z",
+  "date": "2026-01-14T12:41:18.301Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -610,13 +610,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "LEGO Botanicals Orkide - 608 Parça (10311)",
-      "price": 3299.9,
-      "category": "Orkide",
-      "url": "https://www.bloomandfresh.com/p/lego-botanicals-orkide-608-parca-10311"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "DOIY Rainbow Gökkuşağı Kitap Tutucu",
       "price": 2299.9,
       "category": "Karma/Diğer",
@@ -635,6 +628,13 @@
       "price": 2799.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/doiy-bobby-siyah-vazo"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Chocco'm Çikolata Seti (6’lı)",
+      "price": 2299.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/choccom-cikolata-seti-6li"
     }
   ],
   "price_analysis": {
@@ -653,7 +653,7 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2250.23",
+        "avg_price": "2216.90",
         "min_price": "1399.90",
         "max_price": "3799.90"
       }
@@ -704,7 +704,7 @@
         "avg_price": "587.49"
       },
       "Karma/Diğer": {
-        "count": 50,
+        "count": 51,
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 1,
@@ -715,25 +715,21 @@
             "avg": "1387.00"
           },
           "Bloom and Fresh": {
-            "count": 29,
-            "avg": "2214.04"
+            "count": 30,
+            "avg": "2216.90"
           }
         },
-        "avg_price": "1847.54"
+        "avg_price": "1856.41"
       },
       "Orkide": {
-        "count": 4,
+        "count": 3,
         "prices_by_site": {
           "Hızlı Çiçek": {
             "count": 3,
             "avg": "1565.67"
-          },
-          "Bloom and Fresh": {
-            "count": 1,
-            "avg": "3299.90"
           }
         },
-        "avg_price": "1999.22"
+        "avg_price": "1565.67"
       },
       "Lilyum": {
         "count": 2,
