@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-18T15:18:18.712Z",
+  "date": "2026-01-19T05:07:06.637Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -9,7 +9,7 @@
     {
       "site": "Çiçek Sepeti",
       "name": "7'li Kırmızı Gül Buketi",
-      "price": 729.99,
+      "price": 719.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/hayatimin-askina-7li-gul-buketi-at4030"
     },
@@ -22,13 +22,6 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Beyaz Papatyalar Çiçek Buketi",
-      "price": 629.99,
-      "category": "Papatya",
-      "url": "https://www.ciceksepeti.com/beyaz-papatyalar-cicek-buketi-at4253"
-    },
-    {
-      "site": "Çiçek Sepeti",
       "name": "Pudra Bukette Pembe Karanfiller",
       "price": 619.99,
       "category": "Karanfil",
@@ -36,8 +29,15 @@
     },
     {
       "site": "Çiçek Sepeti",
+      "name": "Beyaz Papatyalar Çiçek Buketi",
+      "price": 599.99,
+      "category": "Papatya",
+      "url": "https://www.ciceksepeti.com/beyaz-papatyalar-cicek-buketi-at4253"
+    },
+    {
+      "site": "Çiçek Sepeti",
       "name": "11'li Kırmızı Gül Çiçek Buketi",
-      "price": 899.99,
+      "price": 949.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/11li-kirmizi-gul-cicek-buketi-at4273-1"
     },
@@ -50,8 +50,15 @@
     },
     {
       "site": "Çiçek Sepeti",
+      "name": "Kırmızı Karanfil Çiçek Buketi",
+      "price": 769.99,
+      "category": "Karanfil",
+      "url": "https://www.ciceksepeti.com/kirmizi-karanfil-cicek-buketi-at4262"
+    },
+    {
+      "site": "Çiçek Sepeti",
       "name": "9'lu Kırmızı Gül Çiçek Buketi",
-      "price": 799.99,
+      "price": 849.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/9lu-kirmizi-gul-cicek-buketi-at4264"
     },
@@ -71,15 +78,8 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Kırmızı Karanfil Çiçek Buketi",
-      "price": 769.99,
-      "category": "Karanfil",
-      "url": "https://www.ciceksepeti.com/kirmizi-karanfil-cicek-buketi-at4262"
-    },
-    {
-      "site": "Çiçek Sepeti",
       "name": "Kraft Buket Kağıdında 25'li Kırmızı Gül Buketi",
-      "price": 1349,
+      "price": 1399,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/kucak-dolusu-ask-25-kirmizi-gul-buketi-at4035"
     },
@@ -120,17 +120,17 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "5'li Kırmızı Gül Buketi",
-      "price": 649.99,
-      "category": "Gül",
-      "url": "https://www.ciceksepeti.com/seni-seviyorum-5li-kirmizi-gul-buketi-at2929"
-    },
-    {
-      "site": "Çiçek Sepeti",
       "name": "Lila Pembe Bukette Kırmızı Karanfiller",
       "price": 649.99,
       "category": "Karanfil",
       "url": "https://www.ciceksepeti.com/lila-pembe-bukette-kirmizi-karanfiller-at5456"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "5'li Kırmızı Gül Buketi",
+      "price": 599.99,
+      "category": "Gül",
+      "url": "https://www.ciceksepeti.com/seni-seviyorum-5li-kirmizi-gul-buketi-at2929"
     },
     {
       "site": "Çiçek Sepeti",
@@ -155,24 +155,17 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Pembe Gazete Kağıdı Bukette Beyaz Papatyalar",
-      "price": 439.99,
-      "category": "Papatya",
-      "url": "https://www.ciceksepeti.com/pembe-gazete-kagidi-bukette-beyaz-papatyalar-at5771"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Beyaz Gerberalar Çiçek Buketi Lolaflora",
-      "price": 559.99,
-      "category": "Gerbera",
-      "url": "https://www.ciceksepeti.com/beyaz-gerberalar-cicek-buketi-at5380"
-    },
-    {
-      "site": "Çiçek Sepeti",
       "name": "Beyaz Karanfil Çiçek Buketi",
       "price": 769.99,
       "category": "Karanfil",
       "url": "https://www.ciceksepeti.com/beyaz-karanfil-cicek-buketi-at4263"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Pembe Gazete Kağıdı Bukette Beyaz Papatyalar",
+      "price": 439.99,
+      "category": "Papatya",
+      "url": "https://www.ciceksepeti.com/pembe-gazete-kagidi-bukette-beyaz-papatyalar-at5771"
     },
     {
       "site": "Çiçek Sepeti",
@@ -183,17 +176,17 @@
     },
     {
       "site": "Çiçek Sepeti",
+      "name": "Beyaz Gerberalar Çiçek Buketi Lolaflora",
+      "price": 559.99,
+      "category": "Gerbera",
+      "url": "https://www.ciceksepeti.com/beyaz-gerberalar-cicek-buketi-at5380"
+    },
+    {
+      "site": "Çiçek Sepeti",
       "name": "Krem Pudra Bukette Pembe ve Beyaz Karanfiller",
       "price": 529.99,
       "category": "Karanfil",
       "url": "https://www.ciceksepeti.com/krem-pudra-bukette-pembe-ve-beyaz-karanfiller-at5772"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Tasarım Gazete Kağıtta Hüsnüyusuf Buketi",
-      "price": 429.99,
-      "category": "Karma/Diğer",
-      "url": "https://www.ciceksepeti.com/pembe-gazete-bukette-husnuyusuf-cicekleri-at5659"
     },
     {
       "site": "Çiçek Sepeti",
@@ -204,17 +197,24 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Somon Buket Kağıdında 10'lu Pembe Gül Buketi",
-      "price": 939.99,
-      "category": "Gül",
-      "url": "https://www.ciceksepeti.com/koyu-somon-bukette-10-pembe-gul-vbt1486"
+      "name": "Tasarım Gazete Kağıtta Hüsnüyusuf Buketi",
+      "price": 429.99,
+      "category": "Karma/Diğer",
+      "url": "https://www.ciceksepeti.com/pembe-gazete-bukette-husnuyusuf-cicekleri-at5659"
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "Lila Bukette Pembe Gerberalar ve Hüsnüyusuflar",
-      "price": 699.99,
-      "category": "Gerbera",
-      "url": "https://www.ciceksepeti.com/lila-bukette-pembe-gerberalar-ve-husnuyusuflar-at5450"
+      "name": "Kişiye Özel Fotoğraf Pankartlı Kırmızı Gül Buketi",
+      "price": 749.99,
+      "category": "Gül",
+      "url": "https://www.ciceksepeti.com/kisiye-ozel-fotograf-pankartli-kirmizi-gul-buketi-at6034"
+    },
+    {
+      "site": "Çiçek Sepeti",
+      "name": "Kraft Buket Kağıdında 9'lu Kırmızı Gül Aranjmanı",
+      "price": 879.99,
+      "category": "Gül",
+      "url": "https://www.ciceksepeti.com/kraft-buket-kagidinda-9-lu-kirmizi-gul-aranjmani-at5790"
     },
     {
       "site": "Hızlı Çiçek",
@@ -449,13 +449,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Cinnamon",
-      "price": 2199.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/cinnamon-sonbahar-krizantem-buketi"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Chef's Kiss",
       "price": 2199.9,
       "category": "Karma/Diğer",
@@ -635,15 +628,22 @@
       "price": 2799.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/doiy-bobby-siyah-vazo"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Chocco'm Çikolata Seti (6’lı)",
+      "price": 2299.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/choccom-cikolata-seti-6li"
     }
   ],
   "price_analysis": {
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "689.62",
+        "avg_price": "691.29",
         "min_price": "399.99",
-        "max_price": "1349.00"
+        "max_price": "1399.00"
       },
       "Hızlı Çiçek": {
         "product_count": 30,
@@ -653,35 +653,35 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2240.23",
+        "avg_price": "2243.57",
         "min_price": "1399.90",
         "max_price": "3799.90"
       }
     },
     "by_category": {
       "Gül": {
-        "count": 16,
+        "count": 17,
         "prices_by_site": {
           "Çiçek Sepeti": {
-            "count": 11,
-            "avg": "829.90"
+            "count": 12,
+            "avg": "825.74"
           },
           "Hızlı Çiçek": {
             "count": 5,
             "avg": "1435.00"
           }
         },
-        "avg_price": "1018.99"
+        "avg_price": "1004.93"
       },
       "Papatya": {
         "count": 7,
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 7,
-            "avg": "578.56"
+            "avg": "574.28"
           }
         },
-        "avg_price": "578.56"
+        "avg_price": "574.28"
       },
       "Karanfil": {
         "count": 6,
@@ -694,14 +694,14 @@
         "avg_price": "693.32"
       },
       "Gerbera": {
-        "count": 5,
+        "count": 4,
         "prices_by_site": {
           "Çiçek Sepeti": {
-            "count": 5,
-            "avg": "583.99"
+            "count": 4,
+            "avg": "554.99"
           }
         },
-        "avg_price": "583.99"
+        "avg_price": "554.99"
       },
       "Karma/Diğer": {
         "count": 47,
@@ -716,10 +716,10 @@
           },
           "Bloom and Fresh": {
             "count": 29,
-            "avg": "2245.07"
+            "avg": "2248.52"
           }
         },
-        "avg_price": "1940.21"
+        "avg_price": "1942.34"
       },
       "Orkide": {
         "count": 5,
