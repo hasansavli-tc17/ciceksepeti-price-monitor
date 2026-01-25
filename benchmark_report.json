@@ -1,9 +1,9 @@
 {
-  "date": "2026-01-25T05:06:01.088Z",
+  "date": "2026-01-25T09:20:37.366Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
-    "total_products": 60
+    "total_products": 90
   },
   "all_products": [
     {
@@ -425,6 +425,216 @@
       "price": 879,
       "category": "Gül",
       "url": ""
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Charlotte",
+      "price": 1599.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/charlotte-gul-buketi"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Mystic",
+      "price": 1699.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/mystic-turuncu-mor-sonbahar-gul-buketi"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Helene",
+      "price": 2499.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/helene-turuncu-pembe-gul-cala-buketi"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Athena",
+      "price": 1449.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/athena-pembe-gul-buketi"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Chloe",
+      "price": 1899.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/chloe"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Verona",
+      "price": 2799.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/verona-pembe-turuncu-gul-cala-duzenlemesi"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "The Duchess",
+      "price": 1799.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/the-duchess-vazoda-sari-laleler"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Hera",
+      "price": 1399.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/hera"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Formidablo Dusty Pink",
+      "price": 4499.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/formidablo-dusty-pink"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Wonder",
+      "price": 2099.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/wonder-cift-dalli-mavi-pembe-orkide"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Teatro Grande",
+      "price": 4499.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/teatro-grande"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Formidablo White",
+      "price": 4999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/formidablo-white"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Formidablo Deep Magenta",
+      "price": 4999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/formidablo-deep-magentaformidablo-deep-magenta"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Aria Silver",
+      "price": 1899.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/aria-silver-cift-dalli-fusya-orkide"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Cavalli Anthurium XL",
+      "price": 2699.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/cavalli-anthurium-xl"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Dark Sienna Bronze",
+      "price": 1799.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/dark-sienna-bronze"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Vanilla Sky",
+      "price": 1799.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/vanilla-sky-4-dalli-exclusive-orkide"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Gina Gold",
+      "price": 2299.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/gina-gold"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Dark Sienna Gold",
+      "price": 1799.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/dark-sienna-gold"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Gina Curry",
+      "price": 2299.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/gina-curry"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Flamingo",
+      "price": 1899.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/flamingo-saksida-aglaonema-bitkisi"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Chess & Cheers",
+      "price": 2399.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/chess-cheers"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Fun Steps",
+      "price": 1999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/fun-steps"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Birthday Box Gold",
+      "price": 1999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/birthday-box-gold"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Get Well Soon",
+      "price": 1799.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/get-well-soon"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Vase Blossia",
+      "price": 2799.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/vase-blossia"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "DOIY Fast Food Burger Vazo",
+      "price": 2999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/doiy-fast-food-burger-vazo"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Candle + Friends No 6 Golden Pumpkint Special Edition Silindir Cam Mum",
+      "price": 3799.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/candle-friends-no-6-golden-pumpkint-special-edition-silindir-cam-mum"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "DOIY Rainbow Gökkuşağı Kitap Tutucu",
+      "price": 2299.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/doiy-rainbow-gokkusagi-kitap-tutucu"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "DOIY Rodeo Kovboy Botu Seramik Düzenleyici",
+      "price": 1599.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/doiy-rodeo-kovboy-botu-seramik-duzenleyici"
     }
   ],
   "price_analysis": {
@@ -440,6 +650,12 @@
         "avg_price": "1535.33",
         "min_price": "599.00",
         "max_price": "5789.00"
+      },
+      "Bloom and Fresh": {
+        "product_count": 30,
+        "avg_price": "2481.57",
+        "min_price": "1399.90",
+        "max_price": "4999.90"
       }
     },
     "by_category": {
@@ -498,14 +714,18 @@
         "avg_price": "1032.33"
       },
       "Karma/Diğer": {
-        "count": 16,
+        "count": 46,
         "prices_by_site": {
           "Hızlı Çiçek": {
             "count": 16,
             "avg": "1746.50"
+          },
+          "Bloom and Fresh": {
+            "count": 30,
+            "avg": "2481.57"
           }
         },
-        "avg_price": "1746.50"
+        "avg_price": "2225.89"
       },
       "Lilyum": {
         "count": 2,
