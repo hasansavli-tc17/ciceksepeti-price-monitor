@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-27T09:31:26.620Z",
+  "date": "2026-01-27T12:43:47.144Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -9,7 +9,7 @@
     {
       "site": "Çiçek Sepeti",
       "name": "11'li Kırmızı Gül Çiçek Buketi",
-      "price": 949.99,
+      "price": 1149,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/11li-kirmizi-gul-cicek-buketi-at4273-1"
     },
@@ -37,7 +37,7 @@
     {
       "site": "Çiçek Sepeti",
       "name": "Kraft Buket Kağıdında 25'li Kırmızı Gül Buketi",
-      "price": 1499,
+      "price": 1949,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/kucak-dolusu-ask-25-kirmizi-gul-buketi-at4035"
     },
@@ -51,14 +51,14 @@
     {
       "site": "Çiçek Sepeti",
       "name": "7'li Kırmızı Gül Buketi",
-      "price": 719.99,
+      "price": 849.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/hayatimin-askina-7li-gul-buketi-at4030"
     },
     {
       "site": "Çiçek Sepeti",
       "name": "5'li Kırmızı Gül Buketi",
-      "price": 599.99,
+      "price": 699.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/seni-seviyorum-5li-kirmizi-gul-buketi-at2929"
     },
@@ -128,7 +128,7 @@
     {
       "site": "Çiçek Sepeti",
       "name": "9'lu Kırmızı Gül Çiçek Buketi",
-      "price": 849.99,
+      "price": 999.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/9lu-kirmizi-gul-cicek-buketi-at4264"
     },
@@ -191,7 +191,7 @@
     {
       "site": "Çiçek Sepeti",
       "name": "Kişiye Özel Fotoğraf Pankartlı Kırmızı Gül Buketi",
-      "price": 749.99,
+      "price": 879.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/kisiye-ozel-fotograf-pankartli-kirmizi-gul-buketi-at6034"
     },
@@ -205,14 +205,14 @@
     {
       "site": "Çiçek Sepeti",
       "name": "50 Kırmızı Gül Çiçek Demeti",
-      "price": 2999,
+      "price": 4299,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/50-kirmizi-gul-cicek-demeti-at4036"
     },
     {
       "site": "Çiçek Sepeti",
       "name": "Beyaz Buket Kağıdında 20'li Kırmızı Gül Buketi",
-      "price": 1249,
+      "price": 1699,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/beyaz-buket-kagidinda-20li-kirmizi-gul-buketi-at5418"
     },
@@ -505,6 +505,13 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Aria Silver",
+      "price": 1899.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/aria-silver-cift-dalli-fusya-orkide"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Cavalli Anthurium XL",
       "price": 2699.9,
       "category": "Karma/Diğer",
@@ -628,22 +635,15 @@
       "price": 2999.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/atelier-rebul-apple-cinnamon-miniature-home-kit"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Aria Silver",
-      "price": 1899.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/aria-silver-cift-dalli-fusya-orkide"
     }
   ],
   "price_analysis": {
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "849.86",
+        "avg_price": "946.82",
         "min_price": "419.99",
-        "max_price": "2999.00"
+        "max_price": "4299.00"
       },
       "Hızlı Çiçek": {
         "product_count": 30,
@@ -664,14 +664,14 @@
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 18,
-            "avg": "1010.33"
+            "avg": "1171.94"
           },
           "Hızlı Çiçek": {
             "count": 10,
             "avg": "1735.00"
           }
         },
-        "avg_price": "1269.14"
+        "avg_price": "1373.03"
       },
       "Papatya": {
         "count": 5,
