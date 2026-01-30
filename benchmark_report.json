@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-30T09:37:15.607Z",
+  "date": "2026-01-30T12:49:39.330Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -428,6 +428,13 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Mistral",
+      "price": 2299.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/mistral"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Galaxy of Love",
       "price": 2799.9,
       "category": "Karma/Diğer",
@@ -439,6 +446,20 @@
       "price": 1599.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/charlotte-gul-buketi"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Helene",
+      "price": 2499.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/helene-turuncu-pembe-gul-cala-buketi"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Verona",
+      "price": 2799.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/verona-pembe-turuncu-gul-cala-duzenlemesi"
     },
     {
       "site": "Bloom and Fresh",
@@ -593,27 +614,6 @@
       "price": 5599.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/printworks-riviera-cizgili-tasinabilir-lamba"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Mistral",
-      "price": 2299.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/mistral"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Helene",
-      "price": 2499.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/helene-turuncu-pembe-gul-cala-buketi"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Verona",
-      "price": 2799.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/verona-pembe-turuncu-gul-cala-duzenlemesi"
     },
     {
       "site": "Bloom and Fresh",
