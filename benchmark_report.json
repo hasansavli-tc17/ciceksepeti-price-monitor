@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-30T12:49:39.330Z",
+  "date": "2026-01-30T15:32:11.083Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -463,6 +463,13 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "The Duchess",
+      "price": 1799.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/the-duchess-vazoda-sari-laleler"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Hera",
       "price": 1399.9,
       "category": "Karma/Diğer",
@@ -614,13 +621,6 @@
       "price": 5599.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/printworks-riviera-cizgili-tasinabilir-lamba"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "The Duchess",
-      "price": 1799.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/the-duchess-vazoda-sari-laleler"
     },
     {
       "site": "Bloom and Fresh",
