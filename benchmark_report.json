@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-02T09:44:54.347Z",
+  "date": "2026-02-02T12:54:56.893Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -484,6 +484,13 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Formidablo White",
+      "price": 4999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/formidablo-white"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Cavalli Anthurium XL",
       "price": 2799.9,
       "category": "Karma/Diğer",
@@ -607,13 +614,6 @@
       "price": 2399.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/wonder-bubble"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Formidablo White",
-      "price": 4999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/formidablo-white"
     },
     {
       "site": "Bloom and Fresh",
