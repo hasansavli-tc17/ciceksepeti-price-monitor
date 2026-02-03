@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-03T12:54:56.314Z",
+  "date": "2026-02-03T15:46:50.825Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -470,6 +470,13 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Hera",
+      "price": 1499.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/hera"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Teatro Grande",
       "price": 4499.9,
       "category": "Karma/Diğer",
@@ -495,13 +502,6 @@
       "price": 1999.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/aria-silver-cift-dalli-fusya-orkide"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Cavalli Anthurium XL",
-      "price": 2799.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/cavalli-anthurium-xl"
     },
     {
       "site": "Bloom and Fresh",
@@ -617,10 +617,10 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Hera",
-      "price": 1499.9,
+      "name": "Cavalli Anthurium XL",
+      "price": 2799.9,
       "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/hera"
+      "url": "https://www.bloomandfresh.com/p/cavalli-anthurium-xl"
     },
     {
       "site": "Bloom and Fresh",
