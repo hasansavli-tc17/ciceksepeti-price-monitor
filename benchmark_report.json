@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-03T09:38:50.260Z",
+  "date": "2026-02-03T12:54:56.314Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -218,6 +218,13 @@
     },
     {
       "site": "Hızlı Çiçek",
+      "name": "Vazoda Nergis Çiçeği",
+      "price": 1199,
+      "category": "Karma/Diğer",
+      "url": "https://hizlicicek.com/urun/vazoda-nergis-cicegi"
+    },
+    {
+      "site": "Hızlı Çiçek",
       "name": "Love Kırmızı Gül Buketi",
       "price": 999,
       "category": "Gül",
@@ -229,6 +236,20 @@
       "price": 949,
       "category": "Orkide",
       "url": "https://hizlicicek.com/urun/double-white-orkide"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Kırmızı Gerbera Buketi",
+      "price": 599,
+      "category": "Gerbera",
+      "url": "https://hizlicicek.com/urun/kirmizi-gerbera-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Beyaz Spatifilyum",
+      "price": 759,
+      "category": "Karma/Diğer",
+      "url": "https://hizlicicek.com/urun/beyaz-spatifilyum"
     },
     {
       "site": "Hızlı Çiçek",
@@ -253,10 +274,10 @@
     },
     {
       "site": "Hızlı Çiçek",
-      "name": "Vazoda Nergis Çiçeği",
-      "price": 1199,
-      "category": "Karma/Diğer",
-      "url": "https://hizlicicek.com/urun/vazoda-nergis-cicegi"
+      "name": "Vazoda 9’lu Kırmızı Gül",
+      "price": 1129,
+      "category": "Gül",
+      "url": "https://hizlicicek.com/urun/vazoda-9-lu-kirmizi-gul"
     },
     {
       "site": "Hızlı Çiçek",
@@ -271,6 +292,20 @@
       "price": 1199,
       "category": "Gül",
       "url": "https://hizlicicek.com/urun/happiness-turuncu-gul-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Saksılı Pembe Lilyum",
+      "price": 1179,
+      "category": "Lilyum",
+      "url": "https://hizlicicek.com/urun/saksili-pembe-lilyum"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Mavi Papatya Buketi",
+      "price": 1179,
+      "category": "Papatya",
+      "url": "https://hizlicicek.com/urun/mavi-papatya-buketi"
     },
     {
       "site": "Hızlı Çiçek",
@@ -302,6 +337,13 @@
     },
     {
       "site": "Hızlı Çiçek",
+      "name": "Vazoda Pembe Lilyum ve Beyaz Gül",
+      "price": 1499,
+      "category": "Gül",
+      "url": "https://hizlicicek.com/urun/vazoda-pembe-lilyum-ve-beyaz-gul"
+    },
+    {
+      "site": "Hızlı Çiçek",
       "name": "Aynalı Kırmızı Gül Buketi",
       "price": 2499,
       "category": "Gül",
@@ -323,10 +365,10 @@
     },
     {
       "site": "Hızlı Çiçek",
-      "name": "Fuşya Gül Buketi",
-      "price": 879,
-      "category": "Gül",
-      "url": "https://hizlicicek.com/urun/fusya-gul-buketi"
+      "name": "Cheerful Bloom",
+      "price": 699,
+      "category": "Karma/Diğer",
+      "url": "https://hizlicicek.com/urun/cheerful-bloom"
     },
     {
       "site": "Hızlı Çiçek",
@@ -344,45 +386,10 @@
     },
     {
       "site": "Hızlı Çiçek",
-      "name": "Vazoda Beyaz Laleler",
-      "price": 2299,
-      "category": "Lale",
-      "url": "https://hizlicicek.com/urun/vazoda-beyaz-laleler"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Double Sweet Purple Orkide",
+      "name": "Vazoda Nergis Çiçeği",
       "price": 1199,
-      "category": "Orkide",
-      "url": "https://hizlicicek.com/urun/double-sweet-purple-orkide"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Nergis Crystal",
-      "price": 1399,
       "category": "Karma/Diğer",
-      "url": "https://hizlicicek.com/urun/nergis-crystal"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Narcissus Dream",
-      "price": 1479,
-      "category": "Karma/Diğer",
-      "url": "https://hizlicicek.com/urun/narcissus-dream"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Vazoda Şebboy Çiçeği",
-      "price": 979,
-      "category": "Karma/Diğer",
-      "url": "https://hizlicicek.com/urun/vazoda-sebboy-cicegi"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Vazoda Kırmızı Gerbera",
-      "price": 699,
-      "category": "Gerbera",
-      "url": "https://hizlicicek.com/urun/vazoda-kirmizi-gerbera"
+      "url": "https://hizlicicek.com/urun/vazoda-nergis-cicegi"
     },
     {
       "site": "Hızlı Çiçek",
@@ -400,31 +407,24 @@
     },
     {
       "site": "Hızlı Çiçek",
+      "name": "Kırmızı Gerbera Buketi",
+      "price": 599,
+      "category": "Gerbera",
+      "url": "https://hizlicicek.com/urun/kirmizi-gerbera-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Beyaz Spatifilyum",
+      "price": 759,
+      "category": "Karma/Diğer",
+      "url": "https://hizlicicek.com/urun/beyaz-spatifilyum"
+    },
+    {
+      "site": "Hızlı Çiçek",
       "name": "Lux Lila Gül Buketi",
       "price": 1199,
       "category": "Gül",
       "url": "https://hizlicicek.com/urun/lux-lila-gul-buketi"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Crimson Minimal",
-      "price": 679,
-      "category": "Karma/Diğer",
-      "url": "https://hizlicicek.com/urun/crimson-minimal"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Amore Kırmızı Gül Buketi",
-      "price": 1099,
-      "category": "Gül",
-      "url": "https://hizlicicek.com/urun/amore-kirmizi-gul-buketi"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Vazoda Nergis Çiçeği",
-      "price": 1199,
-      "category": "Karma/Diğer",
-      "url": "https://hizlicicek.com/urun/vazoda-nergis-cicegi"
     },
     {
       "site": "Bloom and Fresh",
@@ -647,8 +647,8 @@
       },
       "Hızlı Çiçek": {
         "product_count": 30,
-        "avg_price": "1272.33",
-        "min_price": "679.00",
+        "avg_price": "1195.33",
+        "min_price": "599.00",
         "max_price": "2999.00"
       },
       "Bloom and Fresh": {
@@ -660,14 +660,18 @@
     },
     "by_category": {
       "Papatya": {
-        "count": 6,
+        "count": 7,
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 6,
             "avg": "618.32"
+          },
+          "Hızlı Çiçek": {
+            "count": 1,
+            "avg": "1179.00"
           }
         },
-        "avg_price": "618.32"
+        "avg_price": "698.42"
       },
       "Gül": {
         "count": 32,
@@ -678,24 +682,24 @@
           },
           "Hızlı Çiçek": {
             "count": 13,
-            "avg": "1465.92"
+            "avg": "1515.92"
           }
         },
-        "avg_price": "1275.68"
+        "avg_price": "1296.00"
       },
       "Gerbera": {
-        "count": 4,
+        "count": 5,
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 3,
             "avg": "583.32"
           },
           "Hızlı Çiçek": {
-            "count": 1,
-            "avg": "699.00"
+            "count": 2,
+            "avg": "599.00"
           }
         },
-        "avg_price": "612.24"
+        "avg_price": "589.59"
       },
       "Karanfil": {
         "count": 2,
@@ -707,39 +711,39 @@
         },
         "avg_price": "634.99"
       },
-      "Orkide": {
-        "count": 3,
-        "prices_by_site": {
-          "Hızlı Çiçek": {
-            "count": 3,
-            "avg": "1032.33"
-          }
-        },
-        "avg_price": "1032.33"
-      },
       "Karma/Diğer": {
-        "count": 42,
+        "count": 41,
         "prices_by_site": {
           "Hızlı Çiçek": {
-            "count": 12,
-            "avg": "1084.83"
+            "count": 11,
+            "avg": "972.64"
           },
           "Bloom and Fresh": {
             "count": 30,
             "avg": "2679.90"
           }
         },
-        "avg_price": "2224.17"
+        "avg_price": "2221.85"
       },
-      "Lale": {
+      "Orkide": {
+        "count": 2,
+        "prices_by_site": {
+          "Hızlı Çiçek": {
+            "count": 2,
+            "avg": "949.00"
+          }
+        },
+        "avg_price": "949.00"
+      },
+      "Lilyum": {
         "count": 1,
         "prices_by_site": {
           "Hızlı Çiçek": {
             "count": 1,
-            "avg": "2299.00"
+            "avg": "1179.00"
           }
         },
-        "avg_price": "2299.00"
+        "avg_price": "1179.00"
       }
     }
   }
