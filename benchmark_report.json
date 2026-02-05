@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-05T09:41:59.152Z",
+  "date": "2026-02-05T12:57:00.201Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -463,20 +463,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "The Duchess",
-      "price": 1799.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/the-duchess-vazoda-sari-laleler"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Hera",
-      "price": 1499.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/hera"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Teatro Grande",
       "price": 4499.9,
       "category": "Karma/Diğer",
@@ -502,6 +488,13 @@
       "price": 1999.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/aria-silver-cift-dalli-fusya-orkide"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Cavalli Anthurium XL",
+      "price": 2799.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/cavalli-anthurium-xl"
     },
     {
       "site": "Bloom and Fresh",
@@ -568,13 +561,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "The Dream 100 From Evo And Octane",
-      "price": 2599.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/the-dream-100-from-evo-and-octane-100-years-100-cars-the-greatest-of-all-time"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Vase Blossia",
       "price": 2799.9,
       "category": "Karma/Diğer",
@@ -617,10 +603,24 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Cavalli Anthurium XL",
-      "price": 2799.9,
+      "name": "The Duchess",
+      "price": 1799.9,
       "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/cavalli-anthurium-xl"
+      "url": "https://www.bloomandfresh.com/p/the-duchess-vazoda-sari-laleler"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Hera",
+      "price": 1499.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/hera"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "The Dream 100 From Evo And Octane",
+      "price": 2599.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/the-dream-100-from-evo-and-octane-100-years-100-cars-the-greatest-of-all-time"
     },
     {
       "site": "Bloom and Fresh",
