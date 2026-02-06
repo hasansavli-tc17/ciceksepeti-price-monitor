@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-06T09:40:44.992Z",
+  "date": "2026-02-06T12:54:36.269Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -428,13 +428,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Mistral",
-      "price": 2399.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/mistral"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Galaxy of Love",
       "price": 2799.9,
       "category": "Karma/Diğer",
@@ -442,10 +435,45 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Mistral",
+      "price": 2399.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/mistral"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Charlotte",
       "price": 1699.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/charlotte-gul-buketi"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Cinnamon",
+      "price": 2199.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/cinnamon-sonbahar-krizantem-buketi"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Caramel",
+      "price": 2499.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/caramel-vazoda-sonbahar-krizantem-aranjmani"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Mango Mimosa",
+      "price": 1899.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/mango-mimosa"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Maggie",
+      "price": 2799.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/maggie"
     },
     {
       "site": "Bloom and Fresh",
@@ -526,10 +554,52 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "B&F Chocolate Valentine's (20'li)",
+      "price": 999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/bnf-chocolate-valentines-20li-sevgililer-gunu-cikolatasi"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "LEGO Art Love - 791 Parça (312174)",
+      "price": 4599.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/lego-art-love-791-parca-312174"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Brownies Food & Co. Trufflove Çikolata (9 adet)",
+      "price": 1299.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/brownies-food-co-trufflove-cikolata-9-adet"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "LEGO Botanicals Küçük Sarı Buket - 373 Parça (10347)",
+      "price": 2299.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/lego-botanicals-kucuk-sari-buket-10347"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Chess & Cheers",
       "price": 2399.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/chess-cheers"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Godiva Masterpieces ONYX Çikolata (45 adet -315gr)",
+      "price": 2999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/masterpieces-onyx-kutu-45-adet"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Chocco'm Çikolata Seti (6’lı)",
+      "price": 2299.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/choccom-cikolata-seti-6li"
     },
     {
       "site": "Bloom and Fresh",
@@ -565,76 +635,6 @@
       "price": 3799.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/candle-friends-no-6-golden-pumpkint-special-edition-silindir-cam-mum"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "LEGO Botanicals Küçük Sarı Buket - 373 Parça (10347)",
-      "price": 2299.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/lego-botanicals-kucuk-sari-buket-10347"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Chocco'm Çikolata Seti (6’lı)",
-      "price": 2299.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/choccom-cikolata-seti-6li"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Atelier Rebul Apple & Cinnamon Miniature Home Kit",
-      "price": 2999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/atelier-rebul-apple-cinnamon-miniature-home-kit"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Printworks Riviera Çizgili Taşınabilir Lamba",
-      "price": 5599.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/printworks-riviera-cizgili-tasinabilir-lamba"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Helene",
-      "price": 2699.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/helene-turuncu-pembe-gul-cala-buketi"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "The Duchess",
-      "price": 1799.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/the-duchess-vazoda-sari-laleler"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Hera",
-      "price": 1499.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/hera"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "The Dream 100 From Evo And Octane",
-      "price": 2599.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/the-dream-100-from-evo-and-octane-100-years-100-cars-the-greatest-of-all-time"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Printworks Classic - Poker Seti",
-      "price": 3999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/printworks-classic-poker-seti"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "DOIY Bobby Siyah Vazo",
-      "price": 2799.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/doiy-bobby-siyah-vazo"
     }
   ],
   "price_analysis": {
@@ -653,9 +653,9 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2679.90",
-        "min_price": "1499.90",
-        "max_price": "5599.90"
+        "avg_price": "2523.23",
+        "min_price": "999.90",
+        "max_price": "4999.90"
       }
     },
     "by_category": {
@@ -730,10 +730,10 @@
           },
           "Bloom and Fresh": {
             "count": 30,
-            "avg": "2679.90"
+            "avg": "2523.23"
           }
         },
-        "avg_price": "2170.36"
+        "avg_price": "2058.45"
       },
       "Lilyum": {
         "count": 1,
