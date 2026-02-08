@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-08T09:28:42.640Z",
+  "date": "2026-02-08T12:43:35.642Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -505,13 +505,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Cavalli Anthurium XL",
-      "price": 2799.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/cavalli-anthurium-xl"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Dark Sienna Bronze",
       "price": 1899.9,
       "category": "Karma/Diğer",
@@ -537,13 +530,6 @@
       "price": 1899.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/dark-sienna-gold"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Gina Curry",
-      "price": 2399.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/gina-curry"
     },
     {
       "site": "Bloom and Fresh",
@@ -635,6 +621,20 @@
       "price": 2999.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/atelier-rebul-apple-cinnamon-miniature-home-kit"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Printworks Riviera Çizgili Taşınabilir Lamba",
+      "price": 5599.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/printworks-riviera-cizgili-tasinabilir-lamba"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Wonder Bubble",
+      "price": 2399.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/wonder-bubble"
     }
   ],
   "price_analysis": {
@@ -653,9 +653,9 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2543.23",
+        "avg_price": "2636.57",
         "min_price": "999.90",
-        "max_price": "4999.90"
+        "max_price": "5599.90"
       }
     },
     "by_category": {
@@ -734,10 +734,10 @@
           },
           "Bloom and Fresh": {
             "count": 30,
-            "avg": "2543.23"
+            "avg": "2636.57"
           }
         },
-        "avg_price": "2072.74"
+        "avg_price": "2139.40"
       },
       "Lilyum": {
         "count": 1,
