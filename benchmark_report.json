@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-08T05:46:09.637Z",
+  "date": "2026-02-08T09:28:42.640Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -512,6 +512,13 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Dark Sienna Bronze",
+      "price": 1899.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/dark-sienna-bronze"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Vanilla Sky",
       "price": 1799.9,
       "category": "Karma/Diğer",
@@ -628,13 +635,6 @@
       "price": 2999.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/atelier-rebul-apple-cinnamon-miniature-home-kit"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Printworks Riviera Çizgili Taşınabilir Lamba",
-      "price": 5599.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/printworks-riviera-cizgili-tasinabilir-lamba"
     }
   ],
   "price_analysis": {
@@ -653,9 +653,9 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2666.57",
+        "avg_price": "2543.23",
         "min_price": "999.90",
-        "max_price": "5599.90"
+        "max_price": "4999.90"
       }
     },
     "by_category": {
@@ -734,10 +734,10 @@
           },
           "Bloom and Fresh": {
             "count": 30,
-            "avg": "2666.57"
+            "avg": "2543.23"
           }
         },
-        "avg_price": "2160.83"
+        "avg_price": "2072.74"
       },
       "Lilyum": {
         "count": 1,
