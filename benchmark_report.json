@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-09T10:01:26.645Z",
+  "date": "2026-02-09T13:03:40.270Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -463,13 +463,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Mango Mimosa",
-      "price": 1899.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/mango-mimosa"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Maggie",
       "price": 2799.9,
       "category": "Karma/Diğer",
@@ -635,6 +628,13 @@
       "price": 5599.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/printworks-riviera-cizgili-tasinabilir-lamba"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Mango Mimosa",
+      "price": 1899.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/mango-mimosa"
     }
   ],
   "price_analysis": {
