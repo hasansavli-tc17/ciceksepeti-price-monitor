@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-09T13:03:40.270Z",
+  "date": "2026-02-09T15:54:07.155Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -555,7 +555,7 @@
     {
       "site": "Bloom and Fresh",
       "name": "LEGO Botanicals Küçük Sarı Buket - 373 Parça (10347)",
-      "price": 2299.9,
+      "price": 2599.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/lego-botanicals-kucuk-sari-buket-10347"
     },
@@ -653,7 +653,7 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2636.57",
+        "avg_price": "2646.57",
         "min_price": "999.90",
         "max_price": "5599.90"
       }
@@ -734,10 +734,10 @@
           },
           "Bloom and Fresh": {
             "count": 30,
-            "avg": "2636.57"
+            "avg": "2646.57"
           }
         },
-        "avg_price": "2172.10"
+        "avg_price": "2179.41"
       },
       "Lilyum": {
         "count": 1,
