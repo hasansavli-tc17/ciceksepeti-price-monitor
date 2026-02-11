@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-11T13:04:10.769Z",
+  "date": "2026-02-11T15:59:41.635Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -428,6 +428,13 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "The Valentine & B&F Chocolate Valentine's (20'li) Bundle",
+      "price": 3699.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/the-valentine-sevgiliye-kirmizi-cicek-cikolata"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "The Valentine",
       "price": 2999.9,
       "category": "Karma/Diğer",
@@ -628,13 +635,6 @@
       "price": 2699.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/dark-sienna-gold-b-f-chocolate-valentine-s-20-li-bundle"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Bola",
-      "price": 1699.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/bola-sepette-katmerli-begonya"
     }
   ],
   "price_analysis": {
@@ -653,7 +653,7 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2579.90",
+        "avg_price": "2646.57",
         "min_price": "1549.90",
         "max_price": "3999.90"
       }
@@ -734,10 +734,10 @@
           },
           "Bloom and Fresh": {
             "count": 30,
-            "avg": "2579.90"
+            "avg": "2646.57"
           }
         },
-        "avg_price": "2136.24"
+        "avg_price": "2185.02"
       },
       "Lilyum": {
         "count": 1,
