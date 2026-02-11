@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-11T09:52:23.646Z",
+  "date": "2026-02-11T13:04:10.769Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -240,14 +240,14 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Cheerful Bloom",
-      "price": 699,
+      "price": 729,
       "category": "Karma/Diğer",
       "url": "https://hizlicicek.com/urun/cheerful-bloom"
     },
     {
       "site": "Hızlı Çiçek",
       "name": "Crimson Minimal",
-      "price": 679,
+      "price": 729,
       "category": "Karma/Diğer",
       "url": "https://hizlicicek.com/urun/crimson-minimal"
     },
@@ -289,7 +289,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Yellow Kiss",
-      "price": 859,
+      "price": 879,
       "category": "Karma/Diğer",
       "url": "https://hizlicicek.com/urun/yellow-kiss"
     },
@@ -338,7 +338,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Saksılı Dua Çiçeği",
-      "price": 729,
+      "price": 779,
       "category": "Karma/Diğer",
       "url": "https://hizlicicek.com/urun/saksili-dua-cicegi"
     },
@@ -408,14 +408,14 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Cheerful Bloom",
-      "price": 699,
+      "price": 729,
       "category": "Karma/Diğer",
       "url": "https://hizlicicek.com/urun/cheerful-bloom"
     },
     {
       "site": "Hızlı Çiçek",
       "name": "Crimson Minimal",
-      "price": 679,
+      "price": 729,
       "category": "Karma/Diğer",
       "url": "https://hizlicicek.com/urun/crimson-minimal"
     },
@@ -425,13 +425,6 @@
       "price": 1599,
       "category": "Orkide",
       "url": "https://hizlicicek.com/urun/sevgililer-gunu-2-dalli-beyaz-orkide"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "The Valentine & B&F Chocolate Valentine's (20'li) Bundle",
-      "price": 3699.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/the-valentine-sevgiliye-kirmizi-cicek-cikolata"
     },
     {
       "site": "Bloom and Fresh",
@@ -635,6 +628,13 @@
       "price": 2699.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/dark-sienna-gold-b-f-chocolate-valentine-s-20-li-bundle"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Bola",
+      "price": 1699.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/bola-sepette-katmerli-begonya"
     }
   ],
   "price_analysis": {
@@ -647,13 +647,13 @@
       },
       "Hızlı Çiçek": {
         "product_count": 30,
-        "avg_price": "1132.67",
+        "avg_price": "1140.33",
         "min_price": "599.00",
         "max_price": "2699.00"
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2646.57",
+        "avg_price": "2579.90",
         "min_price": "1549.90",
         "max_price": "3999.90"
       }
@@ -730,14 +730,14 @@
         "prices_by_site": {
           "Hızlı Çiçek": {
             "count": 11,
-            "avg": "905.36"
+            "avg": "926.27"
           },
           "Bloom and Fresh": {
             "count": 30,
-            "avg": "2646.57"
+            "avg": "2579.90"
           }
         },
-        "avg_price": "2179.41"
+        "avg_price": "2136.24"
       },
       "Lilyum": {
         "count": 1,
