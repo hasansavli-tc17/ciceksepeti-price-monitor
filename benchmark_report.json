@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-14T05:30:31.908Z",
+  "date": "2026-02-14T09:28:57.330Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -449,6 +449,34 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Zuzu Lovers Ed. & B&F Chocolate Valentine's (20'li) Bundle",
+      "price": 3199.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/zuzu-lovers-ed-bf-chocolate-valentines-20li-bundle"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Lily Lovers Ed. & B&F Chocolate Valentine's (20'li) Bundle",
+      "price": 3199.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/lily-lovers-ed-bf-chocolate-valentines-20li-bundle"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Dark Sienna Gold & B&F Chocolate Valentine’s (20'li) Bundle",
+      "price": 2699.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/dark-sienna-gold-b-f-chocolate-valentine-s-20-li-bundle"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "B&F Chocolate Valentine's (20'li)",
+      "price": 999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/bnf-chocolate-valentines-20li-sevgililer-gunu-cikolatasi"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Zuzu Lovers Ed.",
       "price": 2399.9,
       "category": "Karma/Diğer",
@@ -463,10 +491,52 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Mystic",
+      "price": 1699.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/mystic-turuncu-mor-sonbahar-gul-buketi"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Hera",
+      "price": 1499.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/hera"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Chloe",
+      "price": 1999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/chloe"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Volante",
+      "price": 1699.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/volante-gul-buketi"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Volante & Brownies Trüf (16'lı) Bundle",
+      "price": 2249.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/volante-brownies-truf-16-li-bundle"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Marla",
       "price": 1999.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/marla-turuncu-mor-sonbahar-gul-duzenlemesi"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Dante",
+      "price": 1699.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/dante-vazoda-guller"
     },
     {
       "site": "Bloom and Fresh",
@@ -502,13 +572,6 @@
       "price": 3999.9,
       "category": "Orkide",
       "url": "https://www.bloomandfresh.com/p/lego-botanicals-orkide-608-parca-10311"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "LEGO Botanicals Pembe Çiçek Buketi - 749 Parça (10342)",
-      "price": 3999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/lego-botanicals-pembe-cicek-buketi-749-parca-10342-"
     },
     {
       "site": "Bloom and Fresh",
@@ -572,69 +635,6 @@
       "price": 1999.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/harem-chocolate-love-kutu-215g"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "B&F Valentines Macarons (24'lü)",
-      "price": 1399.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/bnf-sevgiliye-makaron-24lu"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "The Valentine",
-      "price": 2999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/the-valentine-sevgiliye-cicek-kirmizi-guller"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Charlotte",
-      "price": 1699.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/charlotte-gul-buketi"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Athena",
-      "price": 1549.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/athena-pembe-gul-buketi"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Alice",
-      "price": 1799.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/alice-acik-pembe-koyu-pembe-gul-buketi"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Alice Extra",
-      "price": 2499.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/alice-extra"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Helene",
-      "price": 2699.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/helene-turuncu-pembe-gul-cala-buketi"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Athena Double",
-      "price": 2499.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/athena-double-buyuk-pembe-gul-buketi"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Volante",
-      "price": 1699.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/volante-gul-buketi"
     }
   ],
   "price_analysis": {
@@ -653,8 +653,8 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2301.54",
-        "min_price": "1099.90",
+        "avg_price": "2238.20",
+        "min_price": "999.90",
         "max_price": "3999.90"
       }
     },
@@ -720,10 +720,10 @@
           },
           "Bloom and Fresh": {
             "count": 29,
-            "avg": "2242.97"
+            "avg": "2177.46"
           }
         },
-        "avg_price": "1863.76"
+        "avg_price": "1817.42"
       },
       "Lilyum": {
         "count": 3,
