@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-14T09:28:57.330Z",
+  "date": "2026-02-14T12:42:17.638Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -289,7 +289,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Sevgililer Günü 2 Dallı Beyaz Orkide",
-      "price": 1599,
+      "price": 1399,
       "category": "Orkide",
       "url": "https://hizlicicek.com/urun/sevgililer-gunu-2-dalli-beyaz-orkide"
     },
@@ -310,7 +310,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Sevgililer Günü 2 Dallı Mor Orkide",
-      "price": 1899,
+      "price": 1599,
       "category": "Orkide",
       "url": "https://hizlicicek.com/urun/sevgililer-gunu-2-dalli-mor-orkide"
     },
@@ -449,6 +449,13 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Galaxy of Love",
+      "price": 2799.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/galaxy-of-love"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Zuzu Lovers Ed. & B&F Chocolate Valentine's (20'li) Bundle",
       "price": 3199.9,
       "category": "Karma/Diğer",
@@ -505,6 +512,27 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Molly",
+      "price": 1699.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/molly"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Caramel",
+      "price": 2499.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/caramel-vazoda-sonbahar-krizantem-aranjmani"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Polina",
+      "price": 1999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/polina"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Chloe",
       "price": 1999.9,
       "category": "Karma/Diğer",
@@ -551,20 +579,6 @@
       "price": 2199.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/avelyn"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Coral Furrow",
-      "price": 2099.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/coral-furrow"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Bola",
-      "price": 1699.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/bola-sepette-katmerli-begonya"
     },
     {
       "site": "Bloom and Fresh",
@@ -621,20 +635,6 @@
       "price": 1999,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/love-in-black"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "My Sweet Darling",
-      "price": 1999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/my-sweet-darling"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Harem Chocolate Love Kutu (215g)",
-      "price": 1999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/harem-chocolate-love-kutu-215g"
     }
   ],
   "price_analysis": {
@@ -647,13 +647,13 @@
       },
       "Hızlı Çiçek": {
         "product_count": 30,
-        "avg_price": "1267.00",
+        "avg_price": "1250.33",
         "min_price": "599.00",
         "max_price": "2699.00"
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2238.20",
+        "avg_price": "2278.20",
         "min_price": "999.90",
         "max_price": "3999.90"
       }
@@ -720,10 +720,10 @@
           },
           "Bloom and Fresh": {
             "count": 29,
-            "avg": "2177.46"
+            "avg": "2218.83"
           }
         },
-        "avg_price": "1817.42"
+        "avg_price": "1846.69"
       },
       "Lilyum": {
         "count": 3,
@@ -740,14 +740,14 @@
         "prices_by_site": {
           "Hızlı Çiçek": {
             "count": 3,
-            "avg": "2065.67"
+            "avg": "1899.00"
           },
           "Bloom and Fresh": {
             "count": 1,
             "avg": "3999.90"
           }
         },
-        "avg_price": "2549.22"
+        "avg_price": "2424.22"
       },
       "Lale": {
         "count": 1,
