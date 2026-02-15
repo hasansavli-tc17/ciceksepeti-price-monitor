@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-15T09:29:52.198Z",
+  "date": "2026-02-15T12:44:52.970Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -435,13 +435,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Rosso Reale & B&F Chocolate Valentine’s (20'li) Bundle",
-      "price": 3699.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/rosso-reale-b-f-chocolate-valentine-s-20-li-bundle"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Lovestruck",
       "price": 2699.9,
       "category": "Karma/Diğer",
@@ -453,34 +446,6 @@
       "price": 2799.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/galaxy-of-love"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Zuzu Lovers Ed. & B&F Chocolate Valentine's (20'li) Bundle",
-      "price": 3199.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/zuzu-lovers-ed-bf-chocolate-valentines-20li-bundle"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Lily Lovers Ed. & B&F Chocolate Valentine's (20'li) Bundle",
-      "price": 3199.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/lily-lovers-ed-bf-chocolate-valentines-20li-bundle"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Dark Sienna Gold & B&F Chocolate Valentine’s (20'li) Bundle",
-      "price": 2699.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/dark-sienna-gold-b-f-chocolate-valentine-s-20-li-bundle"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "B&F Chocolate Valentine's (20'li)",
-      "price": 999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/bnf-chocolate-valentines-20li-sevgililer-gunu-cikolatasi"
     },
     {
       "site": "Bloom and Fresh",
@@ -635,6 +600,41 @@
       "price": 1999,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/love-in-black"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "My Sweet Darling",
+      "price": 1999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/my-sweet-darling"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Harem Chocolate Love Kutu (215g)",
+      "price": 1999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/harem-chocolate-love-kutu-215g"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Rosso Reale & B&F Chocolate Valentine’s (20'li) Bundle",
+      "price": 3699.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/rosso-reale-b-f-chocolate-valentine-s-20-li-bundle"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "The Risky DM",
+      "price": 3699.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/the-risky-dm-sevgililer-gunu-ozel-red-naomi-guller"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Zuzu Lovers Ed. & B&F Chocolate Valentine's (20'li) Bundle",
+      "price": 3199.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/zuzu-lovers-ed-bf-chocolate-valentines-20li-bundle"
     }
   ],
   "price_analysis": {
@@ -653,8 +653,8 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2278.20",
-        "min_price": "999.90",
+        "avg_price": "2304.87",
+        "min_price": "1099.90",
         "max_price": "3999.90"
       }
     },
@@ -706,10 +706,10 @@
           },
           "Bloom and Fresh": {
             "count": 29,
-            "avg": "2218.83"
+            "avg": "2246.42"
           }
         },
-        "avg_price": "1788.96"
+        "avg_price": "1808.00"
       },
       "Gerbera": {
         "count": 4,
