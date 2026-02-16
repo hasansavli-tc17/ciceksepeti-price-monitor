@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-16T09:52:27.897Z",
+  "date": "2026-02-16T12:57:54.207Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -526,13 +526,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Gina Gold",
-      "price": 2399.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/gina-gold"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Dark Sienna Gold",
       "price": 1899.9,
       "category": "Karma/Diğer",
@@ -558,13 +551,6 @@
       "price": 1999.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/harem-chocolate-love-kutu-215g"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Divan Pralin Çikolata (20'li)",
-      "price": 1799.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/divan-pralin-cikolata"
     },
     {
       "site": "Bloom and Fresh",
@@ -621,6 +607,20 @@
       "price": 999.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/ahsap-cerceveli-kaktus-poster-tablo-30x40-cm"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Gina Gold",
+      "price": 2399.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/gina-gold"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Divan Pralin Çikolata (20'li)",
+      "price": 1799.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/divan-pralin-cikolata"
     },
     {
       "site": "Bloom and Fresh",
