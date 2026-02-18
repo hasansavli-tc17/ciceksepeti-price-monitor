@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-18T09:44:52.899Z",
+  "date": "2026-02-18T12:59:26.152Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -456,6 +456,13 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Cinnamon",
+      "price": 2199.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/cinnamon-sonbahar-krizantem-buketi"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Caramel",
       "price": 2499.9,
       "category": "Karma/Diğer",
@@ -575,6 +582,20 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Fun Steps",
+      "price": 1999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/fun-steps"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Birthday Box Gold",
+      "price": 1999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/birthday-box-gold"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Love in Black",
       "price": 1999,
       "category": "Karma/Diğer",
@@ -607,27 +628,6 @@
       "price": 999.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/ahsap-cerceveli-kaktus-poster-tablo-30x40-cm"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Cinnamon",
-      "price": 2199.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/cinnamon-sonbahar-krizantem-buketi"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Fun Steps",
-      "price": 1999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/fun-steps"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Birthday Box Gold",
-      "price": 1999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/birthday-box-gold"
     },
     {
       "site": "Bloom and Fresh",
