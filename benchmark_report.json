@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-20T09:38:59.175Z",
+  "date": "2026-02-20T12:54:16.573Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -470,13 +470,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "The Duchess",
-      "price": 1799.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/the-duchess-vazoda-sari-laleler"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Teatro Grande",
       "price": 4499.9,
       "category": "Karma/Diğer",
@@ -607,6 +600,13 @@
       "price": 999.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/ahsap-cerceveli-kaktus-poster-tablo-30x40-cm"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "The Duchess",
+      "price": 1799.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/the-duchess-vazoda-sari-laleler"
     },
     {
       "site": "Bloom and Fresh",
