@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-23T12:59:04.579Z",
+  "date": "2026-02-23T15:43:30.925Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -456,6 +456,13 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Maggie",
+      "price": 2799.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/maggie"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Verona",
       "price": 2999.9,
       "category": "Karma/Diğer",
@@ -600,13 +607,6 @@
       "price": 999.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/ahsap-cerceveli-kaktus-poster-tablo-30x40-cm"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Maggie",
-      "price": 2799.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/maggie"
     },
     {
       "site": "Bloom and Fresh",
