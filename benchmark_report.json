@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-25T05:44:03.452Z",
+  "date": "2026-02-25T09:53:22.978Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -435,20 +435,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Rosso Reale",
-      "price": 1999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/rosso-reale-sevgililer-gunu-ozel-red-naomi-kirmizi-gul-buketi"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Lovestruck",
-      "price": 1999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/lovestruck-sevgililer-gunu-ozel-kirmizi-gul-buketi"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Galaxy of Love",
       "price": 2799.9,
       "category": "Karma/Diğer",
@@ -590,7 +576,7 @@
     {
       "site": "Bloom and Fresh",
       "name": "B&F Macarons (12'li)",
-      "price": 999.9,
+      "price": 1199.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/12li-makaron"
     },
@@ -624,17 +610,31 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Fun Steps",
-      "price": 1999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/fun-steps"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Birthday Box Gold",
       "price": 1999.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/birthday-box-gold"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Love in Black",
+      "price": 1999,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/love-in-black"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Printworks Riviera Çizgili Taşınabilir Lamba",
+      "price": 5599.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/printworks-riviera-cizgili-tasinabilir-lamba"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "LEGO Botanicals Küçük Sarı Buket - 373 Parça (10347)",
+      "price": 2599.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/lego-botanicals-kucuk-sari-buket-10347"
     }
   ],
   "price_analysis": {
@@ -653,9 +653,9 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2203.23",
+        "avg_price": "2349.87",
         "min_price": "949.90",
-        "max_price": "4999.90"
+        "max_price": "5599.90"
       }
     },
     "by_category": {
@@ -716,10 +716,10 @@
           },
           "Bloom and Fresh": {
             "count": 30,
-            "avg": "2203.23"
+            "avg": "2349.87"
           }
         },
-        "avg_price": "1869.90"
+        "avg_price": "1977.20"
       },
       "Orkide": {
         "count": 6,
