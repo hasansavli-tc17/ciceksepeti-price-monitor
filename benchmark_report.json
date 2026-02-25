@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-25T09:53:22.978Z",
+  "date": "2026-02-25T12:59:18.423Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -218,6 +218,55 @@
     },
     {
       "site": "Hızlı Çiçek",
+      "name": "Premium 51 Kırmızı Gül",
+      "price": 2999,
+      "category": "Gül",
+      "url": "https://hizlicicek.com/urun/premium-51-kirmizi-gul"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Love Kırmızı Gül Buketi",
+      "price": 1099,
+      "category": "Gül",
+      "url": "https://hizlicicek.com/urun/love-kirmizi-gul-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Vazoda 9’lu Kırmızı Gül",
+      "price": 1299,
+      "category": "Gül",
+      "url": "https://hizlicicek.com/urun/vazoda-9-lu-kirmizi-gul"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Double White Orkide",
+      "price": 949,
+      "category": "Orkide",
+      "url": "https://hizlicicek.com/urun/double-white-orkide"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Double Sweet Purple Orkide",
+      "price": 1199,
+      "category": "Orkide",
+      "url": "https://hizlicicek.com/urun/double-sweet-purple-orkide"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Kırmızı Gerbera Buketi",
+      "price": 599,
+      "category": "Gerbera",
+      "url": "https://hizlicicek.com/urun/kirmizi-gerbera-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Pembe Krizantem Buketi",
+      "price": 899,
+      "category": "Karma/Diğer",
+      "url": "https://hizlicicek.com/urun/pembe-krizantem-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
       "name": "Pembe Krizantem Buketi",
       "price": 899,
       "category": "Karma/Diğer",
@@ -254,7 +303,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Premium 51 Kırmızı Gül",
-      "price": 3299,
+      "price": 2999,
       "category": "Gül",
       "url": "https://hizlicicek.com/urun/premium-51-kirmizi-gul"
     },
@@ -376,55 +425,6 @@
       "price": 2699,
       "category": "Orkide",
       "url": "https://hizlicicek.com/urun/double-sweet-white-orkide"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Amore Kırmızı Gül Buketi",
-      "price": 1399,
-      "category": "Gül",
-      "url": "https://hizlicicek.com/urun/amore-kirmizi-gul-buketi"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Pembe Krizantem Buketi",
-      "price": 899,
-      "category": "Karma/Diğer",
-      "url": "https://hizlicicek.com/urun/pembe-krizantem-buketi"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Love Kırmızı Gül Buketi",
-      "price": 1099,
-      "category": "Gül",
-      "url": "https://hizlicicek.com/urun/love-kirmizi-gul-buketi"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Double White Orkide",
-      "price": 949,
-      "category": "Orkide",
-      "url": "https://hizlicicek.com/urun/double-white-orkide"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Kırmızı Gerbera Buketi",
-      "price": 599,
-      "category": "Gerbera",
-      "url": "https://hizlicicek.com/urun/kirmizi-gerbera-buketi"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Saksılı Pembe Lilyum",
-      "price": 1179,
-      "category": "Lilyum",
-      "url": "https://hizlicicek.com/urun/saksili-pembe-lilyum"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Premium 51 Kırmızı Gül",
-      "price": 3299,
-      "category": "Gül",
-      "url": "https://hizlicicek.com/urun/premium-51-kirmizi-gul"
     },
     {
       "site": "Bloom and Fresh",
@@ -610,6 +610,13 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Fun Steps",
+      "price": 1999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/fun-steps"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Birthday Box Gold",
       "price": 1999.9,
       "category": "Karma/Diğer",
@@ -628,13 +635,6 @@
       "price": 5599.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/printworks-riviera-cizgili-tasinabilir-lamba"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "LEGO Botanicals Küçük Sarı Buket - 373 Parça (10347)",
-      "price": 2599.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/lego-botanicals-kucuk-sari-buket-10347"
     }
   ],
   "price_analysis": {
@@ -647,13 +647,13 @@
       },
       "Hızlı Çiçek": {
         "product_count": 30,
-        "avg_price": "1297.00",
+        "avg_price": "1274.33",
         "min_price": "599.00",
-        "max_price": "3299.00"
+        "max_price": "2999.00"
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2349.87",
+        "avg_price": "2329.87",
         "min_price": "949.90",
         "max_price": "5599.90"
       }
@@ -678,10 +678,10 @@
           },
           "Hızlı Çiçek": {
             "count": 7,
-            "avg": "1830.43"
+            "avg": "1730.43"
           }
         },
-        "avg_price": "1533.76"
+        "avg_price": "1505.76"
       },
       "Karanfil": {
         "count": 3,
@@ -707,6 +707,16 @@
         },
         "avg_price": "739.50"
       },
+      "Orkide": {
+        "count": 7,
+        "prices_by_site": {
+          "Hızlı Çiçek": {
+            "count": 7,
+            "avg": "1427.57"
+          }
+        },
+        "avg_price": "1427.57"
+      },
       "Karma/Diğer": {
         "count": 41,
         "prices_by_site": {
@@ -716,30 +726,20 @@
           },
           "Bloom and Fresh": {
             "count": 30,
-            "avg": "2349.87"
+            "avg": "2329.87"
           }
         },
-        "avg_price": "1977.20"
-      },
-      "Orkide": {
-        "count": 6,
-        "prices_by_site": {
-          "Hızlı Çiçek": {
-            "count": 6,
-            "avg": "1465.67"
-          }
-        },
-        "avg_price": "1465.67"
+        "avg_price": "1962.56"
       },
       "Lilyum": {
-        "count": 3,
+        "count": 2,
         "prices_by_site": {
           "Hızlı Çiçek": {
-            "count": 3,
-            "avg": "1552.33"
+            "count": 2,
+            "avg": "1739.00"
           }
         },
-        "avg_price": "1552.33"
+        "avg_price": "1739.00"
       }
     }
   }
