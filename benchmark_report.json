@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-26T13:00:27.083Z",
+  "date": "2026-02-26T15:52:45.784Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -520,7 +520,7 @@
     {
       "site": "Bloom and Fresh",
       "name": "Bumblebee",
-      "price": 2099.9,
+      "price": 2299.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/bumblebee"
     },
@@ -653,7 +653,7 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2168.23",
+        "avg_price": "2174.90",
         "min_price": "949.90",
         "max_price": "5299.90"
       }
@@ -720,10 +720,10 @@
           },
           "Bloom and Fresh": {
             "count": 29,
-            "avg": "2180.93"
+            "avg": "2187.83"
           }
         },
-        "avg_price": "1745.75"
+        "avg_price": "1750.30"
       },
       "Orkide": {
         "count": 5,
