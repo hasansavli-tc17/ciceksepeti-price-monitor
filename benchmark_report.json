@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-04T12:52:11.738Z",
+  "date": "2026-03-04T15:38:38.630Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -435,6 +435,13 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Goldie - 20 ad. Sarı Lale",
+      "price": 1799.9,
+      "category": "Lale",
+      "url": "https://www.bloomandfresh.com/p/goldie-sari-lale-buketi"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Galaxy of Love",
       "price": 2799.9,
       "category": "Karma/Diğer",
@@ -628,13 +635,6 @@
       "price": 1899.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/ilham-veren-kadinlara-brownie-24-lu-"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "İlham Veren Kadınlara Brownie (12’li)",
-      "price": 1499.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/ilham-veren-kadinlara-brownie-12-li-"
     }
   ],
   "price_analysis": {
@@ -653,7 +653,7 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2288.23",
+        "avg_price": "2298.23",
         "min_price": "1299.90",
         "max_price": "4999.90"
       }
@@ -712,18 +712,18 @@
         "avg_price": "903.79"
       },
       "Karma/Diğer": {
-        "count": 46,
+        "count": 45,
         "prices_by_site": {
           "Hızlı Çiçek": {
             "count": 19,
             "avg": "1033.21"
           },
           "Bloom and Fresh": {
-            "count": 27,
-            "avg": "2327.68"
+            "count": 26,
+            "avg": "2359.52"
           }
         },
-        "avg_price": "1793.01"
+        "avg_price": "1799.52"
       },
       "Lilyum": {
         "count": 3,
@@ -746,14 +746,14 @@
         "avg_price": "1074.00"
       },
       "Lale": {
-        "count": 1,
+        "count": 2,
         "prices_by_site": {
           "Bloom and Fresh": {
-            "count": 1,
-            "avg": "2099.90"
+            "count": 2,
+            "avg": "1949.90"
           }
         },
-        "avg_price": "2099.90"
+        "avg_price": "1949.90"
       }
     }
   }
