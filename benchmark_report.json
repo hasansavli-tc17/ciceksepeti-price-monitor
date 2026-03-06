@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-06T12:50:49.660Z",
+  "date": "2026-03-06T15:35:39.462Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -177,7 +177,7 @@
     {
       "site": "Çiçek Sepeti",
       "name": "Somon Buket Kağıdında 10'lu Pembe Gül Buketi",
-      "price": 1199,
+      "price": 1349,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/koyu-somon-bukette-10-pembe-gul-vbt1486"
     },
@@ -229,6 +229,13 @@
       "price": 879,
       "category": "Karma/Diğer",
       "url": "https://hizlicicek.com/urun/kirmizi-antoryum"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Mimoza Buketi",
+      "price": 989,
+      "category": "Karma/Diğer",
+      "url": "https://hizlicicek.com/urun/mimoza-buketi"
     },
     {
       "site": "Hızlı Çiçek",
@@ -379,13 +386,6 @@
     },
     {
       "site": "Hızlı Çiçek",
-      "name": "Beyaz Lilyum Buketi",
-      "price": 2299,
-      "category": "Lilyum",
-      "url": "https://hizlicicek.com/urun/beyaz-lilyum-buketi"
-    },
-    {
-      "site": "Hızlı Çiçek",
       "name": "Double White Orkide",
       "price": 949,
       "category": "Orkide",
@@ -397,6 +397,13 @@
       "price": 879,
       "category": "Karma/Diğer",
       "url": "https://hizlicicek.com/urun/kirmizi-antoryum"
+    },
+    {
+      "site": "Hızlı Çiçek",
+      "name": "Mimoza Buketi",
+      "price": 989,
+      "category": "Karma/Diğer",
+      "url": "https://hizlicicek.com/urun/mimoza-buketi"
     },
     {
       "site": "Hızlı Çiçek",
@@ -420,13 +427,6 @@
       "url": "https://hizlicicek.com/urun/beyaz-spatifilyum"
     },
     {
-      "site": "Hızlı Çiçek",
-      "name": "Cheerful Bloom",
-      "price": 779,
-      "category": "Karma/Diğer",
-      "url": "https://hizlicicek.com/urun/cheerful-bloom"
-    },
-    {
       "site": "Bloom and Fresh",
       "name": "Charlotte",
       "price": 1699.9,
@@ -446,6 +446,13 @@
       "price": 2299.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/burgundy-mor-bigoudi-krizantem-buketi"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "The Duchess",
+      "price": 1799.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/the-duchess-vazoda-sari-laleler"
     },
     {
       "site": "Bloom and Fresh",
@@ -628,32 +635,25 @@
       "price": 3599.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/roger-gallet-neroli-vucut-bakim-seti"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "LEGO Botanicals Krizantem - 278 Parça (10368)",
-      "price": 2599.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/lego-botanicals-krizantem-278-parca-10368"
     }
   ],
   "price_analysis": {
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "917.26",
+        "avg_price": "922.26",
         "min_price": "479.99",
         "max_price": "1899.00"
       },
       "Hızlı Çiçek": {
         "product_count": 30,
-        "avg_price": "1291.33",
+        "avg_price": "1254.67",
         "min_price": "599.00",
         "max_price": "3599.00"
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2289.90",
+        "avg_price": "2263.23",
         "min_price": "999.90",
         "max_price": "4999.90"
       }
@@ -674,7 +674,7 @@
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 13,
-            "avg": "1122.61"
+            "avg": "1134.15"
           },
           "Hızlı Çiçek": {
             "count": 6,
@@ -685,7 +685,7 @@
             "avg": "1849.90"
           }
         },
-        "avg_price": "1432.75"
+        "avg_price": "1439.89"
       },
       "Karanfil": {
         "count": 5,
@@ -722,28 +722,28 @@
         "avg_price": "1032.33"
       },
       "Karma/Diğer": {
-        "count": 45,
+        "count": 46,
         "prices_by_site": {
           "Hızlı Çiçek": {
-            "count": 17,
-            "avg": "1010.18"
+            "count": 18,
+            "avg": "1020.67"
           },
           "Bloom and Fresh": {
             "count": 28,
-            "avg": "2321.33"
+            "avg": "2292.76"
           }
         },
-        "avg_price": "1826.00"
+        "avg_price": "1794.98"
       },
       "Lilyum": {
-        "count": 3,
+        "count": 2,
         "prices_by_site": {
           "Hızlı Çiçek": {
-            "count": 3,
-            "avg": "2025.67"
+            "count": 2,
+            "avg": "1889.00"
           }
         },
-        "avg_price": "2025.67"
+        "avg_price": "1889.00"
       }
     }
   }
