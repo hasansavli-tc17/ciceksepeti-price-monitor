@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-07T12:41:18.502Z",
+  "date": "2026-03-07T15:21:19.613Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -226,7 +226,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Kırmızı Antoryum",
-      "price": 879,
+      "price": 959,
       "category": "Karma/Diğer",
       "url": "https://hizlicicek.com/urun/kirmizi-antoryum"
     },
@@ -275,14 +275,14 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Beyaz Spatifilyum",
-      "price": 859,
+      "price": 899,
       "category": "Karma/Diğer",
       "url": "https://hizlicicek.com/urun/beyaz-spatifilyum"
     },
     {
       "site": "Hızlı Çiçek",
       "name": "Premium 51 Kırmızı Gül",
-      "price": 3599,
+      "price": 3999,
       "category": "Gül",
       "url": "https://hizlicicek.com/urun/premium-51-kirmizi-gul"
     },
@@ -317,7 +317,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Aşk Merdiveni (Fujer)",
-      "price": 729,
+      "price": 779,
       "category": "Karma/Diğer",
       "url": "https://hizlicicek.com/urun/ask-merdiveni-fujer"
     },
@@ -394,7 +394,7 @@
     {
       "site": "Hızlı Çiçek",
       "name": "Kırmızı Antoryum",
-      "price": 879,
+      "price": 959,
       "category": "Karma/Diğer",
       "url": "https://hizlicicek.com/urun/kirmizi-antoryum"
     },
@@ -647,7 +647,7 @@
       },
       "Hızlı Çiçek": {
         "product_count": 30,
-        "avg_price": "1431.67",
+        "avg_price": "1453.33",
         "min_price": "599.00",
         "max_price": "5999.00"
       },
@@ -678,14 +678,14 @@
           },
           "Hızlı Çiçek": {
             "count": 5,
-            "avg": "2099.00"
+            "avg": "2179.00"
           },
           "Bloom and Fresh": {
             "count": 2,
             "avg": "1849.90"
           }
         },
-        "avg_price": "1461.32"
+        "avg_price": "1480.37"
       },
       "Karanfil": {
         "count": 4,
@@ -726,14 +726,14 @@
         "prices_by_site": {
           "Hızlı Çiçek": {
             "count": 17,
-            "avg": "1270.76"
+            "avg": "1285.47"
           },
           "Bloom and Fresh": {
             "count": 28,
             "avg": "2303.47"
           }
         },
-        "avg_price": "1913.34"
+        "avg_price": "1918.89"
       },
       "Lilyum": {
         "count": 3,
