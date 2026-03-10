@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-10T09:41:18.186Z",
+  "date": "2026-03-10T12:55:18.929Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -225,6 +225,13 @@
     },
     {
       "site": "Hızlı Çiçek",
+      "name": "Mor Sümbül Buketi",
+      "price": 1399,
+      "category": "Karma/Diğer",
+      "url": "https://hizlicicek.com/urun/mor-sumbul-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
       "name": "Double Sweet Purple Orkide",
       "price": 1199,
       "category": "Orkide",
@@ -330,13 +337,6 @@
     },
     {
       "site": "Hızlı Çiçek",
-      "name": "Mor Sümbül Buketi",
-      "price": 1399,
-      "category": "Karma/Diğer",
-      "url": "https://hizlicicek.com/urun/mor-sumbul-buketi"
-    },
-    {
-      "site": "Hızlı Çiçek",
       "name": "Vazoda 9’lu Kırmızı Gül",
       "price": 1299,
       "category": "Gül",
@@ -393,6 +393,13 @@
     },
     {
       "site": "Hızlı Çiçek",
+      "name": "Mor Sümbül Buketi",
+      "price": 1399,
+      "category": "Karma/Diğer",
+      "url": "https://hizlicicek.com/urun/mor-sumbul-buketi"
+    },
+    {
+      "site": "Hızlı Çiçek",
       "name": "Double Sweet Purple Orkide",
       "price": 1199,
       "category": "Orkide",
@@ -418,13 +425,6 @@
       "price": 899,
       "category": "Karma/Diğer",
       "url": "https://hizlicicek.com/urun/beyaz-spatifilyum"
-    },
-    {
-      "site": "Hızlı Çiçek",
-      "name": "Cheerful Bloom",
-      "price": 859,
-      "category": "Karma/Diğer",
-      "url": "https://hizlicicek.com/urun/cheerful-bloom"
     },
     {
       "site": "Bloom and Fresh",
@@ -647,7 +647,7 @@
       },
       "Hızlı Çiçek": {
         "product_count": 30,
-        "avg_price": "1477.67",
+        "avg_price": "1495.67",
         "min_price": "599.00",
         "max_price": "5999.00"
       },
@@ -716,14 +716,14 @@
           },
           "Hızlı Çiçek": {
             "count": 14,
-            "avg": "1384.71"
+            "avg": "1423.29"
           },
           "Bloom and Fresh": {
             "count": 29,
             "avg": "2301.62"
           }
         },
-        "avg_price": "1967.80"
+        "avg_price": "1980.07"
       },
       "Orkide": {
         "count": 5,
