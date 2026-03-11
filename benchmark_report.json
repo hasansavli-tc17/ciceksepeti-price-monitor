@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-11T09:40:42.381Z",
+  "date": "2026-03-11T12:55:02.746Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -561,13 +561,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Vanilla Sky",
-      "price": 1899.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/vanilla-sky-4-dalli-exclusive-orkide"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Dark Sienna Gold",
       "price": 1999.9,
       "category": "Karma/Diğer",
@@ -635,6 +628,13 @@
       "price": 2599.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/lego-botanicals-kucuk-sari-buket-10347"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Out of The Blue Kurukafa Masa Organiser ve Gözlük Tutucu",
+      "price": 1999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/out-of-the-blue-kurukafa-masa-organiser-ve-gozluk-tutucu"
     }
   ],
   "price_analysis": {
@@ -653,7 +653,7 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2284.90",
+        "avg_price": "2288.23",
         "min_price": "949.90",
         "max_price": "5599.90"
       }
@@ -726,10 +726,10 @@
           },
           "Bloom and Fresh": {
             "count": 29,
-            "avg": "2301.62"
+            "avg": "2305.07"
           }
         },
-        "avg_price": "2015.65"
+        "avg_price": "2017.98"
       },
       "Lilyum": {
         "count": 2,
