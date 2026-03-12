@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-12T09:40:35.970Z",
+  "date": "2026-03-12T12:55:05.071Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -51,7 +51,7 @@
     {
       "site": "Çiçek Sepeti",
       "name": "Kelebek Bukette Pembe Çardak Güller",
-      "price": 959.99,
+      "price": 939.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/kelebek-bukette-pembe-cardak-guller-vbt1243"
     },
@@ -442,13 +442,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Goldie - 20 ad. Sarı Lale",
-      "price": 1799.9,
-      "category": "Lale",
-      "url": "https://www.bloomandfresh.com/p/goldie-sari-lale-buketi"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Charlotte",
       "price": 1699.9,
       "category": "Karma/Diğer",
@@ -635,13 +628,20 @@
       "price": 2599.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/lego-botanicals-kucuk-sari-buket-10347"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Out of The Blue Kurukafa Masa Organiser ve Gözlük Tutucu",
+      "price": 1999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/out-of-the-blue-kurukafa-masa-organiser-ve-gozluk-tutucu"
     }
   ],
   "price_analysis": {
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "929.66",
+        "avg_price": "928.99",
         "min_price": "499.99",
         "max_price": "2049.00"
       },
@@ -653,7 +653,7 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2298.23",
+        "avg_price": "2304.90",
         "min_price": "949.90",
         "max_price": "5599.90"
       }
@@ -674,14 +674,14 @@
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 16,
-            "avg": "1098.25"
+            "avg": "1097.00"
           },
           "Hızlı Çiçek": {
             "count": 6,
             "avg": "2045.67"
           }
         },
-        "avg_price": "1356.63"
+        "avg_price": "1355.72"
       },
       "Gerbera": {
         "count": 9,
@@ -718,18 +718,18 @@
         "avg_price": "1299.00"
       },
       "Karma/Diğer": {
-        "count": 43,
+        "count": 44,
         "prices_by_site": {
           "Hızlı Çiçek": {
             "count": 14,
             "avg": "1423.29"
           },
           "Bloom and Fresh": {
-            "count": 29,
-            "avg": "2315.42"
+            "count": 30,
+            "avg": "2304.90"
           }
         },
-        "avg_price": "2024.96"
+        "avg_price": "2024.39"
       },
       "Lilyum": {
         "count": 2,
@@ -742,18 +742,14 @@
         "avg_price": "1889.00"
       },
       "Lale": {
-        "count": 2,
+        "count": 1,
         "prices_by_site": {
           "Hızlı Çiçek": {
             "count": 1,
             "avg": "1199.00"
-          },
-          "Bloom and Fresh": {
-            "count": 1,
-            "avg": "1799.90"
           }
         },
-        "avg_price": "1499.45"
+        "avg_price": "1199.00"
       }
     }
   }
