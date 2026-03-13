@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-13T12:54:09.383Z",
+  "date": "2026-03-13T15:40:18.638Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -450,7 +450,7 @@
     {
       "site": "Bloom and Fresh",
       "name": "Charlotte",
-      "price": 1699.9,
+      "price": 1799.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/charlotte-gul-buketi"
     },
@@ -464,7 +464,7 @@
     {
       "site": "Bloom and Fresh",
       "name": "Primavera",
-      "price": 2099.9,
+      "price": 2199.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/primavera"
     },
@@ -653,7 +653,7 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2328.23",
+        "avg_price": "2334.90",
         "min_price": "949.90",
         "max_price": "5599.90"
       }
@@ -726,10 +726,10 @@
           },
           "Bloom and Fresh": {
             "count": 29,
-            "avg": "2346.45"
+            "avg": "2353.35"
           }
         },
-        "avg_price": "2045.89"
+        "avg_price": "2050.54"
       },
       "Lilyum": {
         "count": 2,
