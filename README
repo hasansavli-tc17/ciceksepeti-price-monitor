@@ -1,0 +1,118 @@
+# 🌸 Çiçeksepeti Competitive Price Monitor
+
+An automated competitive intelligence pipeline that tracks real-time pricing across Çiçeksepeti and rival platforms — delivering instant Slack alerts when price changes are detected.
+
+Built as a personal analytics engineering project to demonstrate end-to-end pipeline design: data ingestion, change detection, alerting, and historical storage.
+
+---
+
+## 🏗️ Architecture
+
+```
+Rival websites (30 products)
+        ↓
+Puppeteer scraper (Cloudflare bypass)
+        ↓
+Price change detection engine
+        ↓
+Slack alert  ──────────────  BigQuery (historical storage)
+```
+
+---
+
+## ✨ Features
+
+- **30 products monitored** across Çiçeksepeti and competitors
+- **Automated price change detection** — compares current vs. previous prices
+- **Slack alerts** — instant notifications with product, old price, new price, and % change
+- **BigQuery sync** — all price snapshots written to BigQuery for historical trend analysis
+- **Looker Studio dashboard** — visual benchmarking of pricing trends over time
+- **GitHub Actions scheduler** — runs automatically 4x daily (10:00, 12:00, 15:00, 18:00 TR time), no server needed
+- **Cloudflare bypass** — reliable scraping via Puppeteer with anti-bot handling
+- **Test mode** — simulate price changes locally without affecting production data
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Tool |
+|-------|------|
+| Scraping | Node.js + Puppeteer |
+| Orchestration | GitHub Actions |
+| Storage | BigQuery (GCP) |
+| Alerting | Slack Webhooks |
+| Visualization | Looker Studio |
+| Language | JavaScript (scraper) + Python (BigQuery sync) |
+
+---
+
+## 📁 Project Structure
+
+```
+├── .github/workflows/
+│   └── price-monitor.yml       # GitHub Actions workflow (4x daily schedule)
+├── scraper.js                  # Puppeteer scraper with Cloudflare bypass
+├── price_monitor_github.js     # Main orchestration script
+├── bigquery_sync.py            # Writes price snapshots to BigQuery
+├── benchmarking_dashboard.py   # Price trend analysis
+├── price_history.json          # Local price state (change detection)
+└── package.json                # Node.js dependencies
+```
+
+---
+
+## 🚀 Setup
+
+### 1. Clone & install dependencies
+```bash
+git clone https://github.com/hasansavli-tc17/ciceksepeti-price-monitor.git
+cd ciceksepeti-price-monitor
+npm install
+```
+
+### 2. Configure GitHub Secrets
+Go to **Repository Settings → Secrets → Actions** and add:
+
+| Secret | Description |
+|--------|-------------|
+| `SLACK_WEBHOOK_URL` | Your Slack incoming webhook URL |
+
+### 3. Run manually (optional)
+```bash
+# Live run
+SLACK_WEBHOOK_URL=your_webhook node price_monitor_github.js
+
+# Test mode (simulates a price change)
+TEST_MODE=true SLACK_WEBHOOK_URL=your_webhook node price_monitor_github.js
+```
+
+The GitHub Actions workflow runs automatically on schedule — no manual intervention needed.
+
+---
+
+## 📊 Output
+
+**Slack alert example:**
+> 🔴 Price change detected — Rose Bouquet (50cm)
+> Çiçeksepeti: ~~₺349~~ → **₺299** (-14.3%)
+
+**BigQuery table:** All price snapshots stored with timestamp, product, platform, and price for longitudinal trend analysis.
+
+**Looker Studio dashboard:** Visual benchmarking of price movements across platforms over time.
+
+---
+
+## 🔒 Security
+
+- Slack webhook URL stored in GitHub Secrets — never hardcoded
+- No credentials in codebase
+
+---
+
+## 💡 Why I Built This
+
+Competitive pricing is one of the highest-leverage data problems in e-commerce. This project started as an internal tool to give the Çiçeksepeti team faster visibility into competitor pricing — and evolved into a fully automated pipeline running in production.
+
+---
+
+*Built by [Hasan Şavlı](https://linkedin.com/in/hasanşavlı-8530a583) — Senior Data Analyst & Analytics Engineer*
