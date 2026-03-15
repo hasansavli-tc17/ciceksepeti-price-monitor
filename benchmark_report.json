@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-15T05:51:05.315Z",
+  "date": "2026-03-15T09:32:45.547Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -205,7 +205,7 @@
     {
       "site": "Çiçek Sepeti",
       "name": "5'li Kırmızı Gül Buketi",
-      "price": 839.99,
+      "price": 819.99,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/seni-seviyorum-5li-kirmizi-gul-buketi-at2929"
     },
@@ -641,7 +641,7 @@
     "by_site": {
       "Çiçek Sepeti": {
         "product_count": 30,
-        "avg_price": "926.36",
+        "avg_price": "925.69",
         "min_price": "499.99",
         "max_price": "2049.00"
       },
@@ -674,14 +674,14 @@
         "prices_by_site": {
           "Çiçek Sepeti": {
             "count": 17,
-            "avg": "1058.41"
+            "avg": "1057.23"
           },
           "Hızlı Çiçek": {
             "count": 6,
             "avg": "2045.67"
           }
         },
-        "avg_price": "1315.95"
+        "avg_price": "1315.08"
       },
       "Gerbera": {
         "count": 8,
