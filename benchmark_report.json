@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-16T10:04:39.830Z",
+  "date": "2026-03-16T13:05:52.005Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -470,13 +470,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Dante",
-      "price": 1699.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/dante-vazoda-guller"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Aria Silver",
       "price": 2199.9,
       "category": "Karma/Diğer",
@@ -555,7 +548,7 @@
     {
       "site": "Bloom and Fresh",
       "name": "B&F Chocolate (20'li)",
-      "price": 949.9,
+      "price": 1099.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/bloomandfresh-chocolate-20li-cikolata"
     },
@@ -631,6 +624,13 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Dante",
+      "price": 1699.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/dante-vazoda-guller"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "LEGO Art Mona Lisa - 1503 Parça (31213)",
       "price": 5999.9,
       "category": "Karma/Diğer",
@@ -653,8 +653,8 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2448.23",
-        "min_price": "949.90",
+        "avg_price": "2453.23",
+        "min_price": "1099.90",
         "max_price": "5999.90"
       }
     },
@@ -726,10 +726,10 @@
           },
           "Bloom and Fresh": {
             "count": 29,
-            "avg": "2470.59"
+            "avg": "2475.76"
           }
         },
-        "avg_price": "2214.72"
+        "avg_price": "2218.21"
       },
       "Lale": {
         "count": 2,
