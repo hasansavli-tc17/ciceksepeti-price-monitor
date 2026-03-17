@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-17T13:06:14.635Z",
+  "date": "2026-03-17T16:04:10.153Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -435,13 +435,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Spring Joy",
-      "price": 1699.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/spring-joy"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Sienna",
       "price": 1699.9,
       "category": "Karma/Diğer",
@@ -463,24 +456,10 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Primavera",
-      "price": 2199.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/primavera"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Verona Aura",
       "price": 3299.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/verona-aura"
-    },
-    {
-      "site": "Bloom and Fresh",
-      "name": "Chloe",
-      "price": 1999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/chloe"
     },
     {
       "site": "Bloom and Fresh",
@@ -631,10 +610,31 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "LEGO Art Mona Lisa - 1503 Parça (31213)",
-      "price": 5999.9,
+      "name": "Spring Joy",
+      "price": 1699.9,
       "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/lego-art-mona-lisa-1503-parca-31213-"
+      "url": "https://www.bloomandfresh.com/p/spring-joy"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Primavera",
+      "price": 2199.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/primavera"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Chloe",
+      "price": 1999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/chloe"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "Columbus - 25 ad. Pembe Katmerli Lale",
+      "price": 2099.9,
+      "category": "Lale",
+      "url": "https://www.bloomandfresh.com/p/colombus-katmerli-pembe-lale-buketi"
     }
   ],
   "price_analysis": {
@@ -653,9 +653,9 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2519.90",
+        "avg_price": "2389.90",
         "min_price": "1099.90",
-        "max_price": "5999.90"
+        "max_price": "5599.90"
       }
     },
     "by_category": {
@@ -718,32 +718,32 @@
         "avg_price": "1299.00"
       },
       "Karma/Diğer": {
-        "count": 42,
+        "count": 41,
         "prices_by_site": {
           "Hızlı Çiçek": {
             "count": 13,
             "avg": "1172.08"
           },
           "Bloom and Fresh": {
-            "count": 29,
-            "avg": "2534.38"
+            "count": 28,
+            "avg": "2410.61"
           }
         },
-        "avg_price": "2112.72"
+        "avg_price": "2017.91"
       },
       "Lale": {
-        "count": 3,
+        "count": 4,
         "prices_by_site": {
           "Hızlı Çiçek": {
             "count": 2,
             "avg": "1749.00"
           },
           "Bloom and Fresh": {
-            "count": 1,
+            "count": 2,
             "avg": "2099.90"
           }
         },
-        "avg_price": "1865.97"
+        "avg_price": "1924.45"
       },
       "Lilyum": {
         "count": 1,
