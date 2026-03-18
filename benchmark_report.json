@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-17T16:04:10.153Z",
+  "date": "2026-03-18T05:46:46.391Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -134,6 +134,13 @@
     },
     {
       "site": "Çiçek Sepeti",
+      "name": "Kahverengi Ambalaj Kağıdında Beyaz Papatya Buketi",
+      "price": 700,
+      "category": "Papatya",
+      "url": "https://www.ciceksepeti.com/kahverengi-ambalaj-kagidinda-beyaz-papatya-buketi-kcm386637"
+    },
+    {
+      "site": "Çiçek Sepeti",
       "name": "Lila Pembe Bukette Kırmızı Karanfiller",
       "price": 599.99,
       "category": "Karanfil",
@@ -155,6 +162,13 @@
     },
     {
       "site": "Çiçek Sepeti",
+      "name": "Kişiye Özel Fotoğraf Pankartlı Bukette Papatyalar",
+      "price": 779.99,
+      "category": "Papatya",
+      "url": "https://www.ciceksepeti.com/kisiye-ozel-fotograf-pankartli-bukette-papatyalar-at6035"
+    },
+    {
+      "site": "Çiçek Sepeti",
       "name": "Lila Bukette Pembe Gerberalar ve Hüsnüyusuflar",
       "price": 1199,
       "category": "Gerbera",
@@ -169,13 +183,6 @@
     },
     {
       "site": "Çiçek Sepeti",
-      "name": "11'li Beyaz Gül Buketi",
-      "price": 1149,
-      "category": "Gül",
-      "url": "https://www.ciceksepeti.com/11li-beyaz-gul-cicek-buketi-at4276-1"
-    },
-    {
-      "site": "Çiçek Sepeti",
       "name": "Siyah Buket Kağıdında Kırmızı Gerbera ve Okaliptus",
       "price": 499.99,
       "category": "Gerbera",
@@ -183,24 +190,17 @@
     },
     {
       "site": "Çiçek Sepeti",
+      "name": "11'li Beyaz Gül Buketi",
+      "price": 1149,
+      "category": "Gül",
+      "url": "https://www.ciceksepeti.com/11li-beyaz-gul-cicek-buketi-at4276-1"
+    },
+    {
+      "site": "Çiçek Sepeti",
       "name": "9'lu Kırmızı Gül Çiçek Buketi",
       "price": 1049,
       "category": "Gül",
       "url": "https://www.ciceksepeti.com/9lu-kirmizi-gul-cicek-buketi-at4264"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Kahverengi Ambalaj Kağıdında Beyaz Papatya Buketi",
-      "price": 700,
-      "category": "Papatya",
-      "url": "https://www.ciceksepeti.com/kahverengi-ambalaj-kagidinda-beyaz-papatya-buketi-kcm386637"
-    },
-    {
-      "site": "Çiçek Sepeti",
-      "name": "Kişiye Özel Fotoğraf Pankartlı Bukette Papatyalar",
-      "price": 779.99,
-      "category": "Papatya",
-      "url": "https://www.ciceksepeti.com/kisiye-ozel-fotograf-pankartli-bukette-papatyalar-at6035"
     },
     {
       "site": "Çiçek Sepeti",
@@ -435,13 +435,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Sienna",
-      "price": 1699.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/sienna"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Charlotte",
       "price": 1799.9,
       "category": "Karma/Diğer",
@@ -575,13 +568,6 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Birthday Box Gold",
-      "price": 1999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/birthday-box-gold"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "Printworks Riviera Çizgili Taşınabilir Lamba",
       "price": 5599.9,
       "category": "Karma/Diğer",
@@ -617,6 +603,13 @@
     },
     {
       "site": "Bloom and Fresh",
+      "name": "Sienna",
+      "price": 1699.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/sienna"
+    },
+    {
+      "site": "Bloom and Fresh",
       "name": "Primavera",
       "price": 2199.9,
       "category": "Karma/Diğer",
@@ -631,10 +624,17 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Columbus - 25 ad. Pembe Katmerli Lale",
-      "price": 2099.9,
-      "category": "Lale",
-      "url": "https://www.bloomandfresh.com/p/colombus-katmerli-pembe-lale-buketi"
+      "name": "Birthday Box Gold",
+      "price": 1999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/birthday-box-gold"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "LEGO Art Mona Lisa - 1503 Parça (31213)",
+      "price": 5999.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/lego-art-mona-lisa-1503-parca-31213-"
     }
   ],
   "price_analysis": {
@@ -653,9 +653,9 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2389.90",
+        "avg_price": "2519.90",
         "min_price": "1099.90",
-        "max_price": "5599.90"
+        "max_price": "5999.90"
       }
     },
     "by_category": {
@@ -718,32 +718,32 @@
         "avg_price": "1299.00"
       },
       "Karma/Diğer": {
-        "count": 41,
+        "count": 42,
         "prices_by_site": {
           "Hızlı Çiçek": {
             "count": 13,
             "avg": "1172.08"
           },
           "Bloom and Fresh": {
-            "count": 28,
-            "avg": "2410.61"
+            "count": 29,
+            "avg": "2534.38"
           }
         },
-        "avg_price": "2017.91"
+        "avg_price": "2112.72"
       },
       "Lale": {
-        "count": 4,
+        "count": 3,
         "prices_by_site": {
           "Hızlı Çiçek": {
             "count": 2,
             "avg": "1749.00"
           },
           "Bloom and Fresh": {
-            "count": 2,
+            "count": 1,
             "avg": "2099.90"
           }
         },
-        "avg_price": "1924.45"
+        "avg_price": "1865.97"
       },
       "Lilyum": {
         "count": 1,
