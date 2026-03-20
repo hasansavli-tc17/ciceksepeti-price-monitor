@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-20T09:39:00.429Z",
+  "date": "2026-03-20T12:54:56.377Z",
   "summary": {
     "total_sites": 3,
     "successful_sites": 3,
@@ -624,17 +624,17 @@
     },
     {
       "site": "Bloom and Fresh",
-      "name": "Printworks Classic - Poker Seti",
-      "price": 3999.9,
-      "category": "Karma/Diğer",
-      "url": "https://www.bloomandfresh.com/p/printworks-classic-poker-seti"
-    },
-    {
-      "site": "Bloom and Fresh",
       "name": "DOIY Bobby Siyah Vazo",
       "price": 2799.9,
       "category": "Karma/Diğer",
       "url": "https://www.bloomandfresh.com/p/doiy-bobby-siyah-vazo"
+    },
+    {
+      "site": "Bloom and Fresh",
+      "name": "DOIY Rodeo Kovboy Botu Vazo - Pembe",
+      "price": 2599.9,
+      "category": "Karma/Diğer",
+      "url": "https://www.bloomandfresh.com/p/doiy-rodeo-kovboy-botu-vazo-pembe"
     }
   ],
   "price_analysis": {
@@ -653,7 +653,7 @@
       },
       "Bloom and Fresh": {
         "product_count": 30,
-        "avg_price": "2596.57",
+        "avg_price": "2549.90",
         "min_price": "1099.90",
         "max_price": "5999.90"
       }
@@ -726,10 +726,10 @@
           },
           "Bloom and Fresh": {
             "count": 30,
-            "avg": "2596.57"
+            "avg": "2549.90"
           }
         },
-        "avg_price": "2678.25"
+        "avg_price": "2646.43"
       },
       "Lale": {
         "count": 1,
